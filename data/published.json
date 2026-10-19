@@ -1,10 +1,30 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_219016c6024c953fc4f4",
-  "publishedAt": "2026-10-19T18:48:01.625Z",
-  "lastSuccessfulRefreshAt": "2026-10-19T18:48:01.625Z",
+  "snapshotId": "snapshot_0d459d998792fcd87679",
+  "publishedAt": "2026-10-19T22:48:21.892Z",
+  "lastSuccessfulRefreshAt": "2026-10-19T22:48:21.892Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_6db362f7d6aefe7bf948",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b11741",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11741",
+      "publishedAt": "2026-10-19T20:13:59.000Z",
+      "category": "Safety"
+    },
     {
       "id": "article_aecdba5903fecf1f1dbb",
       "sourceId": "github",
@@ -24,6 +44,25 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739",
       "publishedAt": "2026-10-19T17:57:49.000Z",
       "category": "Safety"
+    },
+    {
+      "id": "article_0eefe4b006263ca1df5d",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Detecting model weight tampering in GPU memory (Rome attacks)",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://stealthium.io/blog/hands-off-detecting-model-weight-tampering",
+      "publishedAt": "2026-10-19T14:31:27.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_cfeb6cdb317defbf0129",
@@ -60,6 +99,42 @@
       "url": "https://norforge.com/blog/inside_cairn",
       "publishedAt": "2026-10-19T13:35:12.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_8cb8560801f17b034088",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_0c067c1e57d525569aa2",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "description": "20, 2026, TorchNeuron will be available as a public beta. Researchers and developers will be able to install it with pip install torch-neuronx. The built-in asynchronous weight loading in Transformers is not supported on Neuron, so for now we disable it with HFDEACTIVATEASYNCLOAD=1. The command below launches training with torchrun, which starts one process per NeuronCore.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "Open Source"
     },
     {
       "id": "article_5a27f97dc402cfda502c",
@@ -5406,78 +5481,6 @@
       "summaryFlags": [
         "below-target",
         "deduplicated-or-filtered",
-        "source-excerpt"
-      ]
-    },
-    {
-      "id": "article_8b9d7914239733bc610f",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "sourceType": "Official announcement",
-      "title": "Introducing OpenAI Presence",
-      "description": ", a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "url": "https://openai.com/index/introducing-openai-presence",
-      "publishedAt": "2026-07-22T05:30:00.000Z",
-      "category": "Tools",
-      "summaryMethod": "source_excerpt",
-      "summaryContentSource": "content",
-      "summaryQuality": "limited",
-      "summaryFlags": [
-        "below-target",
-        "source-excerpt"
-      ]
-    },
-    {
-      "id": "article_665ccf0d73c2b1c5ea03",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "sourceType": "Official announcement",
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "description": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "url": "https://openai.com/index/ntt-data",
-      "publishedAt": "2026-07-22T00:00:00.000Z",
-      "category": "Industry",
-      "summaryMethod": "source_excerpt",
-      "summaryContentSource": "content",
-      "summaryQuality": "limited",
-      "summaryFlags": [
-        "below-target",
-        "source-excerpt"
-      ]
-    },
-    {
-      "id": "article_1a634c35ce0a68a499ca",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "sourceType": "Official announcement",
-      "title": "Introducing the ChatGPT for small business program",
-      "description": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "publishedAt": "2026-07-21T17:00:00.000Z",
-      "category": "Industry",
-      "summaryMethod": "source_excerpt",
-      "summaryContentSource": "content",
-      "summaryQuality": "limited",
-      "summaryFlags": [
-        "below-target",
-        "source-excerpt"
-      ]
-    },
-    {
-      "id": "article_64466512c30365a7211a",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind",
-      "sourceType": "Blog post",
-      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "description": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber",
-      "publishedAt": "2026-07-21T15:16:30.000Z",
-      "category": "Model Releases",
-      "summaryMethod": "source_excerpt",
-      "summaryContentSource": "content",
-      "summaryQuality": "limited",
-      "summaryFlags": [
-        "below-target",
         "source-excerpt"
       ]
     }
