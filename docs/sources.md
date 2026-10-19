@@ -1,41 +1,54 @@
-# Source registry
+# Source registry and validation
 
-The ingestion registry is the authoritative catalog in `ingest/registry.mjs`.
-It contains 20 sources. `enabled` means the source has a configured RSS/Atom
-endpoint and can be fetched by `ingest/run.mjs`; `unavailable` means the source
-is intentionally cataloged without a guessed endpoint. An unavailable source
-is reported in `source-status.json` and contributes no stories.
+`ingest/registry.mjs` is the authoritative source registry. The worker never
+crawls URLs discovered in article text. `integrated-and-tested` means the
+adapter is covered by local fixtures; `configured-awaiting-live-validation`
+means a legitimate publisher endpoint is recorded but could not be verified
+from this build environment; `unavailable` means the source remains catalogued
+but no reliable public feed/API was confirmed.
 
-| Source | Status | Access | Endpoint / reason |
+| Required source | Access method | Endpoint or API | Runtime status |
 | --- | --- | --- | --- |
-| BBC News | enabled | RSS | `https://feeds.bbci.co.uk/news/rss.xml` |
-| NPR News | enabled | RSS | `https://feeds.npr.org/1001/rss.xml` |
-| The Guardian World | enabled | RSS | `https://www.theguardian.com/world/rss` |
-| Al Jazeera | enabled | RSS | `https://www.aljazeera.com/xml/rss/all.xml` |
-| CNN World | enabled | RSS | `http://rss.cnn.com/rss/edition_world.rss` |
-| The New York Times | enabled | RSS | `https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml` |
-| TechCrunch | enabled | RSS | `https://techcrunch.com/feed/` |
-| The Verge | enabled | RSS | `https://www.theverge.com/rss/index.xml` |
-| Ars Technica | enabled | RSS | `https://feeds.arstechnica.com/arstechnica/index` |
-| Wired | enabled | RSS | `https://www.wired.com/feed/rss` |
-| Nature | enabled | RSS | `https://www.nature.com/nature.rss` |
-| NASA News | unavailable | unavailable | No current official endpoint configured |
-| Associated Press | unavailable | unavailable | No public endpoint configured |
-| Reuters | unavailable | unavailable | No public endpoint configured |
-| The Washington Post | unavailable | unavailable | No public endpoint configured |
-| CBS News | unavailable | unavailable | No public endpoint configured |
-| NBC News | unavailable | unavailable | No public endpoint configured |
-| ABC News | unavailable | unavailable | No public endpoint configured |
-| Financial Times | unavailable | unavailable | No public endpoint configured |
-| The Economist | unavailable | unavailable | No public endpoint configured |
+| OpenAI News | RSS | `https://openai.com/news/rss.xml` | Configured, awaiting live validation |
+| Google DeepMind | RSS | `https://deepmind.google/blog/rss.xml` | Configured, awaiting live validation |
+| Anthropic | None confirmed | Official news/research pages retained | Unavailable |
+| Reuters Technology | None confirmed | Official technology section retained | Unavailable |
+| arXiv | RSS | `rss.arxiv.org/rss/{cs.AI,cs.LG,cs.CL,cs.CV,stat.ML}` | Integrated and tested |
+| Hugging Face | RSS | `https://huggingface.co/blog/feed.xml` | Configured, awaiting live validation |
+| MIT Technology Review | RSS candidate | Publisher feed is broad, not AI-specific | Configured, awaiting live validation |
+| Simon Willison | Atom | `https://simonwillison.net/atom/everything/` | Configured, awaiting live validation |
+| Import AI | RSS | `https://importai.substack.com/feed` | Configured, awaiting live validation |
+| Artificial Analysis | None confirmed | Official site retained | Unavailable |
+| Stanford HAI | None confirmed | Official site retained | Configured, awaiting live validation |
+| Hacker News | Public API | `https://hacker-news.firebaseio.com/v0/` | Integrated and tested |
+| The Batch | None confirmed | Official publication retained | Configured, awaiting live validation |
+| Latent Space | None confirmed | Official publication retained | Configured, awaiting live validation |
+| Epoch AI | None confirmed | Official site retained | Unavailable |
+| UK AI Security Institute | None confirmed | Official blog retained | Configured, awaiting live validation |
+| GitHub | REST release API | `api.github.com/repos/` for curated vLLM and llama.cpp | Integrated and tested |
+| SemiAnalysis | None confirmed | Official site retained | Unavailable |
+| OECD.AI | None confirmed | Official site retained | Configured, awaiting live validation |
+| IndiaAI | None confirmed | Official portal retained | Configured, awaiting live validation |
 
-Run against local fixtures (offline):
+## Additional-source review
+
+The proposed additional candidates (Google Research, Meta AI, Microsoft
+Research, NVIDIA Research/Developer, Mistral, DeepSeek, Qwen, Ars Technica,
+TechCrunch AI, The Decoder, IEEE Spectrum, Semantic Scholar, OpenAlex,
+OpenReview, MLCommons, METR, HELM, AWS ML, Cloudflare, Vercel, NIST AI,
+European Commission AI Office, and Stanford Center for AI Safety) were reviewed
+against credibility, originality, overlap, public access, attribution, and
+terms. None is enabled until a source-specific public feed/API and relevance
+filter are confirmed. They remain candidate-only rather than being presented
+as operational coverage.
+
+## Offline verification
 
 ```sh
-node ingest/run.mjs --fixture-dir tests/ingestion/fixtures --output data/seed --source bbc-news
+npm test
 ```
 
-The CLI expects a fixture named `<source-id>.xml`. A real run omits
-`--fixture-dir`; requests use bounded retries and timeouts. Published stories
-are sourced only from successfully parsed responses; no seed stories are
-included in the repository.
+The tests inject local fixture sources so they never depend on publisher
+availability. A production run is `npm run ingest`; it writes a complete
+validated snapshot to `data/published.json` only when at least one enabled
+source succeeds.

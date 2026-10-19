@@ -1,207 +1,111 @@
 (function () {
   "use strict";
 
+  var categories = ["All", "Model Releases", "Research", "Industry", "Open Source", "Policy", "Tools", "Infrastructure", "Safety"];
   var snapshotPath = "data/published.json";
-  var allStories = [];
-  var activeCategory = "all";
-
-  var todayElement = document.getElementById("today");
-  var refreshElement = document.getElementById("last-refresh");
-  var categoryNav = document.getElementById("category-nav");
-  var storyCount = document.getElementById("story-count");
-  var feedStatus = document.getElementById("feed-status");
-  var storyList = document.getElementById("story-list");
+  var articles = [];
+  var activeCategory = "All";
+  var list = document.getElementById("article-list");
+  var status = document.getElementById("feed-status");
+  var nav = document.getElementById("category-nav");
 
   function formatDate(value, options) {
-    if (!value) return "";
     var date = new Date(value);
     if (Number.isNaN(date.getTime())) return "";
     return new Intl.DateTimeFormat("en-IN", Object.assign({ timeZone: "Asia/Kolkata" }, options)).format(date);
   }
 
-  function setToday() {
-    todayElement.textContent = formatDate(new Date(), {
-      day: "2-digit",
-      month: "long",
-      year: "numeric"
-    });
-  }
-
-  function setRefresh(value) {
-    var formatted = formatDate(value, {
-      day: "2-digit",
-      month: "short",
-      year: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: false,
-      timeZoneName: "short"
-    });
-    refreshElement.textContent = formatted ? "Last refresh — " + formatted : "Last refresh — unavailable";
-  }
-
-  function isSafeUrl(value) {
+  function safeUrl(value) {
     try {
-      if (typeof value !== "string") return false;
       var url = new URL(value);
-      return url.protocol === "https:" || url.protocol === "http:";
-    } catch (error) {
-      return false;
-    }
+      return url.protocol === "https:" || url.protocol === "http:" ? url.toString() : null;
+    } catch (error) { return null; }
   }
 
-  function text(value, fallback) {
-    return typeof value === "string" && value.trim() ? value.trim() : fallback;
+  function text(value, fallback) { return typeof value === "string" && value.trim() ? value.trim() : fallback; }
+
+  function setHeader(snapshot) {
+    document.getElementById("current-date").textContent = formatDate(new Date(), { weekday: "short", day: "2-digit", month: "short", year: "numeric" });
+    var updated = formatDate(snapshot && snapshot.lastSuccessfulRefreshAt, { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit", hour12: false, timeZoneName: "short" });
+    document.getElementById("last-updated").textContent = updated ? "Updated " + updated : "Updated — unavailable";
   }
 
-  function normalizeStory(story) {
-    if (!story || typeof story !== "object" || !isSafeUrl(story.url)) return null;
-    return {
-      title: text(story.title, "Untitled story"),
-      summary: text(story.summary, "Read the original reporting at the source."),
-      source: text(story.source, "Source"),
-      category: text(story.category, "General"),
-      publishedAt: story.publishedAt,
-      readingTime: text(story.readingTime, ""),
-      url: story.url
-    };
-  }
-
-  function getCategories() {
-    var categories = [];
-    allStories.forEach(function (story) {
-      if (categories.indexOf(story.category) === -1) categories.push(story.category);
-    });
-    return categories.sort(function (a, b) { return a.localeCompare(b); });
-  }
-
-  function renderCategories() {
-    categoryNav.textContent = "";
-    var categories = ["all"].concat(getCategories());
+  function renderNav() {
+    nav.textContent = "";
     categories.forEach(function (category) {
       var button = document.createElement("button");
       button.type = "button";
-      button.className = "category-button" + (category === activeCategory ? " is-active" : "");
-      button.dataset.category = category;
+      button.className = category === activeCategory ? "is-active" : "";
       button.setAttribute("aria-pressed", String(category === activeCategory));
-      button.textContent = category === "all" ? "All stories" : category;
-      button.addEventListener("click", function () {
-        activeCategory = category;
-        renderCategories();
-        renderStories();
-      });
-      categoryNav.appendChild(button);
+      button.textContent = category;
+      button.addEventListener("click", function () { activeCategory = category; renderNav(); renderArticles(); });
+      nav.appendChild(button);
     });
   }
 
-  function visibleStories() {
-    return allStories.filter(function (story) {
-      return activeCategory === "all" || story.category === activeCategory;
-    });
+  function sourceAction(type) {
+    var value = String(type || "").toLowerCase();
+    if (value.indexOf("paper") >= 0 || value.indexOf("research") >= 0) return "Read Research Paper";
+    if (value.indexOf("documentation") >= 0 || value.indexOf("release") >= 0) return "Read Documentation";
+    if (value.indexOf("announcement") >= 0 || value.indexOf("official") >= 0) return "Read Official Announcement";
+    if (value.indexOf("repository") >= 0) return "View Repository";
+    return "Read Full Article";
   }
 
-  function storyDate(value) {
-    return formatDate(value, { day: "2-digit", month: "short", year: "numeric" }) || "Date unavailable";
-  }
-
-  function renderStories() {
-    var stories = visibleStories();
-    storyList.textContent = "";
-    storyCount.textContent = stories.length + (stories.length === 1 ? " story" : " stories");
-
-    if (!stories.length) {
-      feedStatus.classList.remove("is-hidden");
-      feedStatus.textContent = "";
-      var empty = document.createElement("p");
-      empty.textContent = activeCategory === "all" ? "There are no published stories in this snapshot yet." : "No stories in this category.";
-      feedStatus.appendChild(empty);
+  function renderArticles() {
+    list.textContent = "";
+    var visible = articles.filter(function (article) { return activeCategory === "All" || article.category === activeCategory; });
+    if (!visible.length) {
+      status.className = "feed-status is-visible";
+      status.textContent = activeCategory === "All" ? "No published articles are available yet." : "No articles are available in this category.";
       return;
     }
+    status.className = "feed-status is-hidden";
+    visible.forEach(function (article) {
+      var url = safeUrl(article.url);
+      if (!url) return;
+      var item = document.createElement("article");
+      item.className = "article";
 
-    feedStatus.classList.add("is-hidden");
-    stories.forEach(function (story, index) {
-      var article = document.createElement("article");
-      article.className = "story";
-
-      var indexElement = document.createElement("div");
-      indexElement.className = "story__index";
-      indexElement.textContent = String(index + 1).padStart(2, "0");
-
-      var body = document.createElement("div");
-      var source = document.createElement("p");
-      source.className = "story__source";
-      source.textContent = story.source;
-
-      var title = document.createElement("h3");
-      title.className = "story__title";
-      var titleLink = document.createElement("a");
-      titleLink.href = story.url;
-      titleLink.target = "_blank";
-      titleLink.rel = "noopener noreferrer";
-      titleLink.textContent = story.title;
-      title.appendChild(titleLink);
-
-      var summary = document.createElement("p");
-      summary.className = "story__summary";
-      summary.textContent = story.summary;
-      body.appendChild(source);
-      body.appendChild(title);
-      body.appendChild(summary);
-
-      var aside = document.createElement("div");
-      aside.className = "story__aside";
       var meta = document.createElement("p");
-      meta.className = "story__meta";
-      meta.textContent = storyDate(story.publishedAt) + (story.readingTime ? "\n" + story.readingTime : "");
-      meta.style.whiteSpace = "pre-line";
-      var sourceLink = document.createElement("a");
-      sourceLink.className = "story__button";
-      sourceLink.href = story.url;
-      sourceLink.target = "_blank";
-      sourceLink.rel = "noopener noreferrer";
-      sourceLink.textContent = "Read source ↗";
-      aside.appendChild(meta);
-      aside.appendChild(sourceLink);
+      meta.className = "article-meta";
+      meta.textContent = text(article.category, "Research").toUpperCase() + "   ·   " + (formatDate(article.publishedAt, { day: "2-digit", month: "short", hour: "2-digit", minute: "2-digit", hour12: false }) || "Time unavailable");
 
-      article.appendChild(indexElement);
-      article.appendChild(body);
-      article.appendChild(aside);
-      storyList.appendChild(article);
+      var content = document.createElement("div");
+      content.className = "article-content";
+      var title = document.createElement("h2");
+      title.textContent = text(article.title, "Untitled article");
+      var description = document.createElement("p");
+      description.className = "article-description";
+      description.textContent = text(article.description, "The original source provides no summary. Read the source for details.");
+      var attribution = document.createElement("p");
+      attribution.className = "attribution";
+      attribution.textContent = "Source: " + text(article.sourceName, "Unknown source") + "   |   " + text(article.sourceType, "Original source");
+      content.appendChild(title); content.appendChild(description); content.appendChild(attribution);
+
+      var action = document.createElement("a");
+      action.className = "source-action";
+      action.href = url; action.target = "_blank"; action.rel = "noopener noreferrer";
+      action.textContent = sourceAction(article.sourceType) + "  →";
+      item.appendChild(meta); item.appendChild(content); item.appendChild(action); list.appendChild(item);
     });
   }
 
-  function showUnavailable(message) {
-    allStories = [];
-    renderCategories();
-    storyCount.textContent = "0 stories";
-    storyList.textContent = "";
-    feedStatus.classList.remove("is-hidden");
-    feedStatus.textContent = "";
-    var messageElement = document.createElement("p");
-    messageElement.textContent = message;
-    feedStatus.appendChild(messageElement);
-    setRefresh(null);
+  function showError(message) {
+    articles = [];
+    setHeader(null); renderNav(); status.className = "feed-status is-visible"; status.textContent = message; list.textContent = "";
   }
 
   function loadSnapshot() {
-    fetch(snapshotPath, { headers: { Accept: "application/json" } })
-      .then(function (response) {
-        if (!response.ok) throw new Error("Snapshot unavailable");
-        return response.json();
-      })
+    fetch(snapshotPath, { cache: "no-store", headers: { Accept: "application/json" } })
+      .then(function (response) { if (!response.ok) throw new Error("Snapshot unavailable"); return response.json(); })
       .then(function (snapshot) {
-        var stories = Array.isArray(snapshot) ? snapshot : snapshot && snapshot.stories;
-        if (!Array.isArray(stories)) throw new Error("Snapshot has no stories array");
-        allStories = stories.map(normalizeStory).filter(Boolean);
-        setRefresh(snapshot && !Array.isArray(snapshot) ? snapshot.lastSuccessfulRefreshAt : null);
-        renderCategories();
-        renderStories();
+        if (!snapshot || !Array.isArray(snapshot.articles)) throw new Error("Snapshot schema is invalid");
+        articles = snapshot.articles.filter(function (article) { return article && safeUrl(article.url) && typeof article.title === "string"; });
+        setHeader(snapshot); renderNav(); renderArticles();
       })
-      .catch(function () {
-        showUnavailable("The published snapshot is unavailable right now. Check back when a new edition is published.");
-      });
+      .catch(function () { showError("The published edition is unavailable right now. Please try again later."); });
   }
 
-  setToday();
-  loadSnapshot();
+  setHeader(null); renderNav(); loadSnapshot();
 }());

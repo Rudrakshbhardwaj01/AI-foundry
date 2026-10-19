@@ -1,0 +1,14 @@
+{
+  "name": "ai-foundry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20.11.0" },
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node scripts/build-check.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test tests/ingestion/*.test.mjs",
+    "ingest": "node ingest/run.mjs"
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+.opencode/
+the_squeak.zip
+data/*.tmp-*
+data/*.log
+.DS_Store

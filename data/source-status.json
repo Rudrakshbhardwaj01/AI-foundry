@@ -1,0 +1,186 @@
+{
+  "openai-news": {
+    "sourceId": "openai-news",
+    "name": "OpenAI News",
+    "status": "success",
+    "accessMethod": "rss",
+    "itemCount": 1299,
+    "attempts": 1,
+    "lastAttemptAt": "2026-10-19T04:24:11.312Z",
+    "lastSuccessfulFetchAt": "2026-10-19T04:24:11.312Z",
+    "error": null
+  },
+  "google-deepmind": {
+    "sourceId": "google-deepmind",
+    "name": "Google DeepMind",
+    "status": "success",
+    "accessMethod": "rss",
+    "itemCount": 100,
+    "attempts": 1,
+    "lastAttemptAt": "2026-10-19T04:24:12.975Z",
+    "lastSuccessfulFetchAt": "2026-10-19T04:24:12.975Z",
+    "error": null
+  },
+  "anthropic": {
+    "sourceId": "anthropic",
+    "name": "Anthropic",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "No reliable public feed or documented public API was confirmed; no scraper is enabled."
+  },
+  "reuters-technology": {
+    "sourceId": "reuters-technology",
+    "name": "Reuters Technology",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "No permitted, stable public feed/API for this section was confirmed."
+  },
+  "arxiv": {
+    "sourceId": "arxiv",
+    "name": "arXiv",
+    "status": "failed",
+    "accessMethod": "rss",
+    "itemCount": 0,
+    "attempts": 3,
+    "lastAttemptAt": "2026-10-19T04:24:13.322Z",
+    "lastSuccessfulFetchAt": null,
+    "error": "Feed contains no RSS items or Atom entries"
+  },
+  "hugging-face": {
+    "sourceId": "hugging-face",
+    "name": "Hugging Face",
+    "status": "success",
+    "accessMethod": "rss",
+    "itemCount": 880,
+    "attempts": 1,
+    "lastAttemptAt": "2026-10-19T04:24:13.660Z",
+    "lastSuccessfulFetchAt": "2026-10-19T04:24:13.660Z",
+    "error": null
+  },
+  "mit-technology-review": {
+    "sourceId": "mit-technology-review",
+    "name": "MIT Technology Review",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "Publisher feed is broad rather than AI-section specific and is disabled until live scope is validated."
+  },
+  "simon-willison": {
+    "sourceId": "simon-willison",
+    "name": "Simon Willison",
+    "status": "success",
+    "accessMethod": "atom",
+    "itemCount": 14,
+    "attempts": 1,
+    "lastAttemptAt": "2026-10-19T04:24:14.092Z",
+    "lastSuccessfulFetchAt": "2026-10-19T04:24:14.092Z",
+    "error": null
+  },
+  "import-ai": {
+    "sourceId": "import-ai",
+    "name": "Import AI",
+    "status": "success",
+    "accessMethod": "rss",
+    "itemCount": 20,
+    "attempts": 1,
+    "lastAttemptAt": "2026-10-19T04:24:15.266Z",
+    "lastSuccessfulFetchAt": "2026-10-19T04:24:15.266Z",
+    "error": null
+  },
+  "artificial-analysis": {
+    "sourceId": "artificial-analysis",
+    "name": "Artificial Analysis",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "No stable public feed/API was confirmed; benchmark pages are not scraped."
+  },
+  "stanford-hai": {
+    "sourceId": "stanford-hai",
+    "name": "Stanford HAI",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "Official publication feed needs live validation before enabling."
+  },
+  "hacker-news": {
+    "sourceId": "hacker-news",
+    "name": "Hacker News",
+    "status": "success",
+    "accessMethod": "hacker-news-api",
+    "itemCount": 2,
+    "attempts": 31,
+    "lastAttemptAt": "2026-10-19T04:24:15.470Z",
+    "lastSuccessfulFetchAt": "2026-10-19T04:24:15.470Z",
+    "error": null
+  },
+  "the-batch": {
+    "sourceId": "the-batch",
+    "name": "The Batch",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "No current official feed was confirmed; newsletter content is not copied."
+  },
+  "latent-space": {
+    "sourceId": "latent-space",
+    "name": "Latent Space",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "Publisher metadata endpoint needs live validation before enabling."
+  },
+  "epoch-ai": {
+    "sourceId": "epoch-ai",
+    "name": "Epoch AI",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "No stable public feed/API was confirmed."
+  },
+  "uk-aisi": {
+    "sourceId": "uk-aisi",
+    "name": "UK AI Security Institute",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "Official blog is retained in the registry; a stable feed/API still needs validation."
+  },
+  "github": {
+    "sourceId": "github",
+    "name": "GitHub",
+    "status": "success",
+    "accessMethod": "github-releases",
+    "itemCount": 1,
+    "attempts": 2,
+    "lastAttemptAt": "2026-10-19T04:24:28.854Z",
+    "lastSuccessfulFetchAt": "2026-10-19T04:24:28.854Z",
+    "error": null
+  },
+  "semianalysis": {
+    "sourceId": "semianalysis",
+    "name": "SemiAnalysis",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "No stable permitted public feed/API was confirmed."
+  },
+  "oecd-ai": {
+    "sourceId": "oecd-ai",
+    "name": "OECD.AI",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "Official policy metadata endpoint needs live validation."
+  },
+  "indiaai": {
+    "sourceId": "indiaai",
+    "name": "IndiaAI",
+    "status": "unavailable",
+    "lastAttemptAt": null,
+    "lastSuccessfulFetchAt": null,
+    "error": "Government portal is retained; no reliable feed/API was confirmed in this environment."
+  }
+}

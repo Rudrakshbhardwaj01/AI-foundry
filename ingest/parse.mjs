@@ -73,6 +73,8 @@ function parseAtom(xml) {
 /** Parse RSS 2.0, RSS 1.x item blocks, and Atom entry blocks without a dependency. */
 export function parseFeed(xml) {
   if (typeof xml !== 'string' || !xml.trim()) throw new Error('Feed body is empty');
+  if (/<item\b/i.test(xml) && !/<\/item\s*>/i.test(xml)) throw new Error('Feed contains malformed RSS item markup');
+  if (/<entry\b/i.test(xml) && !/<\/entry\s*>/i.test(xml)) throw new Error('Feed contains malformed Atom entry markup');
   const hasRssItems = /<item\b/i.test(xml);
   const hasAtomEntries = /<entry\b/i.test(xml);
   if (!hasRssItems && !hasAtomEntries) throw new Error('Feed contains no RSS items or Atom entries');

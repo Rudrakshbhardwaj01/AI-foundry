@@ -1,68 +1,116 @@
 #!/usr/bin/env node
+import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { SOURCE_REGISTRY } from './registry.mjs';
-import { fetchWithRetry } from './fetch.mjs';
-import { parseFeed } from './parse.mjs';
-import { dedupeStories, normalizeStory } from './normalize.mjs';
-import { publishSnapshot } from './snapshot.mjs';
+import { collectSource } from './adapters.mjs';
+import { normalizeStory, dedupeStories } from './normalize.mjs';
+import { atomicWrite, publishSnapshot, readSnapshot, readSourceStatus } from './snapshot.mjs';
 
 function parseArgs(argv) {
-  const args = { output: 'data/seed', fixtureDir: null, source: null };
+  const args = { output: 'data', fixtureDir: null, source: null, retries: 2 };
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
-    if (arg === '--output' || arg === '--fixture-dir' || arg === '--source') args[arg.slice(2).replace('-', '')] = argv[++index];
-    else if (arg === '--help') args.help = true;
+    if (arg === '--output' || arg === '--fixture-dir' || arg === '--source' || arg === '--retries') {
+      const key = arg.slice(2).replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
+      args[key] = arg === '--retries' ? Number(argv[++index]) : argv[++index];
+    } else if (arg === '--help') args.help = true;
   }
   return args;
 }
 
+async function fixtureItems(source, fixtureDir) {
+  const file = path.join(fixtureDir, `${source.id}.xml`);
+  return { items: [{ __feed: await readFile(file, 'utf8') }], attempts: 1 };
+}
+
+async function writeRunStatus(outputDir, runStatus, sourceStatuses) {
+  await atomicWrite(path.join(outputDir, 'run-status.json'), `${JSON.stringify(runStatus, null, 2)}\n`);
+  await atomicWrite(path.join(outputDir, 'source-status.json'), `${JSON.stringify(sourceStatuses, null, 2)}\n`);
+}
+
 export async function runIngestion({
   registry = SOURCE_REGISTRY,
-  outputDir = 'data/seed',
+  outputDir = 'data',
   fixtureDir,
   sourceId,
   fetchImpl,
   retries = 2,
-  timeoutMs = 10_000,
+  timeoutMs,
   now = () => new Date(),
 } = {}) {
   const startedAt = now().toISOString();
-  const stories = [];
-  const sourceStatuses = [];
+  const previousSnapshot = await readSnapshot(outputDir);
+  const previousStatuses = await readSourceStatus(outputDir);
+  const stories = previousSnapshot?.articles ?? [];
+  const sourceStatuses = {};
+  let attempted = 0;
+  let succeeded = 0;
+  let failed = 0;
+  let fetchedCount = 0;
+  let acceptedCount = 0;
+  let duplicateCount = 0;
+
   for (const source of registry) {
     if (sourceId && source.id !== sourceId) continue;
-    if (source.status !== 'enabled' || !source.endpoint) {
-      sourceStatuses.push({ sourceId: source.id, status: 'unavailable', accessMethod: source.accessMethod, itemCount: 0, attempts: 0 });
+    const prior = previousStatuses[source.id] ?? {};
+    if (source.enabled === false || (!source.feedUrl && !source.feedUrls && !source.apiUrl && !source.endpoint)) {
+      sourceStatuses[source.id] = { ...prior, sourceId: source.id, name: source.name, status: 'unavailable', lastAttemptAt: prior.lastAttemptAt ?? null, lastSuccessfulFetchAt: prior.lastSuccessfulFetchAt ?? null, error: source.notes ?? 'No enabled public access method.' };
       continue;
     }
+    attempted += 1;
+    const lastAttemptAt = now().toISOString();
     try {
       const response = fixtureDir
-        ? { text: await readFile(path.join(fixtureDir, `${source.id}.xml`), 'utf8'), attempts: 1 }
-        : await fetchWithRetry(source.endpoint, { fetchImpl, retries, timeoutMs });
-      const parsed = parseFeed(response.text);
-      const normalized = parsed.map((item) => normalizeStory(item, source)).filter(Boolean);
+        ? await fixtureItems(source, fixtureDir)
+        : await collectSource(source, { fetchImpl, retries, timeoutMs: timeoutMs ?? source.timeoutMs });
+      let items = response.items;
+      if (fixtureDir && items[0]?.__feed) {
+        const { parseFeed } = await import('./parse.mjs');
+        items = parseFeed(items[0].__feed);
+      }
+      fetchedCount += items.length;
+      const normalized = items.map((item) => normalizeStory(item, source)).filter(Boolean);
+      acceptedCount += normalized.length;
+      duplicateCount += Math.max(0, normalized.length - new Set(normalized.map((story) => story.url)).size);
       stories.push(...normalized);
-      sourceStatuses.push({ sourceId: source.id, status: 'success', accessMethod: fixtureDir ? 'fixture' : source.accessMethod, itemCount: normalized.length, attempts: response.attempts });
+      succeeded += 1;
+      sourceStatuses[source.id] = { ...prior, sourceId: source.id, name: source.name, status: 'success', accessMethod: source.accessMethod, itemCount: normalized.length, attempts: response.attempts, lastAttemptAt, lastSuccessfulFetchAt: lastAttemptAt, error: null };
     } catch (error) {
-      sourceStatuses.push({ sourceId: source.id, status: 'failed', accessMethod: fixtureDir ? 'fixture' : source.accessMethod, itemCount: 0, attempts: error.attempts ?? (fixtureDir ? 1 : retries + 1), error: error.message });
+      failed += 1;
+      sourceStatuses[source.id] = { ...prior, sourceId: source.id, name: source.name, status: 'failed', accessMethod: source.accessMethod, itemCount: 0, attempts: error.attempts ?? retries + 1, lastAttemptAt, lastSuccessfulFetchAt: prior.lastSuccessfulFetchAt ?? null, error: error.message };
     }
   }
-  const uniqueStories = dedupeStories(stories);
+
   const finishedAt = now().toISOString();
-  const snapshot = { version: 1, generatedAt: finishedAt, stories: uniqueStories };
-  const runStatus = { version: 1, startedAt, finishedAt, sourceCount: sourceStatuses.length, successfulSources: sourceStatuses.filter((entry) => entry.status === 'success').length, failedSources: sourceStatuses.filter((entry) => entry.status === 'failed').length, storyCount: uniqueStories.length };
+  const enabledSources = registry.filter((source) => source.enabled !== false && (!sourceId || source.id === sourceId));
+  const allFailed = enabledSources.length > 0 && succeeded === 0 && failed === attempted;
+  const runStatus = {
+    schemaVersion: 1, runId: `run_${createHash('sha256').update(`${startedAt}:${finishedAt}`).digest('hex').slice(0, 16)}`,
+    startedAt, finishedAt, status: allFailed ? 'failed' : 'success', attemptedSources: attempted,
+    successfulSources: succeeded, failedSources: failed, fetchedArticles: fetchedCount,
+    acceptedArticles: acceptedCount, duplicatesSkipped: duplicateCount, published: !allFailed,
+  };
+
+  if (allFailed) {
+    await writeRunStatus(outputDir, runStatus, sourceStatuses);
+    return { snapshot: previousSnapshot, runStatus, sourceStatuses };
+  }
+
+  const articles = dedupeStories(stories);
+  const snapshotId = `snapshot_${createHash('sha256').update(JSON.stringify(articles)).digest('hex').slice(0, 20)}`;
+  const snapshot = {
+    schemaVersion: 1, snapshotId, publishedAt: finishedAt, lastSuccessfulRefreshAt: finishedAt,
+    articleCount: articles.length, articles,
+  };
   await publishSnapshot({ outputDir, snapshot, runStatus, sourceStatuses });
   return { snapshot, runStatus, sourceStatuses };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const args = parseArgs(process.argv.slice(2));
-  if (args.help) {
-    console.log('Usage: node ingest/run.mjs [--output DIR] [--fixture-dir DIR] [--source SOURCE_ID]');
-  } else {
-    runIngestion({ outputDir: args.output, fixtureDir: args.fixturedir, sourceId: args.source })
-      .then(({ runStatus }) => console.log(JSON.stringify(runStatus, null, 2)))
-      .catch((error) => { console.error(error.message); process.exitCode = 1; });
-  }
+  if (args.help) console.log('Usage: node ingest/run.mjs [--output DIR] [--fixture-dir DIR] [--source SOURCE_ID] [--retries N]');
+  else runIngestion({ outputDir: args.output, fixtureDir: args.fixtureDir, sourceId: args.source, retries: args.retries })
+    .then(({ runStatus }) => console.log(JSON.stringify(runStatus, null, 2)))
+    .catch((error) => { console.error(error.message); process.exitCode = 1; });
 }

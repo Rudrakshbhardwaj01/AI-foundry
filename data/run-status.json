@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "runId": "run_7d0f6b73797cfc4c",
+  "startedAt": "2026-10-19T04:24:11.304Z",
+  "finishedAt": "2026-10-19T04:24:31.029Z",
+  "status": "success",
+  "attemptedSources": 8,
+  "successfulSources": 7,
+  "failedSources": 1,
+  "fetchedArticles": 2341,
+  "acceptedArticles": 2316,
+  "duplicatesSkipped": 0,
+  "published": true
+}
