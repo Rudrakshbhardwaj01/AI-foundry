@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_d525147c51ae260e63ff",
-  "publishedAt": "2026-10-19T06:55:40.039Z",
-  "lastSuccessfulRefreshAt": "2026-10-19T06:55:40.039Z",
+  "snapshotId": "snapshot_6b336d27ddd4a3a48f0f",
+  "publishedAt": "2026-10-19T11:00:04.132Z",
+  "lastSuccessfulRefreshAt": "2026-10-19T11:00:04.132Z",
   "articleCount": 300,
   "articles": [
     {
@@ -296,6 +296,25 @@
         "below-target",
         "source-excerpt"
       ]
+    },
+    {
+      "id": "article_e9c3d214b844fdb4b82e",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Apertus 1.5 Release Notes",
+      "description": "This collection contains datasets used for the continuous pre-training and post-training (SFT, RL and Alignment) of Apertus 1.5.",
+      "summaryMethod": "source_excerpt",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "deduplicated-or-filtered",
+        "source-excerpt"
+      ],
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "publishedAt": "2026-10-15T09:08:45.000Z",
+      "category": "Open Source"
     },
     {
       "id": "article_08ed3167a23e09654a91",
@@ -5461,24 +5480,6 @@
         "unsupported-length",
         "fallback"
       ]
-    },
-    {
-      "id": "article_2e7140fb2a00d5f91164",
-      "sourceId": "import-ai",
-      "sourceName": "Import AI",
-      "sourceType": "Newsletter",
-      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis' big policy plan",
-      "description": "The results show that this year, the gap has shrunk. Across supported roofline benchmarks, MiniTriton delivers performance on par with or better than Triton and torch. Start voluntary and then move to law: “Initially, Frontier Labs would voluntarily share models with the Standards Body for review up to 30 days before release.",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "content",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://importai.substack.com/p/import-ai-465-open-vs-closed-gaps",
-      "publishedAt": "2026-07-20T12:31:45.000Z",
-      "category": "Policy"
     }
   ]
 }

@@ -1,10 +1,66 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_6b336d27ddd4a3a48f0f",
-  "publishedAt": "2026-10-19T11:00:04.132Z",
-  "lastSuccessfulRefreshAt": "2026-10-19T11:00:04.132Z",
+  "snapshotId": "snapshot_219016c6024c953fc4f4",
+  "publishedAt": "2026-10-19T18:48:01.625Z",
+  "lastSuccessfulRefreshAt": "2026-10-19T18:48:01.625Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_aecdba5903fecf1f1dbb",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b11739",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11739",
+      "publishedAt": "2026-10-19T17:57:49.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_cfeb6cdb317defbf0129",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+      "description": "KiviDB supports both RESP2 and RESP3 protocol. It supports apprx 98-99% of the redis 8.10 commands, few have issues and you can find them at, contributors are welcome. Now the numbers, for the final benchmark, I used 2 c7gn. The setting was: 10M keys, 100B each, 32 cores in use with both pipeline and un-pipelined runs.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/kividbio/kividb",
+      "publishedAt": "2026-10-19T13:53:52.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_57b76ca933b82664bf7a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Cairn: Open windows into AI-driven cyber operations",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "url-cleaned"
+      ],
+      "url": "https://norforge.com/blog/inside_cairn",
+      "publishedAt": "2026-10-19T13:35:12.000Z",
+      "category": "Policy"
+    },
     {
       "id": "article_5a27f97dc402cfda502c",
       "sourceId": "simon-willison",
@@ -5423,62 +5479,6 @@
       "summaryFlags": [
         "below-target",
         "source-excerpt"
-      ]
-    },
-    {
-      "id": "article_a7447a00d2491ddc56f7",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "sourceType": "Official announcement",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "description": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "publishedAt": "2026-07-21T07:00:00.000Z",
-      "category": "Model Releases",
-      "summaryMethod": "source_excerpt",
-      "summaryContentSource": "content",
-      "summaryQuality": "limited",
-      "summaryFlags": [
-        "below-target",
-        "source-excerpt"
-      ]
-    },
-    {
-      "id": "article_6c50177b806375294b8a",
-      "sourceId": "hugging-face",
-      "sourceName": "Hugging Face",
-      "sourceType": "Blog post",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://huggingface.co/blog/grabette",
-      "publishedAt": "2026-07-21T00:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_9b51e5147e3b5b22de65",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "sourceType": "Official announcement",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "publishedAt": "2026-07-21T00:00:00.000Z",
-      "category": "Policy",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "unsupported-length",
-        "fallback"
       ]
     }
   ]
