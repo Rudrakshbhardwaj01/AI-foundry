@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fixture Atom</title>
+  <entry>
+    <id>tag:example.test,2024:2</id>
+    <title>Research discovers a new planet</title>
+    <link rel="alternate" href="https://example.test/space/new-planet/" />
+    <summary>A science summary &amp; details.</summary>
+    <published>2024-10-16T10:30:00Z</published>
+    <category term="science" />
+  </entry>
+</feed>

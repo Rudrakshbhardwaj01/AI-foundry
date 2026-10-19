@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>Fixture News</title>
+  <item>
+    <guid>fixture-1</guid>
+    <title><![CDATA[Markets and technology update]]></title>
+    <link>https://example.test/story?id=1&amp;utm_source=fixture#top</link>
+    <description><![CDATA[<p>A short summary.</p>]]></description>
+    <pubDate>Tue, 15 Oct 2024 12:00:00 GMT</pubDate>
+    <category>business</category>
+  </item>
+  <item><title>Missing URL is ignored</title><description>No URL.</description></item>
+</channel></rss>
