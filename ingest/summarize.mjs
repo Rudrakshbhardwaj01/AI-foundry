@@ -78,6 +78,8 @@ export function cleanHtmlContent(value) {
   html = html.replace(/<a\b[^>]*>/gi, ' ').replace(/<[^>]+>/g, ' ');
   return compactWhitespace(html)
     .replace(URL_PATTERN, ' ')
+    .replace(/\b(?:read more|continue reading)(?:\s+at)?\b/gi, ' ')
+    .replace(/\s+([,.!?;:])/g, '$1')
     .replace(/[ \t]+\n/g, '\n')
     .replace(/\n[ \t]+/g, '\n')
     .trim();
@@ -179,7 +181,8 @@ export function extractSentences(value) {
   const output = [];
   for (const raw of splitSentences(text)) {
     const withoutUrls = raw.replace(URL_PATTERN, ' ').replace(/\s+/g, ' ').trim();
-    const normalized = withoutUrls.replace(TAG_PATTERN, '').replace(/^[\s|/•*-]+|[\s|/•*-]+$/g, '').trim();
+    let normalized = withoutUrls.replace(TAG_PATTERN, '').replace(/^[\s|/•*-]+|[\s|/•*-]+$/g, '').trim();
+    normalized = normalized.replace(/^(?:welcome to (?:our|the)|in this article|in this post|this article|this post)(?:\s*[,.:;-]\s*|\s+)/i, '').trim();
     const key = normalizedKey(normalized);
     const words = wordCount(normalized);
     const urlMatches = raw.match(URL_PATTERN) ?? [];
@@ -266,7 +269,9 @@ export function selectFallback({ title = '', abstract = '', description = '', he
   ];
   for (const [source, value] of options) {
     const text = cleanHtmlContent(value);
-    if (wordCount(text) >= 5 && !BOILERPLATE.test(text)) return { text: trimSentence(text, MAX_WORDS), source };
+    const sentences = extractSentences(text);
+    const deduplicated = sentences.length ? joinSentences(sentences) : text;
+    if (wordCount(deduplicated) >= 5 && !BOILERPLATE.test(deduplicated)) return { text: trimSentence(deduplicated, MAX_WORDS), source };
   }
   const last = cleanHtmlContent(headline || title || abstract || description);
   return { text: trimSentence(last, MAX_WORDS), source: last ? 'headline' : 'none' };
@@ -301,10 +306,10 @@ export function summarize(input = {}) {
   let summaryContentSource = selected.length ? source : 'fallback';
   let fallback = false;
   if (!description || wordCount(description) < MIN_WORDS) {
-    const choice = selectFallback({ title, headline: title, abstract: metadata.abstract, description: metadata.description || text });
+    const choice = selectFallback({ title, headline: title, abstract: metadata.abstract, description: text || metadata.description });
     description = choice.text;
     summaryMethod = 'honest-fallback';
-    summaryContentSource = choice.source;
+    summaryContentSource = choice.source === 'description' && source !== 'none' ? source : choice.source;
     fallback = true;
   }
   const quality = validateSummaryQuality(description, {
