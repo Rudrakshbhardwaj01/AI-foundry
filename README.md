@@ -61,6 +61,11 @@ npm run dev
 
 `npm start` remains available as the equivalent server start command.
 
+The header includes a `Dark theme` / `Light theme` control. It follows the
+operating system preference on first visit, persists an explicit choice in
+`localStorage`, and changes only the theme—not the current category, articles,
+or scroll position.
+
 To run a real refresh locally:
 
 ```sh

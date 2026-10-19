@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="AI Foundry — daily developments in artificial intelligence.">
     <title>AI Foundry</title>
+    <script>
+      (function () {
+        try {
+          var saved = window.localStorage.getItem("ai-foundry-theme");
+          var theme = saved === "light" || saved === "dark" ? saved : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (error) { /* The stylesheet's light theme remains the safe fallback. */ }
+      }());
+    </script>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
