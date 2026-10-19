@@ -24,8 +24,9 @@ filters it locally.
   deduplicates, validates, and atomically publishes.
 - `data/previous.json`, `data/source-status.json`, and `data/run-status.json`
   provide recovery and observability without a database.
-- `.github/workflows/refresh.yml` runs every 30 minutes, commits a successful
-  generated snapshot, and deploys the complete static page to GitHub Pages.
+- `.github/workflows/refresh.yml` runs every 30 minutes and commits a changed
+  generated snapshot to `main`; the connected Vercel project serves the
+  repository and redeploys from that commit.
 - `server.mjs` is a dependency-free local static server.
 
 If every enabled source fails, the worker updates failure status files but does
@@ -132,19 +133,21 @@ a new deployment.
 
 ## Deployment and scheduled updates
 
-The included workflow is designed for a GitHub repository with GitHub Pages
-configured to use GitHub Actions:
+The included workflow is designed for a GitHub repository connected to Vercel:
 
-1. Push the repository to GitHub and set Pages → Build and deployment → GitHub Actions.
-2. Keep the default branch as `main`, or update the workflow branch filter.
+1. Connect the repository to Vercel and set the project Framework Preset to
+   **Other** if project-level settings override `vercel.json`.
+2. Keep the publication branch as `main`; the workflow only pushes generated
+   artifacts to that branch.
 3. The workflow runs on a 30-minute schedule and also supports **Run workflow**.
-4. It runs `npm ci`, `npm run ingest`, validates the snapshot, commits changed
-   JSON artifacts with minimal `contents: write` permission, and deploys the
-   complete static site with Pages.
+4. It runs `npm ci`, `npm run ingest`, validates the snapshot, and commits the
+   generated JSON artifacts only when the published article data changes.
+5. Vercel automatically redeploys after a changed snapshot commit reaches
+   `main`; no Vercel token is required by this workflow.
 
-GitHub's scheduler can delay scheduled jobs. The repository commit and Pages
+GitHub's scheduler can delay scheduled jobs. The repository commit and Vercel
 deployment are the verifiable publication receipts; this local workspace has
-not authenticated to or verified a remote GitHub deployment.
+not authenticated to or verified a remote deployment.
 
 ## Source coverage
 
