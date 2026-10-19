@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "The Squeak Demo";
-  src: url("public/fonts/the-squeak-demo.ttf") format("truetype");
+  font-family: "Chinese Karaoke";
+  src: url("public/fonts/ChineseKaraoke.ttf") format("truetype");
   font-display: swap;
   font-style: normal;
   font-weight: 400;
@@ -37,7 +37,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--color-focus); o
 .site-header, .page-shell { width: min(calc(100% - 64px), var(--max-width)); margin: 0 auto; }
 .site-header { padding-top: 20px; }
 .header-main { display: flex; justify-content: space-between; gap: 40px; align-items: flex-start; padding-bottom: 14px; }
-.wordmark { display: inline-block; color: var(--color-text); font-family: "The Squeak Demo", Georgia, serif; font-size: clamp(3.2rem, 6.2vw, 5.4rem); line-height: .86; letter-spacing: -.055em; text-decoration: none; }
+.wordmark { display: inline-block; color: var(--color-text); font-family: "Chinese Karaoke", Georgia, serif; font-size: clamp(3.2rem, 6.2vw, 5.4rem); line-height: .86; letter-spacing: -.055em; text-decoration: none; }
 .tagline, .subtagline { margin: 12px 0 0; color: var(--color-muted); font-size: 14px; line-height: 1.5; }
 .subtagline { margin-top: 2px; }
 .header-tools { display: flex; flex-direction: column; align-items: flex-end; gap: 16px; }

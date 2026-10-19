@@ -1,6 +1,7 @@
 node_modules/
 .opencode/
 the_squeak.zip
+chinese_karaoke.zip
 data/*.tmp-*
 data/*.log
 .DS_Store

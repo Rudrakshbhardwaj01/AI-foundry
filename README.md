@@ -131,8 +131,10 @@ silently replaced with guessed URLs.
 
 ## Font and licensing note
 
-The supplied `The Squeak Demo.ttf` is loaded locally for the AI Foundry
-wordmark. The archive's included notice says it is demo/personal-use only and
-requires a commercial license. The file is included to satisfy the supplied
-reference during evaluation; obtain the appropriate license before commercial
+The supplied `ChineseKaraoke.ttf` is loaded locally for the AI Foundry
+wordmark. The `chinese_karaoke.zip` archive contains regular and bold TTF
+files but no license or usage documentation. The font metadata identifies
+copyright by Vladimir Nikolic and says “All rights reserved”; embedding
+permission for a public or commercial website is therefore unconfirmed.
+Obtain written permission or a suitable license before public commercial
 deployment. Body copy uses a local/system monospaced typewriter stack.
