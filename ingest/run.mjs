@@ -5,6 +5,7 @@ import path from 'node:path';
 import { SOURCE_REGISTRY } from './registry.mjs';
 import { collectSource } from './adapters.mjs';
 import { normalizeStory, dedupeStories } from './normalize.mjs';
+import { summarize } from './summarize.mjs';
 import { atomicWrite, publishSnapshot, readSnapshot, readSourceStatus } from './snapshot.mjs';
 
 function parseArgs(argv) {
@@ -42,7 +43,12 @@ export async function runIngestion({
   const startedAt = now().toISOString();
   const previousSnapshot = await readSnapshot(outputDir);
   const previousStatuses = await readSourceStatus(outputDir);
-  const stories = previousSnapshot?.articles ?? [];
+  let reprocessedExisting = 0;
+  const stories = (previousSnapshot?.articles ?? []).map((article) => {
+    const migrated = migrateArticle(article);
+    if (migrated !== article) reprocessedExisting += 1;
+    return migrated;
+  });
   const sourceStatuses = {};
   let attempted = 0;
   let succeeded = 0;
@@ -50,6 +56,9 @@ export async function runIngestion({
   let fetchedCount = 0;
   let acceptedCount = 0;
   let duplicateCount = 0;
+  const summaryMethods = {};
+  const summaryQuality = {};
+  let fallbackArticles = 0;
 
   for (const source of registry) {
     if (sourceId && source.id !== sourceId) continue;
@@ -72,6 +81,11 @@ export async function runIngestion({
       fetchedCount += items.length;
       const normalized = items.map((item) => normalizeStory(item, source)).filter(Boolean);
       acceptedCount += normalized.length;
+      for (const story of normalized) {
+        summaryMethods[story.summaryMethod] = (summaryMethods[story.summaryMethod] ?? 0) + 1;
+        summaryQuality[story.summaryQuality] = (summaryQuality[story.summaryQuality] ?? 0) + 1;
+        if (story.summaryMethod === 'fallback') fallbackArticles += 1;
+      }
       duplicateCount += Math.max(0, normalized.length - new Set(normalized.map((story) => story.url)).size);
       stories.push(...normalized);
       succeeded += 1;
@@ -90,6 +104,7 @@ export async function runIngestion({
     startedAt, finishedAt, status: allFailed ? 'failed' : 'success', attemptedSources: attempted,
     successfulSources: succeeded, failedSources: failed, fetchedArticles: fetchedCount,
     acceptedArticles: acceptedCount, duplicatesSkipped: duplicateCount, published: !allFailed,
+    summaryMethods, summaryQuality, fallbackArticles, reprocessedExisting,
   };
 
   if (allFailed) {
@@ -105,6 +120,12 @@ export async function runIngestion({
   };
   await publishSnapshot({ outputDir, snapshot, runStatus, sourceStatuses });
   return { snapshot, runStatus, sourceStatuses };
+}
+
+function migrateArticle(article) {
+  if (!article || article.summaryMethod || !article.description) return article;
+  const summary = summarize({ title: article.title, content: article.description });
+  return { ...article, ...summary };
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

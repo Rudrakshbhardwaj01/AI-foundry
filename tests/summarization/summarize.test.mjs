@@ -73,9 +73,9 @@ test('removes URL-heavy material while retaining the substantive sentence', () =
 
 test('uses an honest headline fallback when there is no usable body', () => {
   const result = summarize({ title: 'Open weights arrive for a compact reasoning model' });
-  assert.equal(result.description, 'Open weights arrive for a compact reasoning model');
-  assert.equal(result.summaryMethod, 'honest-fallback');
-  assert.equal(result.summaryContentSource, 'headline');
+  assert.match(result.description, /publisher has not provided enough accessible text/i);
+  assert.equal(result.summaryMethod, 'fallback');
+  assert.equal(result.summaryContentSource, 'fallback');
   assert.equal(result.summaryQuality, 'insufficient');
   assert.ok(result.summaryFlags.includes('headline-only'));
   assert.ok(result.summaryFlags.includes('fallback'));
@@ -93,7 +93,7 @@ test('quality validation reports target and fallback boundaries', () => {
   assert.deepEqual(validateSummaryQuality('A short headline.', { usedFallback: true }).flags, ['below-target', 'fallback']);
   assert.equal(validateSummaryQuality('One useful sentence with enough words to be readable but not enough to reach the target range.', { sourceWordCount: 20 }).quality, 'limited');
   assert.equal(validateSummaryQuality('A '.repeat(70), {}).quality, 'limited');
-  assert.equal(selectFallback({ title: 'Headline only' }).source, 'headline');
+  assert.equal(selectFallback({ title: 'Headline only' }).source, 'fallback');
 });
 
 test('multi-sentence selection is deterministic and preserves source order', () => {
@@ -108,4 +108,15 @@ test('multi-sentence selection is deterministic and preserves source order', () 
     .map((phrase) => first.description.indexOf(phrase))
     .filter((position) => position >= 0);
   assert.deepEqual(positions, [...positions].sort((a, b) => a - b));
+});
+
+test('preserves technical identifiers and never cuts a source sentence mid-thought', () => {
+  const result = summarize({
+    title: 'Runtime 2.4 improves vLLM compatibility',
+    content: 'Runtime 2.4 adds vLLM 0.6 compatibility and keeps CUDA 12.4 support for existing deployments. The maintainers report a 42% reduction in cold-start latency on the reference benchmark. The release includes migration notes and reproducible configuration examples for operators.',
+  });
+  assert.match(result.description, /vLLM 0\.6/);
+  assert.match(result.description, /CUDA 12\.4/);
+  assert.match(result.description, /42%/);
+  assert.doesNotMatch(result.description, /…$/);
 });

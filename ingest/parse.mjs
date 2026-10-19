@@ -33,6 +33,14 @@ function tagValue(block, tagNames) {
   return '';
 }
 
+function rawTagValue(block, tagNames) {
+  for (const tag of tagNames) {
+    const match = block.match(new RegExp(`<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)</${tag}\\s*>`, 'i'));
+    if (match) return match[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/gi, '$1').trim();
+  }
+  return '';
+}
+
 function attributeValue(tag, name) {
   const match = tag.match(new RegExp(`\\b${name}\\s*=\\s*(["'])(.*?)\\1`, 'i'));
   return match ? decodeEntities(match[2].trim()) : '';
@@ -49,7 +57,8 @@ function parseRss(xml) {
       guid: tagValue(block, ['guid', 'id']),
       title: tagValue(block, ['title']),
       link: tagValue(block, ['link']) || (enclosure ? attributeValue(enclosure, 'url') : ''),
-      summary: tagValue(block, ['description', 'summary', 'content:encoded']),
+      summary: tagValue(block, ['content:encoded', 'description', 'summary']),
+      content: rawTagValue(block, ['content:encoded', 'content']),
       publishedAt: tagValue(block, ['pubDate', 'published', 'updated', 'dc:date']),
       category: tagValue(block, ['category']),
     };
@@ -63,7 +72,8 @@ function parseAtom(xml) {
       guid: tagValue(block, ['id', 'guid']),
       title: tagValue(block, ['title']),
       link: attributeValue(linkTag, 'href') || tagValue(block, ['link']),
-      summary: tagValue(block, ['summary', 'content', 'description']),
+      summary: tagValue(block, ['content', 'summary', 'description']),
+      content: rawTagValue(block, ['content', 'summary']),
       publishedAt: tagValue(block, ['published', 'updated', 'pubDate']),
       category: attributeValue(block.match(/<category\b[^>]*>/i)?.[0] ?? '', 'term') || tagValue(block, ['category']),
     };

@@ -1,4 +1,5 @@
 import { createHash } from 'node:crypto';
+import { summarize } from './summarize.mjs';
 
 export const CATEGORIES = Object.freeze([
   'Model Releases', 'Research', 'Industry', 'Open Source', 'Policy', 'Tools', 'Infrastructure', 'Safety',
@@ -63,23 +64,33 @@ export function normalizeStory(item, source, { baseUrl = source.feedUrl ?? sourc
   const url = normalizeUrl(item.link, baseUrl);
   const title = cleanText(item.title, 260);
   if (!url || !title) return null;
-  const summary = cleanText(item.summary, 640);
+  const sourceText = cleanText(item.summary, 1200);
   const dedicatedSource = ['arxiv', 'hugging-face', 'import-ai', 'stanford-hai', 'uk-aisi', 'oecd-ai', 'indiaai'].includes(source.id);
-  if (source.relevanceFilter && !isRelevant({ title, summary, dedicatedSource })) return null;
+  if (source.relevanceFilter && !isRelevant({ title, summary: sourceText, dedicatedSource })) return null;
   const publishedAt = isoDate(item.publishedAt);
   const sourceItemId = cleanText(item.guid, 180);
   const fingerprint = `${source.id}\n${sourceItemId || url}\n${title.toLowerCase()}\n${publishedAt ?? ''}`;
   const id = `article_${createHash('sha256').update(fingerprint).digest('hex').slice(0, 20)}`;
+  const summary = summarize({
+    title,
+    content: item.content ?? item.summary ?? '',
+    contentCandidates: item.contentCandidates,
+    abstract: item.abstract,
+  });
   return {
     id,
     sourceId: source.id,
     sourceName: source.name,
     sourceType: source.sourceType,
     title,
-    description: summary,
+    description: summary.description,
+    summaryMethod: summary.summaryMethod,
+    summaryContentSource: summary.summaryContentSource,
+    summaryQuality: summary.summaryQuality,
+    summaryFlags: summary.summaryFlags,
     url,
     publishedAt,
-    category: mapCategory({ title, summary, category: item.category, sourceCategories: source.categories }),
+    category: mapCategory({ title, summary: sourceText, category: item.category, sourceCategories: source.categories }),
   };
 }
 
@@ -89,7 +100,7 @@ export function dedupeStories(stories, { limit = 300 } = {}) {
     if (!story?.url || !story?.title) continue;
     const key = story.url || `${story.title.toLowerCase()}|${story.publishedAt ?? ''}`;
     const current = byKey.get(key);
-    if (!current || (story.description?.length ?? 0) > (current.description?.length ?? 0)) byKey.set(key, story);
+    if (!current || compareStoryQuality(story, current) > 0) byKey.set(key, story);
   }
   return [...byKey.values()].sort((a, b) => {
     const left = b.publishedAt ?? '';
@@ -98,4 +109,14 @@ export function dedupeStories(stories, { limit = 300 } = {}) {
     if (a.sourceId !== b.sourceId) return a.sourceId < b.sourceId ? -1 : 1;
     return a.id.localeCompare(b.id);
   }).slice(0, limit);
+}
+
+function compareStoryQuality(left, right) {
+  const quality = { high: 3, limited: 2, insufficient: 1 };
+  const methods = { extractive: 5, official_abstract: 5, official_metadata: 4, source_excerpt: 3, undefined: 2, fallback: 0 };
+  const qualityDelta = (quality[left.summaryQuality] ?? 0) - (quality[right.summaryQuality] ?? 0);
+  if (qualityDelta) return qualityDelta;
+  const methodDelta = (methods[left.summaryMethod] ?? 0) - (methods[right.summaryMethod] ?? 0);
+  if (methodDelta) return methodDelta;
+  return (left.description?.length ?? 0) - (right.description?.length ?? 0);
 }

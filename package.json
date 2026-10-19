@@ -9,7 +9,7 @@
     "start": "node server.mjs",
     "build": "node scripts/build-check.mjs",
     "lint": "node scripts/lint.mjs",
-    "test": "node --test tests/ingestion/*.test.mjs",
+    "test": "node --test tests/ingestion/*.test.mjs tests/extraction/*.test.mjs tests/summarization/*.test.mjs",
     "ingest": "node ingest/run.mjs"
   }
 }

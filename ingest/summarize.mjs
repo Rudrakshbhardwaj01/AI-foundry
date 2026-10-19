@@ -11,6 +11,7 @@
 const MIN_WORDS = 35;
 const MAX_WORDS = 65;
 const MAX_SENTENCE_WORDS = 42;
+export const INSUFFICIENT_CONTENT_FALLBACK = 'The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.';
 
 const ENTITY_NAMES = Object.freeze({
   amp: '&', apos: "'", gt: '>', lt: '<', nbsp: ' ', quot: '"',
@@ -20,6 +21,7 @@ const ENTITY_NAMES = Object.freeze({
 
 const BOILERPLATE = /^(?:read more|continue reading|advertisement|advertisements?|sponsored content|subscribe(?: now)?|sign up|log in|share|listen|watch|related|table of contents|in this article|in this post|this article|this post|welcome to)?$/i;
 const BOILERPLATE_PHRASES = /\b(?:in this article|in this post|welcome to (?:our|the)|as an ai(?: language)? model|click here to|read more at|subscribe to our)\b/i;
+const GENERIC_SOURCE_COPY = /\b(?:on a journey to advance and democratize|we(?:'|’)?re on a journey|the original source provides no summary|subscribe to our newsletter)\b/i;
 const URL_PATTERN = /(?:https?:\/\/|www\.)\S+/gi;
 const TAG_PATTERN = /#(?:[\p{L}\p{N}_-]{2,})/gu;
 
@@ -71,13 +73,25 @@ function compactWhitespace(value) {
 export function cleanHtmlContent(value) {
   let html = asText(value);
   if (!html) return '';
+  html = decodeEntities(html);
   html = html.replace(/<!--[\s\S]*?-->/g, ' ');
   html = html.replace(/<\/?(?:script|style|noscript|template|svg|canvas|iframe|nav|footer|form|button|aside)\b[^>]*>[\s\S]*?<\/(?:script|style|noscript|template|svg|canvas|iframe|nav|footer|form|button|aside)>/gi, ' ');
   html = html.replace(/<br\s*\/?>/gi, '\n').replace(/<\/(?:p|div|article|section|header|h[1-6]|li|blockquote|pre|tr|td|th)>/gi, '\n');
   html = html.replace(/<img\b[^>]*>/gi, (tag) => tagAttribute(tag, 'alt') ? ` ${tagAttribute(tag, 'alt')} ` : ' ');
   html = html.replace(/<a\b[^>]*>/gi, ' ').replace(/<[^>]+>/g, ' ');
+  html = html.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/[\*_`~]/g, '');
   return compactWhitespace(html)
     .replace(URL_PATTERN, ' ')
+    .replace(/^\s*#{1,6}\s+/gim, '')
+    .replace(/\s+#{1,6}\s+/g, '\n')
+    .replace(/^\s*(?:[$>]\s+|(?:npm|pnpm|yarn|pip|uv|uvx|git|curl|wget)\s+).*$/gim, ' ')
+    .replace(/^\s*(?:#|@)[\w-]+(?:\s+(?:#|@)[\w-]+)*\s*$/gim, ' ')
+    .replace(/^\s*(?:tags?|categories?|topics?|token usage|usage|installation)\s*:\s*.*$/gim, ' ')
+    .replace(/\{\s*"(?:prompt|system|attachments|stream|previous)"[\s\S]*?\}/gi, ' ')
+    .replace(/\(\s*\)/g, ' ')
+    .replace(/\s*\d+\s+items?\s*[•·].*$/i, ' ')
+    .replace(/\s+(?:paper|preprint)\s*[•·]\s*\d+\.\d+.*$/i, ' ')
+    .replace(/\b(?:it works with|run it with|install with)\s+(?:uvx|npm|pnpm|yarn|pip|git)\b[\s\S]*$/i, ' ')
     .replace(/\b(?:read more|continue reading)(?:\s+at)?\b/gi, ' ')
     .replace(/\s+([,.!?;:])/g, '$1')
     .replace(/[ \t]+\n/g, '\n')
@@ -159,14 +173,22 @@ function wordCount(value) {
   return (asText(value).match(/[\p{L}\p{N}]+(?:['’.-][\p{L}\p{N}]+)*/gu) ?? []).length;
 }
 
+function isTruncated(value) {
+  return /(?:…|\.\.\.)\s*$/.test(asText(value).trim());
+}
+
 function trimSentence(value, maxWords = MAX_SENTENCE_WORDS) {
   const words = asText(value).trim().split(/\s+/).filter(Boolean);
-  if (words.length <= maxWords) return words.join(' ');
-  return `${words.slice(0, maxWords).join(' ').replace(/[,:;—-]+$/, '')}…`;
+  return words.join(' ');
 }
 
 function splitSentences(text) {
-  const normalized = compactWhitespace(text).replace(/\s*([.!?])\s*/g, '$1 ');
+  const decimalMarker = '\uE000';
+  const normalized = compactWhitespace(text)
+    .replace(/(?<=\d)\.(?=\d)/g, decimalMarker)
+    .replace(/\s+(?=(?:example usage|outputs?|token usage|tags?|categories?)\s*:)/gi, '\n')
+    .replace(/\s*([.!?])\s*/g, '$1 ')
+    .replaceAll(decimalMarker, '.');
   const pieces = normalized
     .split(/(?<=[.!?])\s+|\n+|(?<=;\s)/)
     .map((part) => part.replace(/^[\s•●▪*-]+/, '').trim())
@@ -187,11 +209,11 @@ export function extractSentences(value) {
     const words = wordCount(normalized);
     const urlMatches = raw.match(URL_PATTERN) ?? [];
     const urlChars = urlMatches.reduce((sum, item) => sum + item.length, 0);
-    if (!normalized || !key || seen.has(key) || words < 5) continue;
+    if (!normalized || !key || seen.has(key) || words < 5 || !/[.!?]$/.test(normalized)) continue;
     if (urlChars > raw.length * 0.32) continue;
-    if (BOILERPLATE.test(normalized) || /^(?:https?:\/\/|www\.)/i.test(normalized)) continue;
+    if (BOILERPLATE.test(normalized) || GENERIC_SOURCE_COPY.test(normalized) || isTruncated(normalized) || /^(?:https?:\/\/|www\.)/i.test(normalized) || /^(?:tags?|categories?|topics?|token usage|usage|installation|example usage|outputs?)\s*:/i.test(normalized)) continue;
     seen.add(key);
-    output.push({ text: trimSentence(normalized), index: output.length, wordCount: Math.min(words, MAX_SENTENCE_WORDS), originalWordCount: words });
+    output.push({ text: trimSentence(normalized), index: output.length, wordCount: words, originalWordCount: words });
   }
   return output;
 }
@@ -253,9 +275,13 @@ export function validateSummaryQuality(summary, { sourceWordCount = 0, usedFallb
   if (words > MAX_WORDS) flags.push('above-target');
   if (sourceWordCount && words > sourceWordCount + 8) flags.push('unsupported-length');
   if (repeated) flags.push('duplicate-text');
+  if (GENERIC_SOURCE_COPY.test(text)) flags.push('generic-boilerplate');
+  if (isTruncated(text)) flags.push('truncated-input');
+  if (/<[^>]+>|(?:&(?:amp|lt|gt|quot|#\w+);)|https?:\/\//i.test(text)) flags.push('unprocessed-markup');
+  if (words >= 12 && !/[.!?]$/.test(text)) flags.push('incomplete-sentence');
   if (usedFallback) flags.push('fallback');
   let quality = 'high';
-  if (!text || words < 12) quality = 'insufficient';
+  if (usedFallback || !text || words < 12) quality = 'insufficient';
   else if (flags.length || words < MIN_WORDS) quality = 'limited';
   return { quality, words, flags };
 }
@@ -265,22 +291,25 @@ export function selectFallback({ title = '', abstract = '', description = '', he
   const options = [
     ['abstract', abstract],
     ['description', description],
-    ['headline', headline || title],
   ];
   for (const [source, value] of options) {
     const text = cleanHtmlContent(value);
     const sentences = extractSentences(text);
     const deduplicated = sentences.length ? joinSentences(sentences) : text;
-    if (wordCount(deduplicated) >= 5 && !BOILERPLATE.test(deduplicated)) return { text: trimSentence(deduplicated, MAX_WORDS), source };
+    if (wordCount(deduplicated) >= 12 && /[.!?]$/.test(deduplicated) && !BOILERPLATE.test(deduplicated) && !GENERIC_SOURCE_COPY.test(deduplicated) && !isTruncated(deduplicated)) return { text: trimSentence(deduplicated, MAX_WORDS), source };
   }
-  const last = cleanHtmlContent(headline || title || abstract || description);
-  return { text: trimSentence(last, MAX_WORDS), source: last ? 'headline' : 'none' };
+  return { text: INSUFFICIENT_CONTENT_FALLBACK, source: 'fallback' };
 }
 
 function sourceText(source, metadata, input) {
-  const explicit = [input.content, input.text, input.bodyText, input.abstract, input.articleBody]
+  const pageCandidates = Array.isArray(input.contentCandidates) ? input.contentCandidates : [];
+  const pageArticle = pageCandidates.find((candidate) => candidate?.contentType === 'article' && wordCount(candidate.text) >= 20);
+  if (pageArticle) return { text: pageArticle.text, source: `page:${pageArticle.provenance}` };
+  const pageMetadata = pageCandidates.find((candidate) => wordCount(candidate?.text) >= 5);
+  if (pageMetadata) return { text: pageMetadata.text, source: `page:${pageMetadata.provenance}` };
+  const explicit = [input.content, input.text, input.bodyText, input.articleBody, input.abstract]
     .map(asText).find((value) => wordCount(value) >= 5);
-  if (explicit) return { text: explicit, source: input.abstract ? 'abstract' : 'content' };
+  if (explicit) return { text: explicit, source: input.abstract && explicit === input.abstract ? 'abstract' : 'content' };
   if (metadata.articleBody) return { text: metadata.articleBody, source: 'json-ld' };
   if (metadata.abstract) return { text: metadata.abstract, source: 'abstract' };
   if (input.html || input.contentHtml || input.bodyHtml || input.rawHtml) {
@@ -291,26 +320,40 @@ function sourceText(source, metadata, input) {
   return { text: '', source: 'none' };
 }
 
+function removeHeadlineEcho(text, title) {
+  const body = asText(text).trim();
+  const headline = asText(title).trim();
+  if (!body || !headline) return body;
+  const escaped = headline.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return body
+    .replace(new RegExp(`^(?:release|announcement|update)\\s*:\\s*${escaped}\\s*[-–—:.]?\\s*`, 'i'), '')
+    .replace(new RegExp(`^${escaped}\\s*[-–—:.]?\\s*`, 'i'), '')
+    .trim();
+}
+
 /** Main deterministic summarizer. Accepts a string or RSS/Atom-like record. */
 export function summarize(input = {}) {
   const record = typeof input === 'string' ? { content: input } : (input ?? {});
   const metadata = extractMetadata(record);
   const title = cleanHtmlContent(record.title ?? record.headline ?? metadata.title);
-  const { text, source } = sourceText(record, metadata, record);
+  const extracted = sourceText(record, metadata, record);
+  const text = removeHeadlineEcho(extracted.text, title);
+  const source = extracted.source;
   const candidates = extractSentences(text);
   const ranked = rankSentences(candidates, { title });
   const combination = bestCombination(ranked);
   const selected = combination?.chosen ?? [];
   let description = selected.length ? joinSentences(selected) : '';
-  let summaryMethod = selected.length ? 'ranked-sentences' : 'fallback';
+  let summaryMethod = selected.length ? 'extractive' : 'fallback';
   let summaryContentSource = selected.length ? source : 'fallback';
   let fallback = false;
   if (!description || wordCount(description) < MIN_WORDS) {
-    const choice = selectFallback({ title, headline: title, abstract: metadata.abstract, description: text || metadata.description });
+    const choice = selectFallback({ title, abstract: metadata.abstract, description: text || metadata.description });
     description = choice.text;
-    summaryMethod = 'honest-fallback';
+    const usedTransparentFallback = choice.source === 'fallback';
+    summaryMethod = usedTransparentFallback ? 'fallback' : 'source_excerpt';
     summaryContentSource = choice.source === 'description' && source !== 'none' ? source : choice.source;
-    fallback = true;
+    fallback = usedTransparentFallback;
   }
   const quality = validateSummaryQuality(description, {
     sourceWordCount: wordCount(text),
@@ -321,6 +364,9 @@ export function summarize(input = {}) {
   if (source === 'json-ld' || source === 'open-graph' || source === 'abstract') summaryFlags.push('metadata-source');
   if (text && (text.match(URL_PATTERN) ?? []).length) summaryFlags.push('url-cleaned');
   if (!text && title) summaryFlags.push('headline-only');
+  if (!fallback && summaryMethod === 'source_excerpt') summaryFlags.push('source-excerpt');
+  if (!fallback && (source === 'abstract' || source.startsWith('page:json-ld:abstract'))) summaryMethod = 'official_abstract';
+  else if (!fallback && (source === 'open-graph' || source === 'description' || source.startsWith('page:open-graph') || source.startsWith('page:meta:'))) summaryMethod = 'official_metadata';
   return {
     description,
     summaryMethod,

@@ -12,7 +12,13 @@ filters it locally.
   the ingestion worker, not by visitor requests.
 - `ingest/registry.mjs` is the curated 20-source registry.
 - `ingest/adapters.mjs` supports RSS/Atom, the documented Hacker News API, and
-  curated GitHub release APIs.
+  curated GitHub release APIs. Weak same-host feed items receive bounded,
+  ingestion-time page enrichment; arbitrary linked domains are never crawled.
+- `ingest/extract.mjs` separates bounded source-page extraction from network
+  access and labels JSON-LD, Open Graph, metadata, and article-body content.
+- `ingest/summarize.mjs` cleans source content and performs deterministic,
+  extractive sentence ranking with summary provenance, quality flags, and an
+  honest fallback when the publisher does not expose enough text.
 - `ingest/run.mjs` fetches sources independently, applies bounded retries and
   conservative deterministic relevance/category rules, merges retained content,
   deduplicates, validates, and atomically publishes.
@@ -93,8 +99,11 @@ make test
 ```
 
 The tests cover RSS/Atom parsing, entity cleanup, URL safety, deterministic
-categories, deduplication, retry isolation, all-source failure preservation,
-snapshot schema validation, atomic replacement, and recovery.
+categories, deduplication, retry isolation, approved page enrichment,
+HTML/JSON-LD/Open Graph extraction, deterministic sentence ranking, release
+note cleanup, URL-heavy descriptions, fallback quality checks, all-source
+failure preservation, snapshot schema validation, atomic replacement, and
+recovery.
 
 ## Docker
 

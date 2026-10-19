@@ -19,7 +19,7 @@ export async function fetchWithRetry(url, {
       if (!response?.ok) throw new Error(`HTTP ${response?.status ?? 'error'}`);
       const text = await response.text();
       if (Buffer.byteLength(text, 'utf8') > maxBytes) throw new Error(`Response exceeds ${maxBytes} byte limit`);
-      return { text, attempts: attempt, status: response.status, headers: response.headers };
+      return { text, attempts: attempt, status: response.status, headers: response.headers, finalUrl: response.url ?? url };
     } catch (error) {
       lastError = error;
       if (attempt <= retries) await sleep(backoffMs * attempt);
