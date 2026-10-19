@@ -48,7 +48,7 @@ export function normalizeStory(item, source, { baseUrl = source.endpoint } = {})
   if (!url || !title) return null;
   const summary = String(item.summary ?? '').replace(/\s+/g, ' ').trim();
   const publishedAt = isoDate(item.publishedAt);
-  const fingerprint = `${url}\n${title.toLocaleLowerCase()}\n${publishedAt ?? ''}`;
+  const fingerprint = `${url}\n${title.toLowerCase()}\n${publishedAt ?? ''}`;
   const id = `story_${createHash('sha256').update(fingerprint).digest('hex').slice(0, 20)}`;
   return {
     id,
@@ -65,12 +65,16 @@ export function normalizeStory(item, source, { baseUrl = source.endpoint } = {})
 export function dedupeStories(stories) {
   const byKey = new Map();
   for (const story of stories) {
-    const key = story.url || `${story.title.toLocaleLowerCase()}|${story.publishedAt ?? ''}`;
+    const key = story.url || `${story.title.toLowerCase()}|${story.publishedAt ?? ''}`;
     const current = byKey.get(key);
     if (!current || (story.summary.length > current.summary.length)) byKey.set(key, story);
   }
   return [...byKey.values()].sort((a, b) => {
-    const dateCompare = (b.publishedAt ?? '').localeCompare(a.publishedAt ?? '');
-    return dateCompare || a.sourceId.localeCompare(b.sourceId) || a.id.localeCompare(b.id);
+    const leftDate = b.publishedAt ?? '';
+    const rightDate = a.publishedAt ?? '';
+    if (leftDate !== rightDate) return leftDate < rightDate ? -1 : 1;
+    if (a.sourceId !== b.sourceId) return a.sourceId < b.sourceId ? -1 : 1;
+    if (a.id === b.id) return 0;
+    return a.id < b.id ? -1 : 1;
   });
 }
