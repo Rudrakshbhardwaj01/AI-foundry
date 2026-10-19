@@ -115,6 +115,21 @@ docker run --rm -p 8080:8080 ai-foundry
 The image runs only the static publication server. Ingestion should run in the
 scheduled workflow, not in a visitor request or an ephemeral web container.
 
+## Vercel deployment
+
+`vercel.json` explicitly selects Vercel's **Other** framework preset, disables
+the build command, and serves the repository root as static output. This keeps
+`index.html`, `app.js`, `styles.css`, `data/published.json`, and
+`public/fonts/ChineseKaraoke.ttf` out of the Functions runtime. `server.mjs`
+remains a local/Docker server and is not a Vercel entry point.
+
+When the repository is connected to Vercel, pushes to the configured branch
+trigger static redeployments. The scheduled GitHub Actions workflow remains
+responsible for refreshing and committing publication JSON; Vercel only serves
+the committed snapshot. Set the Vercel project Framework Preset to **Other**
+if project-level settings override the repository configuration, then trigger
+a new deployment.
+
 ## Deployment and scheduled updates
 
 The included workflow is designed for a GitHub repository with GitHub Pages
