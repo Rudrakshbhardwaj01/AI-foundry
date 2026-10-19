@@ -5,6 +5,7 @@
   "type": "module",
   "engines": { "node": ">=20.11.0" },
   "scripts": {
+    "dev": "node server.mjs",
     "start": "node server.mjs",
     "build": "node scripts/build-check.mjs",
     "lint": "node scripts/lint.mjs",

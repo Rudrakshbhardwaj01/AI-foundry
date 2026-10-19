@@ -38,10 +38,28 @@ for reproducible `npm ci` and Docker builds.
 ```sh
 npm ci
 npm run build
-npm start
+npm run dev
 ```
 
-Open <http://localhost:8080>. Set `PORT=3000` to use another port.
+The development server prints its URL when it starts. Open
+<http://localhost:8080> by default. `npm run dev` invokes the existing
+dependency-free `server.mjs` directly and works from the project root in
+Linux, macOS, and Windows PowerShell.
+
+To use another port, set `PORT` before starting the server:
+
+```sh
+# Linux/macOS
+PORT=3000 npm run dev
+```
+
+```powershell
+# Windows PowerShell
+$env:PORT = "3000"
+npm run dev
+```
+
+`npm start` remains available as the equivalent server start command.
 
 To run a real refresh locally:
 
