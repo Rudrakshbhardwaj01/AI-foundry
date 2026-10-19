@@ -8,6 +8,41 @@
   var list = document.getElementById("article-list");
   var status = document.getElementById("feed-status");
   var nav = document.getElementById("category-nav");
+  var themeToggle = document.getElementById("theme-toggle");
+  var themeToggleLabel = document.getElementById("theme-toggle-label");
+  var themeStorageKey = "ai-foundry-theme";
+
+  function systemTheme() {
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+
+  function storedTheme() {
+    try {
+      var value = window.localStorage.getItem(themeStorageKey);
+      return value === "light" || value === "dark" ? value : null;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function setTheme(theme, persist) {
+    var isDark = theme === "dark";
+    document.documentElement.setAttribute("data-theme", isDark ? "dark" : "light");
+    themeToggle.setAttribute("aria-pressed", String(isDark));
+    themeToggle.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
+    themeToggleLabel.textContent = isDark ? "Light theme" : "Dark theme";
+    if (persist) {
+      try { window.localStorage.setItem(themeStorageKey, isDark ? "dark" : "light"); } catch (error) { /* Preferences remain available for this visit. */ }
+    }
+  }
+
+  function initializeTheme() {
+    setTheme(storedTheme() || systemTheme(), false);
+    themeToggle.addEventListener("click", function () {
+      var nextTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
+      setTheme(nextTheme, true);
+    });
+  }
 
   function formatDate(value, options) {
     var date = new Date(value);
@@ -107,5 +142,6 @@
       .catch(function () { showError("The published edition is unavailable right now. Please try again later."); });
   }
 
+  initializeTheme();
   setHeader(null); renderNav(); loadSnapshot();
 }());
