@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_51f66450c92cd885439b",
-  "publishedAt": "2026-10-20T07:08:34.567Z",
-  "lastSuccessfulRefreshAt": "2026-10-20T07:08:34.567Z",
+  "snapshotId": "snapshot_87537bdce962105afb79",
+  "publishedAt": "2026-10-20T12:51:28.094Z",
+  "lastSuccessfulRefreshAt": "2026-10-20T12:51:28.094Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_88ab43fba625b7f95e6b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "DeepSeek just open-sourced its inference engine",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "publishedAt": "2026-10-20T09:08:54.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_22b4278c3dd8a13358ee",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b11752",
+      "description": "experts and the logits differ by 4e-3 instead of the usual 5e-7. failed on an M2 Ultra, the other MoE archs select 2 of 2 and cannot tie. unbiased probs, so the MoE output keeps its magnitude. CPU reference within 4e-7 for all of 160 seeds.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11752",
+      "publishedAt": "2026-10-20T08:18:15.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_b060c7616189d466ac81",
       "sourceId": "hacker-news",
@@ -5664,44 +5701,6 @@
       "url": "https://arxiv.org/abs/2610.24908",
       "publishedAt": "2026-10-20T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_2a69f981e4ae2b3d7907",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Overton Pluralistic Reinforcement Learning for Large Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2602.20759",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_2a6da64821f6184e7e1f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "CRISP: Progressive Illumination Curriculum for Recurrent Low-Light Video Enhancement with Semantic Priors",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24299",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
