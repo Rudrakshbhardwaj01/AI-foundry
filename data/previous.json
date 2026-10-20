@@ -1,10 +1,103 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_87537bdce962105afb79",
-  "publishedAt": "2026-10-20T12:51:28.094Z",
-  "lastSuccessfulRefreshAt": "2026-10-20T12:51:28.094Z",
+  "snapshotId": "snapshot_bbfe9c6eed684ffcece2",
+  "publishedAt": "2026-10-20T17:46:13.946Z",
+  "lastSuccessfulRefreshAt": "2026-10-20T17:46:13.946Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_8490a65f8d9db0dfd25a",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "publishedAt": "2026-10-20T16:09:19.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_f9c2e850ac61ebba917b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
+      "publishedAt": "2026-10-20T15:48:26.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_340f345239970328da60",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "description": "ALTK-Evolve builds that playbook using GPT-4.1. Those guidelines are then added to the agent's prompt for subsequent conversations. We compare three configurations: baseline (no guidelines), sup3 (keep only guidelines with support ≥ 3 — a small, high-confidence core), and lossless (keep every guideline retained after consolidation, i. Submissions are scored on the full base split (train ∪ test), as τ²-bench requires, and reported at Pass^4.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "publishedAt": "2026-10-20T15:19:48.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_954c8e209ba85e040ffd",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
+      "description": "I built a quiz game around TypeSafe's new Jev model, which has vision capabilities. More cards will come over time. The code is open source, so feel free to build your own game or make more cards that I can publish. I work at Opper, but jevcards is open source and free to play.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://jevcards.com/",
+      "publishedAt": "2026-10-20T15:11:56.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_aa1ce7cd198bd0e56905",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_88ab43fba625b7f95e6b",
       "sourceId": "hacker-news",
@@ -5606,101 +5699,6 @@
       "url": "https://arxiv.org/abs/2609.09565",
       "publishedAt": "2026-10-20T04:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_28ead063040c563c2991",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SCARCE: Emergent Institutions in Long-Horizon Multi-Agent Coding Systems",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.21029",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_29017bf862b8153323e9",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Action-Dynamics Modeling and Cross-Temporal Interaction for Online Action Understanding",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2510.10682",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_29141e29b96496563f32",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Causal Humility: Governing the Authority of Fairness Claims Under Causal Uncertainty",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.25709",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_29c0ff2a6f19ae827cce",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DiffuPlan: Editable Planning State for Diffusion Language Model Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24717",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_2a48e5a8d805bddf55f9",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Symmetry-Matching Approach to Blind-Spot Reduction in Sparse Autoencoders",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24908",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
