@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_0d459d998792fcd87679",
-  "publishedAt": "2026-10-19T22:48:21.892Z",
-  "lastSuccessfulRefreshAt": "2026-10-19T22:48:21.892Z",
+  "snapshotId": "snapshot_26bffc175ef363f9c2c7",
+  "publishedAt": "2026-10-20T01:33:34.421Z",
+  "lastSuccessfulRefreshAt": "2026-10-20T01:33:34.421Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_dbebb22e201b4b6305dc",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Vortex Code: one prompt, an AI software team that ships",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://spinozalabs.ai/news/introducing-vortex-code",
+      "publishedAt": "2026-10-20T00:40:56.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_0bf1ce3228450d9e237c",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "My obituary for programming",
+      "description": "Programming turned into one of the greatest jobs you could imagine. You got paid to work on tricky little logic puzzles. The trickier the puzzle, the more you got paid. If you're a programmer who thrives on building working systems and doesn't care too deeply about the problems solved along the way, LLMs are the gift that keeps on giving.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming",
+      "publishedAt": "2026-10-19T23:58:25.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_6db362f7d6aefe7bf948",
       "sourceId": "github",
@@ -5444,43 +5481,6 @@
       "summaryQuality": "limited",
       "summaryFlags": [
         "below-target",
-        "source-excerpt"
-      ]
-    },
-    {
-      "id": "article_ee2f677f4e4f864f7acf",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "sourceType": "Official announcement",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "description": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "publishedAt": "2026-07-22T13:00:00.000Z",
-      "category": "Industry",
-      "summaryMethod": "source_excerpt",
-      "summaryContentSource": "content",
-      "summaryQuality": "limited",
-      "summaryFlags": [
-        "below-target",
-        "source-excerpt"
-      ]
-    },
-    {
-      "id": "article_90584781a37b73ac05ad",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "sourceType": "Official announcement",
-      "title": "Advancing the next era of national science",
-      "description": "OpenAI outlines its commitment to advancing American science working with the U. Department of Energy and national labs to use frontier AI to accelerate discovery.",
-      "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "publishedAt": "2026-07-22T12:00:00.000Z",
-      "category": "Model Releases",
-      "summaryMethod": "source_excerpt",
-      "summaryContentSource": "content",
-      "summaryQuality": "limited",
-      "summaryFlags": [
-        "below-target",
-        "deduplicated-or-filtered",
         "source-excerpt"
       ]
     }
