@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_10ff60977007e7c5e3c7",
-  "publishedAt": "2026-10-21T19:32:02.054Z",
-  "lastSuccessfulRefreshAt": "2026-10-21T19:32:02.054Z",
+  "snapshotId": "snapshot_9dd510f470db36d5deb5",
+  "publishedAt": "2026-10-21T23:00:37.229Z",
+  "lastSuccessfulRefreshAt": "2026-10-21T23:00:37.229Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_8f7e6704c39c37669485",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Broad access through consistent standards",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "publishedAt": "2026-10-21T21:00:00.000Z",
+      "category": "Safety"
+    },
     {
       "id": "article_1f238ef029e513b7db30",
       "sourceId": "hugging-face",
@@ -5682,25 +5701,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2610.28313",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_275fd3dd12d6fb6a97cf",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Perceives but Doesn't Brake: A Perception-Action Binding Gap in Reasoning Driving VLAs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.28184",
       "publishedAt": "2026-10-21T04:00:00.000Z",
       "category": "Safety"
     }
