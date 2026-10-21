@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_fb1974f1803eb5310591",
-  "publishedAt": "2026-10-20T21:14:06.168Z",
-  "lastSuccessfulRefreshAt": "2026-10-20T21:14:06.168Z",
+  "snapshotId": "snapshot_473fa6d8c217fba25c97",
+  "publishedAt": "2026-10-21T00:00:56.070Z",
+  "lastSuccessfulRefreshAt": "2026-10-21T00:00:56.070Z",
   "articleCount": 300,
   "articles": [
     {
@@ -43,6 +43,25 @@
       "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
       "publishedAt": "2026-10-20T18:17:47.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_c957c1c312bc03e9de9b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://research.poh.org/bot-benchmarking-2026",
+      "publishedAt": "2026-10-20T17:10:31.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_8490a65f8d9db0dfd25a",
@@ -5681,25 +5700,6 @@
       "url": "https://arxiv.org/abs/2610.25617",
       "publishedAt": "2026-10-20T04:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_28b46bcff6b2ed0817d1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Reasoning with Context Management and External Memory",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24187",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }

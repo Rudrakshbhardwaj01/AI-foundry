@@ -6,8 +6,8 @@
     "accessMethod": "rss",
     "itemCount": 1302,
     "attempts": 1,
-    "lastAttemptAt": "2026-10-20T21:13:52.550Z",
-    "lastSuccessfulFetchAt": "2026-10-20T21:13:52.550Z",
+    "lastAttemptAt": "2026-10-21T00:00:40.591Z",
+    "lastSuccessfulFetchAt": "2026-10-21T00:00:40.591Z",
     "error": null
   },
   "google-deepmind": {
@@ -17,8 +17,8 @@
     "accessMethod": "rss",
     "itemCount": 100,
     "attempts": 13,
-    "lastAttemptAt": "2026-10-20T21:13:55.260Z",
-    "lastSuccessfulFetchAt": "2026-10-20T21:13:55.260Z",
+    "lastAttemptAt": "2026-10-21T00:00:42.762Z",
+    "lastSuccessfulFetchAt": "2026-10-21T00:00:42.762Z",
     "error": null
   },
   "anthropic": {
@@ -44,8 +44,8 @@
     "accessMethod": "rss",
     "itemCount": 2654,
     "attempts": 17,
-    "lastAttemptAt": "2026-10-20T21:14:00.010Z",
-    "lastSuccessfulFetchAt": "2026-10-20T21:14:00.010Z",
+    "lastAttemptAt": "2026-10-21T00:00:48.650Z",
+    "lastSuccessfulFetchAt": "2026-10-21T00:00:48.650Z",
     "error": null
   },
   "hugging-face": {
@@ -55,8 +55,8 @@
     "accessMethod": "rss",
     "itemCount": 886,
     "attempts": 13,
-    "lastAttemptAt": "2026-10-20T21:14:01.309Z",
-    "lastSuccessfulFetchAt": "2026-10-20T21:14:01.309Z",
+    "lastAttemptAt": "2026-10-21T00:00:49.303Z",
+    "lastSuccessfulFetchAt": "2026-10-21T00:00:49.303Z",
     "error": null
   },
   "mit-technology-review": {
@@ -72,10 +72,10 @@
     "name": "Simon Willison",
     "status": "success",
     "accessMethod": "atom",
-    "itemCount": 18,
+    "itemCount": 17,
     "attempts": 6,
-    "lastAttemptAt": "2026-10-20T21:14:02.780Z",
-    "lastSuccessfulFetchAt": "2026-10-20T21:14:02.780Z",
+    "lastAttemptAt": "2026-10-21T00:00:51.135Z",
+    "lastSuccessfulFetchAt": "2026-10-21T00:00:51.135Z",
     "error": null
   },
   "import-ai": {
@@ -85,7 +85,7 @@
     "accessMethod": "rss",
     "itemCount": 0,
     "attempts": 3,
-    "lastAttemptAt": "2026-10-20T21:14:03.254Z",
+    "lastAttemptAt": "2026-10-21T00:00:51.361Z",
     "lastSuccessfulFetchAt": "2026-10-19T05:43:55.979Z",
     "error": "Feed request failed after 3 attempts: HTTP 403"
   },
@@ -112,8 +112,8 @@
     "accessMethod": "hacker-news-api",
     "itemCount": 2,
     "attempts": 31,
-    "lastAttemptAt": "2026-10-20T21:14:03.722Z",
-    "lastSuccessfulFetchAt": "2026-10-20T21:14:03.722Z",
+    "lastAttemptAt": "2026-10-21T00:00:51.767Z",
+    "lastSuccessfulFetchAt": "2026-10-21T00:00:51.767Z",
     "error": null
   },
   "the-batch": {
@@ -153,10 +153,10 @@
     "name": "GitHub",
     "status": "success",
     "accessMethod": "github-releases",
-    "itemCount": 4,
+    "itemCount": 3,
     "attempts": 2,
-    "lastAttemptAt": "2026-10-20T21:14:05.213Z",
-    "lastSuccessfulFetchAt": "2026-10-20T21:14:05.213Z",
+    "lastAttemptAt": "2026-10-21T00:00:55.351Z",
+    "lastSuccessfulFetchAt": "2026-10-21T00:00:55.351Z",
     "error": null
   },
   "semianalysis": {

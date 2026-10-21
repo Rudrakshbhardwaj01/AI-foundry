@@ -1,10 +1,49 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_bbfe9c6eed684ffcece2",
-  "publishedAt": "2026-10-20T17:46:13.946Z",
-  "lastSuccessfulRefreshAt": "2026-10-20T17:46:13.946Z",
+  "snapshotId": "snapshot_fb1974f1803eb5310591",
+  "publishedAt": "2026-10-20T21:14:06.168Z",
+  "lastSuccessfulRefreshAt": "2026-10-20T21:14:06.168Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_d3db304b6e0589b56656",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "On AI writing",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.bolkunov.com/p/on-ai-writing",
+      "publishedAt": "2026-10-20T19:55:11.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_81c83e94f7fed47c381e",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "publishedAt": "2026-10-20T18:17:47.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_8490a65f8d9db0dfd25a",
       "sourceId": "hugging-face",
@@ -5661,44 +5700,6 @@
       "url": "https://arxiv.org/abs/2610.24187",
       "publishedAt": "2026-10-20T04:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_28c587c6510e810b562f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "spora: A Unified Multimodal Dataset and Platform for Spatial Proteomics",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24002",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_28e6806d34d36b5a468a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.09565",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
