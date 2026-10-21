@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "runId": "run_19fed986372dbb58",
-  "startedAt": "2026-10-21T00:00:40.588Z",
-  "finishedAt": "2026-10-21T00:00:56.070Z",
+  "runId": "run_1f46522a83f0a6bf",
+  "startedAt": "2026-10-21T05:07:43.837Z",
+  "finishedAt": "2026-10-21T05:07:54.298Z",
   "status": "success",
   "attemptedSources": 8,
   "successfulSources": 7,
   "failedSources": 1,
-  "fetchedArticles": 4985,
-  "acceptedArticles": 4964,
-  "duplicatesSkipped": 763,
+  "fetchedArticles": 4415,
+  "acceptedArticles": 4394,
+  "duplicatesSkipped": 248,
   "published": true,
   "summaryMethods": {
-    "fallback": 4924,
-    "extractive": 36,
+    "extractive": 48,
+    "fallback": 4342,
     "official_metadata": 2,
     "source_excerpt": 2
   },
   "summaryQuality": {
-    "insufficient": 4924,
-    "high": 36,
+    "high": 48,
+    "insufficient": 4342,
     "limited": 4
   },
-  "fallbackArticles": 4924,
+  "fallbackArticles": 4342,
   "reprocessedExisting": 0
 }
