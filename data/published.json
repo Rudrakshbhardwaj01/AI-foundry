@@ -1,10 +1,84 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_7fdd0da4dbba5d8aaf44",
-  "publishedAt": "2026-10-21T15:30:06.452Z",
-  "lastSuccessfulRefreshAt": "2026-10-21T15:30:06.452Z",
+  "snapshotId": "snapshot_10ff60977007e7c5e3c7",
+  "publishedAt": "2026-10-21T19:32:02.054Z",
+  "lastSuccessfulRefreshAt": "2026-10-21T19:32:02.054Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_1f238ef029e513b7db30",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "description": "Today, we are introducing Kumo Relational (paper, documentation), a pre-trained foundation model that brings this paradigm to relational data. The code is released under the Apache 2.0 license and the model weights under the OpenMDW License Agreement, version 1.1. We thank the entire Kumo team for their invaluable support.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "publishedAt": "2026-10-21T18:26:30.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_abf112137005c7f80bbc",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "description": "All of them ran the same 500 requests on the same test machine, with an RTX 5090 GPU and the vLLM inference server, and cost was calculated from measured runtime. In our grader, that cut measured inference cost by 77%, with the same base model and the same training recipe.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "publishedAt": "2026-10-21T17:35:36.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_ba49d9d360499a52b26c",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/att-legal",
+      "publishedAt": "2026-10-21T17:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_b587c8161c7fbc6f421d",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "publishedAt": "2026-10-21T16:04:43.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_19d47f104968b4e8994d",
       "sourceId": "hugging-face",
@@ -5629,82 +5703,6 @@
       "url": "https://arxiv.org/abs/2610.28184",
       "publishedAt": "2026-10-21T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_2769bc872dd736d2b0ec",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Empirical Bayesian Multi-Bandit Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2510.26284",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_27a36d1028db032bf035",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Power-Law Correlations Without Apparent Temperature-Tuned Criticality in Fixed-Tree Hierarchical Languages",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24334",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_27a7cf1a9a61bd15144c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Training Natural Schemers: RL Can Amplify Oversight-Conditional Behavior",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.26551",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_27b973d1d247dea40a8d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Fine-Tuning Small Language Models for Reliable VASP INCAR Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.05387",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }

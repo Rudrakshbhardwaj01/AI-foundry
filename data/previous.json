@@ -1,10 +1,222 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_986871aa34527893a129",
-  "publishedAt": "2026-10-21T10:26:24.075Z",
-  "lastSuccessfulRefreshAt": "2026-10-21T10:26:24.075Z",
+  "snapshotId": "snapshot_7fdd0da4dbba5d8aaf44",
+  "publishedAt": "2026-10-21T15:30:06.452Z",
+  "lastSuccessfulRefreshAt": "2026-10-21T15:30:06.452Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_19d47f104968b4e8994d",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "publishedAt": "2026-10-21T14:58:18.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_cb3511e150b57629e722",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "publishedAt": "2026-10-21T13:43:19.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_c93577aef146a51d565d",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "publishedAt": "2026-10-21T13:00:00.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_dab737b9861f094139b1",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "publishedAt": "2026-10-21T12:51:24.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_4c834d3ce687e81026cf",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "LayerFS: The filesystem for AI coding agents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://layerfs.ai/",
+      "publishedAt": "2026-10-21T12:34:46.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_fed2aae49a00b36fde74",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "OpenAI models are coming to Google Cloud",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "publishedAt": "2026-10-21T12:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_2239c8e4e48c30891caf",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b11792",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11792",
+      "publishedAt": "2026-10-21T11:38:12.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_27bf536036d7096be461",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b11791",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11791",
+      "publishedAt": "2026-10-21T11:03:27.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_a9d150e882b95f4f854b",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_d0bf77b2cd6fbf846de0",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "publishedAt": "2026-10-21T07:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_9cd69d25cb5c6714164f",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "publishedAt": "2026-10-21T04:50:00.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_007b75f124d2055b4c0c",
       "sourceId": "arxiv",
@@ -5493,215 +5705,6 @@
       "url": "https://arxiv.org/abs/2608.05387",
       "publishedAt": "2026-10-21T04:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_27c3fc2b74a3194b1880",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Prior-Amortized In-Context Bayesian Inference for Generalized Linear Mixed-Effects Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.24422",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_27e17540624591852715",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Rethinking LLM Fine-Tuning via Weight Space Reparameterization: Preserving Safety during Downstream Adaptation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.26443",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_27e3a0d56d89aa31b87b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MemDev-Bench: Does Memory Help Code Agents?Benchmarking Memory Systems over Real Repository Histories",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.27524",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_27f240cade598b50e164",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MisleadQA: Diagnosing LLM Failures under Misleading Context",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24851",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_28470f1140919581712a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Is User Calibration Still Necessary for Continuous Myoelectric Control? A Closed-Loop Comparison of Calibration-Free Controllers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24802",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_284c6e0d890e980449be",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "OpenCollab: A Multi-Agent Coding Framework with Programmable Collaboration and Controllable Runtime",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.38345",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_285d0dd3d0fb65914446",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Differential Refresh of Materialized Derived State: From a Single-Age Equivalence Limit to an Optimal Per-Partition Allocation, with a Real-System Validation on Materialized Views",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.09519",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_28aac64a2bb3df9122d2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MiCLA: Mixture-to-Constituent Latent Alignment for Polyphonic Audio Representation Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.27491",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_28cca22b1005e08e7b0e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Understanding and Defending VLM Jailbreaks via Jailbreak-Related Representation Shift",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2603.17372",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_28e9bc61ad8df36fc92e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "TopoCompile: Molecular Generation with Exact Global Count Constraints",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.24511",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_292dfb701f1998ec6dda",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Leveraging Low-Level Symbolic Competences for Unsupervised Grounding in Hallucination Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.05025",
-      "publishedAt": "2026-10-21T04:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
