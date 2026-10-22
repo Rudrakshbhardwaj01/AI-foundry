@@ -1,10 +1,103 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_d6a9f2a15f00447b1863",
-  "publishedAt": "2026-10-22T13:05:55.454Z",
-  "lastSuccessfulRefreshAt": "2026-10-22T13:05:55.454Z",
+  "snapshotId": "snapshot_0d92279e6cea174aa788",
+  "publishedAt": "2026-10-22T18:06:35.329Z",
+  "lastSuccessfulRefreshAt": "2026-10-22T18:06:35.329Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_901292235a829150aafb",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "publishedAt": "2026-10-22T18:02:54.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_7cafac84e6b1b3e91c69",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b11821",
+      "description": "One launch computes up act(gate) for both FFN weights, reading the activations once and applying SWIGLU or GEGLU in the epilogue. It covers up to 16 columns and works for all six XMX types. MULMAT passes 1727/1727 and MULMATVECFUSION 1361/1361. Perplexity at batch 1 is 5.2064 with XMX and 5.2058 without.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11821",
+      "publishedAt": "2026-10-22T17:02:28.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_3be2f97d5333a7e0ff6d",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "publishedAt": "2026-10-22T16:11:31.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_75dbf0e50afb31657209",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Armin Ronacher",
+      "description": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.",
+      "summaryMethod": "official_metadata",
+      "summaryContentSource": "page:open-graph:description",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "source-excerpt"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher",
+      "publishedAt": "2026-10-22T15:34:13.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_c0eaefc113ef312f7249",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "description": "Explore Forest Typology (ForTy) 2020: a global 10-meter map categorizing Earth's land into six distinct forest and land-use types, plus an annual time series.",
+      "summaryMethod": "official_metadata",
+      "summaryContentSource": "page:meta:description",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "source-excerpt"
+      ],
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "publishedAt": "2026-10-22T14:30:24.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_4b5fe38848da734cba3f",
       "sourceId": "github",
@@ -44,6 +137,25 @@
       "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
       "publishedAt": "2026-10-22T07:51:31.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_f90609bb7e26837d965f",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "What FDE means at OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "publishedAt": "2026-10-22T06:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_007e519d37f16d8172c0",
@@ -5586,119 +5698,6 @@
       "url": "https://arxiv.org/abs/2610.29303",
       "publishedAt": "2026-10-22T04:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_56897283b980be73bc48",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Training-free Acceleration for Blind Compressed Image Restoration via Activation-Calibrated Singular Value Decomposition",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.29959",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_56a997c612e00a607678",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "When Are We Near Nash? Certifying Solutions in General-Sum Games",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.29300",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_56b251cdbb67ad159f25",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Biological Context Does Not Reliably Improve LLM-Guided Experimental Optimization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.15341",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_5714fc4b363541f0d1a1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Speedrunning Relational Foundation Model Pretraining",
-      "description": "We introduce modded-nanoRT, the first such leaderboard for Relational Transformers. Which database to hold out decides whether the benchmark can resolve improvements at all, so we fix it by calibration, ranking six candidates by how sharply a 45-minute learning curve separates improvement from seed noise. Our code is available at this https URL. CatalyzeX Code Finder for Papers (What is CatalyzeX?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2610.28855",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_574e0743781b51199b8b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.29784",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_57eeae5cdcf28dd6a3b8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Dual-Channel Contrastive Encoding of Sperm Whale Coda",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.29101",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Research"
     }
   ]
 }
