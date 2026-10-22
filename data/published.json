@@ -1,10 +1,50 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_ab8ac6b3fb7a5beaebb9",
-  "publishedAt": "2026-10-22T07:03:55.477Z",
-  "lastSuccessfulRefreshAt": "2026-10-22T07:03:55.477Z",
+  "snapshotId": "snapshot_d6a9f2a15f00447b1863",
+  "publishedAt": "2026-10-22T13:05:55.454Z",
+  "lastSuccessfulRefreshAt": "2026-10-22T13:05:55.454Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_4b5fe38848da734cba3f",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b11818",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11818",
+      "publishedAt": "2026-10-22T12:27:19.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_1c5114c22b67ab67e89d",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "publishedAt": "2026-10-22T07:51:31.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_007e519d37f16d8172c0",
       "sourceId": "arxiv",
@@ -1029,6 +1069,25 @@
       "url": "https://arxiv.org/abs/2610.29322",
       "publishedAt": "2026-10-22T04:00:00.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_0edd5adb38490c4090b7",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Mitigating Reward Hacking in Preference Reward Models with Evolving Penalties",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.26496",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "category": "Policy"
     },
     {
       "id": "article_0f11ed68ad830b80f744",
@@ -2774,6 +2833,25 @@
       "url": "https://arxiv.org/abs/2610.28656",
       "publishedAt": "2026-10-22T04:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_2c2c84e408f8703be08e",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.21561",
+      "publishedAt": "2026-10-22T04:00:00.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_2ce9e6fd63c002bb2503",
@@ -5621,82 +5699,6 @@
       "url": "https://arxiv.org/abs/2610.29101",
       "publishedAt": "2026-10-22T04:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_584cd7a31cc603e37b86",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Supermodular Rank: Set Function Decomposition and Optimization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2305.14632",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_58577b4eb9f1a3811ffc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RayCo4D: Ray-Conditioned Continuous Motion Model for Monocular 4D Dynamic Reconstruction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.28351",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_5964ba19e667a5c92644",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Certified Neural Approximation of Robust Nonlinear Model Predictive Control",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.29559",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_59a99775aeb4a2ed4b3c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30105",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
