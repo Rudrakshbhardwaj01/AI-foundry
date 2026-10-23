@@ -1,10 +1,28 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_6dd6de7796036e6ca089",
-  "publishedAt": "2026-10-23T19:26:45.013Z",
-  "lastSuccessfulRefreshAt": "2026-10-23T19:26:45.013Z",
+  "snapshotId": "snapshot_a8e85d9de5ecd66e990d",
+  "publishedAt": "2026-10-23T22:30:52.490Z",
+  "lastSuccessfulRefreshAt": "2026-10-23T22:30:52.490Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_5ee3ee2cd9647787a767",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Introducing Kimi K3.1 Pro",
+      "description": "Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others. Here are the pelicans I got for Kimi K3.1 Pro on the three reasoning levels it supports - low, medium, and max. For comparison, I ran fresh pelicans against Kimi K3 on those three reasoning levels.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro",
+      "publishedAt": "2026-10-23T19:40:54.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_ce6b863ef4ade070d54d",
       "sourceId": "openai-news",
@@ -23,6 +41,25 @@
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_b01445b6253e54f3ed49",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "url-cleaned"
+      ],
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "publishedAt": "2026-10-23T16:59:08.000Z",
+      "category": "Open Source"
     },
     {
       "id": "article_b130554030d92715ef54",
@@ -5658,44 +5695,6 @@
       "url": "https://arxiv.org/abs/2610.26261",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_54205da1bbe99a54bb82",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Transformers with CoT Discover Heavy-Ball Acceleration Through Training",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31089",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_54515df5d4c53adb5525",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "IFC-MCQ: Automatically Generating Multiple-Choice Benchmarks for Evaluating LLM Agents on IFC Data Retrieval",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30533",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
