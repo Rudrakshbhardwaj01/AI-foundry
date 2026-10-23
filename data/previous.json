@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_1e530c9b836620e63aa6",
-  "publishedAt": "2026-10-23T10:22:45.700Z",
-  "lastSuccessfulRefreshAt": "2026-10-23T10:22:45.700Z",
+  "snapshotId": "snapshot_72345c48a83446f81f4c",
+  "publishedAt": "2026-10-23T15:21:22.116Z",
+  "lastSuccessfulRefreshAt": "2026-10-23T15:21:22.116Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_2559c6881c76bf9ae2b3",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.thisandthat.chat/enron",
+      "publishedAt": "2026-10-23T12:02:53.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_000fbaabefb0b61d4d24",
       "sourceId": "arxiv",
@@ -5677,25 +5696,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2610.30680",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_564610e40c331c58ae6f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "How Does RL Post-training Induce Skill Composition? A Case Study on Countdown",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2512.01775",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Model Releases"
     }

@@ -1,10 +1,46 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_72345c48a83446f81f4c",
-  "publishedAt": "2026-10-23T15:21:22.116Z",
-  "lastSuccessfulRefreshAt": "2026-10-23T15:21:22.116Z",
+  "snapshotId": "snapshot_6dd6de7796036e6ca089",
+  "publishedAt": "2026-10-23T19:26:45.013Z",
+  "lastSuccessfulRefreshAt": "2026-10-23T19:26:45.013Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_ce6b863ef4ade070d54d",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_b130554030d92715ef54",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "description": "With collaborators at the University of Pennsylvania, we developed LitPivot, a system that helps researchers navigate these pivots. Research ideas evolve through engaging with the literature. In our analysis of meeting notes from four completed computer science research projects, we identified 21 literature-initiated pivots across all four projects. In a follow-up study, five researchers used LitPivot on their own ongoing projects during 30-minute sessions.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "publishedAt": "2026-10-23T16:15:50.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_2559c6881c76bf9ae2b3",
       "sourceId": "hacker-news",
@@ -23,6 +59,25 @@
       "url": "https://www.thisandthat.chat/enron",
       "publishedAt": "2026-10-23T12:02:53.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_a25162be854b1d1e15dd",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Securing our frontier model training environment",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_000fbaabefb0b61d4d24",
@@ -5641,63 +5696,6 @@
       "url": "https://arxiv.org/abs/2610.30533",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_54845b88a2f0a4e4dd95",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "In-Context Learning Beyond Copying: A Training-Time Analysis of Abstractive ICL",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2511.05743",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_54a378a1d4c1ea32eea5",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "The Price of Safety: Benign-Case Utility and Token Overhead of Memory-Poisoning Defenses in LLM Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.22818",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_5562deb1b27965a70a0b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Zero-Shot Domain Generalization via Domain Prompt Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30680",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
