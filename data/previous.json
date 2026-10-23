@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_c2e4e2c2feaa3ab348bf",
-  "publishedAt": "2026-10-23T05:10:34.942Z",
-  "lastSuccessfulRefreshAt": "2026-10-23T05:10:34.942Z",
+  "snapshotId": "snapshot_1e530c9b836620e63aa6",
+  "publishedAt": "2026-10-23T10:22:45.700Z",
+  "lastSuccessfulRefreshAt": "2026-10-23T10:22:45.700Z",
   "articleCount": 300,
   "articles": [
     {
@@ -2492,6 +2492,25 @@
       "category": "Safety"
     },
     {
+      "id": "article_1f385a5f3f2c736ac137",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "TraceForge: Distilling with Your Own Thinking",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.29680",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
       "id": "article_1fe73f54699b25ca1ef3",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4276,6 +4295,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_4056ab44cc0c796e4949",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "AutoExpert: Automating 3D LiDAR Annotation from Expert-Crafted Guidelines",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2506.02914",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "category": "Research"
+    },
+    {
       "id": "article_408e50d8e32bc8869686",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5339,6 +5377,25 @@
       "category": "Safety"
     },
     {
+      "id": "article_51f9660848455476d3d6",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.30067",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_5222a62cc459078251eb",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5472,6 +5529,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_5369cc1f1004424fdf39",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Investigating the Impact of Learner Errors on Social Bias in Large Language Models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.29896",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "category": "Safety"
+    },
+    {
       "id": "article_53dd41315f8ec60670be",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5487,6 +5563,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2610.31479",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_540e0caa5c2cd7a858c6",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "REFLEX: RNA Ensemble Generation via Flexibility-Calibrated Stochastic Bridge",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.26261",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Infrastructure"
     },
@@ -5603,101 +5698,6 @@
       "url": "https://arxiv.org/abs/2512.01775",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_5689b818661a24449bc1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Direct Inference on Admissible Sets (Diona)",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31526",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_569ff6341cb1b6af84b5",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "UniGuard: Multi-View Guardrail Learning for Cross-Interface Safety Generalization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30742",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_56bec62c3e77e6aec3b9",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Can Entry-Wise Clipping Give Spectral Control of Stochastic Gradients?",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.27733",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_5709c4a24096c762fd6e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Through a PRISM, Clearly: Step-Sequence Reasoning for Mistake Recognition in Procedural Videos",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31117",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_5716fbf5affe65def3bb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31650",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
