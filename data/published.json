@@ -1,10 +1,48 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_edffba8704acb66c1bdf",
-  "publishedAt": "2026-10-22T21:50:36.372Z",
-  "lastSuccessfulRefreshAt": "2026-10-22T21:50:36.372Z",
+  "snapshotId": "snapshot_e0c3ee0279af37648f04",
+  "publishedAt": "2026-10-23T00:23:13.922Z",
+  "lastSuccessfulRefreshAt": "2026-10-23T00:23:13.922Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_9216d2e5909286a9f57c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI compute is the new oil–and needs a new market",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "publishedAt": "2026-10-22T23:45:16.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_86907857a67cad4243ec",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "publishedAt": "2026-10-22T22:24:34.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_9c244096e2b7f081b239",
       "sourceId": "simon-willison",
@@ -5657,44 +5695,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2610.29195",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_5439e457d5732a1777dd",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Where Should a Stuck Agent Spend Its Next Tokens? Causal Attribution of Inference-Time Resources",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.28834",
-      "publishedAt": "2026-10-22T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_54cfd5e4d27e277c120b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "GRAFT: Restoring the Missing Sampling Interface in Continuous Diffusion Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.29136",
       "publishedAt": "2026-10-22T04:00:00.000Z",
       "category": "Model Releases"
     }
