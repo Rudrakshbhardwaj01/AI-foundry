@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_7a49be507979ab92e144",
-  "publishedAt": "2026-10-24T14:44:26.383Z",
-  "lastSuccessfulRefreshAt": "2026-10-24T14:44:26.383Z",
+  "snapshotId": "snapshot_c9a891ce7050067fb6f4",
+  "publishedAt": "2026-10-24T17:49:15.017Z",
+  "lastSuccessfulRefreshAt": "2026-10-24T17:49:15.017Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_81b9b7e586ceb761e2ea",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Neural chip decodes interactions between brain regions",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2",
+      "publishedAt": "2026-10-24T15:57:17.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_d2acb36393d6773212d3",
       "sourceId": "hacker-news",
@@ -5673,25 +5692,6 @@
       "url": "https://arxiv.org/abs/2610.30582",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_52c171271c6d1b99151e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Subgoal-aware Memory Graph for GUI Agent",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31307",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
