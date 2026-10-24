@@ -1,10 +1,68 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_c9a891ce7050067fb6f4",
-  "publishedAt": "2026-10-24T17:49:15.017Z",
-  "lastSuccessfulRefreshAt": "2026-10-24T17:49:15.017Z",
+  "snapshotId": "snapshot_a7ae8943f50e7f125e83",
+  "publishedAt": "2026-10-24T20:11:21.213Z",
+  "lastSuccessfulRefreshAt": "2026-10-24T20:11:21.213Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_62153319f2857104254b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "No Signs of AI Payoff Outside the Tech Sector",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "publishedAt": "2026-10-24T19:47:19.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_d20de1a3a1c94a686158",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b11861",
+      "description": "The generic scale pass in llama-model. cpp never forwarded any of them to the graph. G = 15123 for M3.1 Flash) and producing token soup. pattern used by flint and the other NVFP4-capable MoE models.",
+      "summaryMethod": "source_excerpt",
+      "summaryContentSource": "content",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "deduplicated-or-filtered",
+        "url-cleaned",
+        "source-excerpt"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11861",
+      "publishedAt": "2026-10-24T19:13:12.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_4f0a997ec2cdd8e05e5e",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Why is AI generated language so hard to understand?",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.29162",
+      "publishedAt": "2026-10-24T18:04:57.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_81b9b7e586ceb761e2ea",
       "sourceId": "hacker-news",
@@ -5635,63 +5693,6 @@
       "url": "https://arxiv.org/abs/2610.31100",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_5274fb5fe7252864903c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "CAVC: Convergence-Adaptive Audio-Visual Cache for Modality-Asymmetric Diffusion Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30854",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_527ed7842b9cb94d1d79",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "WorldCast: Exploring Intelligent Visual Generation in World State Prediction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.20731",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_52a80f968f37ca48777a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Model Organisms of Collusion: Corrective Transfer in Untrusted Monitors",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30582",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
