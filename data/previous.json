@@ -1,10 +1,27 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_a8e85d9de5ecd66e990d",
-  "publishedAt": "2026-10-23T22:30:52.490Z",
-  "lastSuccessfulRefreshAt": "2026-10-23T22:30:52.490Z",
+  "snapshotId": "snapshot_dec045f11772bb87e7e3",
+  "publishedAt": "2026-10-24T01:21:20.773Z",
+  "lastSuccessfulRefreshAt": "2026-10-24T01:21:20.773Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_4cd1358d03326eb08d2b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "description": "I use multiple accounts, so I've added unified launcher for Codex/Claude Code/Pi. It just reuses the agents to organize things for you: what is this http link? On a personal note, I've been on a frustrating sick leave for a while now. There's still a lot to improve and some rough edges, so feedback would be greatly appreciated.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://corgi.computer/",
+      "publishedAt": "2026-10-23T19:46:38.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_5ee3ee2cd9647787a767",
       "sourceId": "simon-willison",
@@ -5674,25 +5691,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2610.31479",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_540e0caa5c2cd7a858c6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "REFLEX: RNA Ensemble Generation via Flexibility-Calibrated Stochastic Bridge",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.26261",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Infrastructure"
     }

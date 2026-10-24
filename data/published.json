@@ -1,10 +1,48 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_dec045f11772bb87e7e3",
-  "publishedAt": "2026-10-24T01:21:20.773Z",
-  "lastSuccessfulRefreshAt": "2026-10-24T01:21:20.773Z",
+  "snapshotId": "snapshot_34c57483446916ed3ce9",
+  "publishedAt": "2026-10-24T11:24:03.158Z",
+  "lastSuccessfulRefreshAt": "2026-10-24T11:24:03.158Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_d2acb36393d6773212d3",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist",
+      "publishedAt": "2026-10-24T11:18:54.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_147d5953d356ea4db141",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds",
+      "publishedAt": "2026-10-24T05:49:57.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_4cd1358d03326eb08d2b",
       "sourceId": "hacker-news",
@@ -5655,44 +5693,6 @@
       "url": "https://arxiv.org/abs/2610.30717",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_5369cc1f1004424fdf39",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Investigating the Impact of Learner Errors on Social Bias in Large Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.29896",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_53dd41315f8ec60670be",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Evaluating the Applicability of LLM Inference Optimizations on Apple Silicon",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31479",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
