@@ -6,8 +6,8 @@
     "accessMethod": "rss",
     "itemCount": 1318,
     "attempts": 1,
-    "lastAttemptAt": "2026-10-24T11:23:51.007Z",
-    "lastSuccessfulFetchAt": "2026-10-24T11:23:51.007Z",
+    "lastAttemptAt": "2026-10-24T14:44:12.654Z",
+    "lastSuccessfulFetchAt": "2026-10-24T14:44:12.654Z",
     "error": null
   },
   "google-deepmind": {
@@ -17,8 +17,8 @@
     "accessMethod": "rss",
     "itemCount": 100,
     "attempts": 13,
-    "lastAttemptAt": "2026-10-24T11:23:53.541Z",
-    "lastSuccessfulFetchAt": "2026-10-24T11:23:53.541Z",
+    "lastAttemptAt": "2026-10-24T14:44:15.407Z",
+    "lastSuccessfulFetchAt": "2026-10-24T14:44:15.407Z",
     "error": null
   },
   "anthropic": {
@@ -44,7 +44,7 @@
     "accessMethod": "rss",
     "itemCount": 0,
     "attempts": 3,
-    "lastAttemptAt": "2026-10-24T11:23:58.411Z",
+    "lastAttemptAt": "2026-10-24T14:44:21.560Z",
     "lastSuccessfulFetchAt": "2026-10-24T01:21:15.078Z",
     "error": "Feed contains no RSS items or Atom entries"
   },
@@ -55,8 +55,8 @@
     "accessMethod": "rss",
     "itemCount": 890,
     "attempts": 13,
-    "lastAttemptAt": "2026-10-24T11:23:58.514Z",
-    "lastSuccessfulFetchAt": "2026-10-24T11:23:58.514Z",
+    "lastAttemptAt": "2026-10-24T14:44:21.643Z",
+    "lastSuccessfulFetchAt": "2026-10-24T14:44:21.643Z",
     "error": null
   },
   "mit-technology-review": {
@@ -72,10 +72,10 @@
     "name": "Simon Willison",
     "status": "success",
     "accessMethod": "atom",
-    "itemCount": 17,
+    "itemCount": 18,
     "attempts": 8,
-    "lastAttemptAt": "2026-10-24T11:24:00.096Z",
-    "lastSuccessfulFetchAt": "2026-10-24T11:24:00.096Z",
+    "lastAttemptAt": "2026-10-24T14:44:23.302Z",
+    "lastSuccessfulFetchAt": "2026-10-24T14:44:23.302Z",
     "error": null
   },
   "import-ai": {
@@ -85,7 +85,7 @@
     "accessMethod": "rss",
     "itemCount": 0,
     "attempts": 3,
-    "lastAttemptAt": "2026-10-24T11:24:00.424Z",
+    "lastAttemptAt": "2026-10-24T14:44:23.676Z",
     "lastSuccessfulFetchAt": "2026-10-19T05:43:55.979Z",
     "error": "Feed request failed after 3 attempts: HTTP 403"
   },
@@ -110,10 +110,10 @@
     "name": "Hacker News",
     "status": "success",
     "accessMethod": "hacker-news-api",
-    "itemCount": 5,
+    "itemCount": 6,
     "attempts": 31,
-    "lastAttemptAt": "2026-10-24T11:24:00.889Z",
-    "lastSuccessfulFetchAt": "2026-10-24T11:24:00.889Z",
+    "lastAttemptAt": "2026-10-24T14:44:24.110Z",
+    "lastSuccessfulFetchAt": "2026-10-24T14:44:24.110Z",
     "error": null
   },
   "the-batch": {
@@ -155,8 +155,8 @@
     "accessMethod": "github-releases",
     "itemCount": 3,
     "attempts": 2,
-    "lastAttemptAt": "2026-10-24T11:24:02.419Z",
-    "lastSuccessfulFetchAt": "2026-10-24T11:24:02.419Z",
+    "lastAttemptAt": "2026-10-24T14:44:25.599Z",
+    "lastSuccessfulFetchAt": "2026-10-24T14:44:25.599Z",
     "error": null
   },
   "semianalysis": {

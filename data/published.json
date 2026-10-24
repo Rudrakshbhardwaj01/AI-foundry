@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_34c57483446916ed3ce9",
-  "publishedAt": "2026-10-24T11:24:03.158Z",
-  "lastSuccessfulRefreshAt": "2026-10-24T11:24:03.158Z",
+  "snapshotId": "snapshot_7a49be507979ab92e144",
+  "publishedAt": "2026-10-24T14:44:26.383Z",
+  "lastSuccessfulRefreshAt": "2026-10-24T14:44:26.383Z",
   "articleCount": 300,
   "articles": [
     {
@@ -25,6 +25,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_a23f971d09d5c9062729",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "publishedAt": "2026-10-24T09:58:27.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_147d5953d356ea4db141",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -42,6 +61,24 @@
       "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds",
       "publishedAt": "2026-10-24T05:49:57.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_1d60be0f564274317c6a",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "description": "I added four player online mode to Battledrones - previous maps were limited to two. Also shown are purple robots battling on the map. You can preview those colors in the updated model browser. Here's a replay link to watch a four way AI battle with the \"Goliath Armada\" mutator turned on, where each side starts with four giant Goliath mech units.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones",
+      "publishedAt": "2026-10-24T03:59:57.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_4cd1358d03326eb08d2b",
@@ -5653,44 +5690,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2610.31307",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_531923562ec6195f6f95",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Probing and Steering for Safety-Relevant Behaviours in Large Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30363",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_53206565489fa14faff8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "PhyEvolve: Multi-Agent State-Evolution Planning for Physics-Aware Video Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30717",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Tools"
     }
