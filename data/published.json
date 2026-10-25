@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_a7ae8943f50e7f125e83",
-  "publishedAt": "2026-10-24T20:11:21.213Z",
-  "lastSuccessfulRefreshAt": "2026-10-24T20:11:21.213Z",
+  "snapshotId": "snapshot_4e8d5ea04414329bd05e",
+  "publishedAt": "2026-10-25T00:48:10.129Z",
+  "lastSuccessfulRefreshAt": "2026-10-25T00:48:10.129Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_9a6c65567c082a834115",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "publishedAt": "2026-10-24T23:11:54.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_62153319f2857104254b",
       "sourceId": "hacker-news",
@@ -5674,25 +5693,6 @@
       "url": "https://arxiv.org/abs/2610.30067",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_5222a62cc459078251eb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Solving Flood-It Puzzles: A Comparison of Tailored A* Search with Declarative Solver Approaches",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31100",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Research"
     }
   ]
 }
