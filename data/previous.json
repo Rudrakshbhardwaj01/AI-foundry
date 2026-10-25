@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_2a36fa172e8993dd1ad4",
-  "publishedAt": "2026-10-25T18:06:28.944Z",
-  "lastSuccessfulRefreshAt": "2026-10-25T18:06:28.944Z",
+  "snapshotId": "snapshot_c03d852a2c7829a01d67",
+  "publishedAt": "2026-10-25T21:03:56.216Z",
+  "lastSuccessfulRefreshAt": "2026-10-25T21:03:56.216Z",
   "articleCount": 300,
   "articles": [
     {
@@ -99,6 +99,21 @@
       "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
       "publishedAt": "2026-10-25T01:33:49.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_8102b4f71985d955ab37",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "description": "Hey HN, I’m open sourcing my Hurston-1 narrowband TTS model (Apache-2.0). I’ve used it to support customers such as Amazon and Salesforce and generated over half-mill revenue with it. Limitations: this model doesn’t maintain the exact same voice across prompts and doesn’t support voice cloning. This is the first release - I’m already working on the next version with improvements.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [],
+      "url": "https://huggingface.co/destined/hurston-1",
+      "publishedAt": "2026-10-25T01:30:13.000Z",
+      "category": "Open Source"
     },
     {
       "id": "article_9a6c65567c082a834115",
@@ -5674,25 +5689,6 @@
       "url": "https://arxiv.org/abs/2601.09373",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_5122013f12bfadde4b2b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31172",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }
