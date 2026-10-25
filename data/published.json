@@ -1,10 +1,67 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_05f33faaf729139acdcb",
-  "publishedAt": "2026-10-25T14:47:03.263Z",
-  "lastSuccessfulRefreshAt": "2026-10-25T14:47:03.263Z",
+  "snapshotId": "snapshot_2a36fa172e8993dd1ad4",
+  "publishedAt": "2026-10-25T18:06:28.944Z",
+  "lastSuccessfulRefreshAt": "2026-10-25T18:06:28.944Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_726bb7d2a4f544bdd0b1",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "A Mathematician Reads the AI Future",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133",
+      "publishedAt": "2026-10-25T16:31:21.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_e4e4cbbafca4c3a4045e",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Jukebox-OS: Deterministic time-travel replay and ACID tool sandbox for AI agents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/socrates6969/jukebox-os",
+      "publishedAt": "2026-10-25T16:29:46.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_87f0213be70535dc7056",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "publishedAt": "2026-10-25T16:28:26.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_a9ac8997cb28058ebfce",
       "sourceId": "hacker-news",
@@ -5636,63 +5693,6 @@
       "url": "https://arxiv.org/abs/2610.31172",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_51a203df201f2de47b62",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Lean Finder V2: Semantic Search for Mathlib That Disambiguates User Queries",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30843",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_51b5e5d89c673f952270",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "POI Recommendation with LLM-Augmented Multi-Graph Learning and Contrastive Alignment",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.16407",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_51c57cd292f46485b088",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Escaping the Phylogenetic Trap: Persistent Homology Enables Cross-Species Ion Channel Classification via Multimodal Graph Neural Networks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30394",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Research"
     }
   ]
 }
