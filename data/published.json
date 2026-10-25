@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_6919a235f9f3c7e08f82",
-  "publishedAt": "2026-10-25T05:39:49.133Z",
-  "lastSuccessfulRefreshAt": "2026-10-25T05:39:49.133Z",
+  "snapshotId": "snapshot_05f33faaf729139acdcb",
+  "publishedAt": "2026-10-25T14:47:03.263Z",
+  "lastSuccessfulRefreshAt": "2026-10-25T14:47:03.263Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_a9ac8997cb28058ebfce",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "publishedAt": "2026-10-25T09:51:17.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_a2685e6a79829c3ee6a0",
       "sourceId": "hacker-news",
@@ -5674,25 +5693,6 @@
       "url": "https://arxiv.org/abs/2610.30394",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_51de36593ebedd0a6ffa",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AI Risk Ontologies for the EU AI Act Compliance: AIRO, VAIR, and their Integration with DPV",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31380",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
