@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_e98e9f172ed58116ab7c",
-  "publishedAt": "2026-10-26T06:51:34.861Z",
-  "lastSuccessfulRefreshAt": "2026-10-26T06:51:34.861Z",
+  "snapshotId": "snapshot_364c1e0fc9035914b472",
+  "publishedAt": "2026-10-26T13:51:52.212Z",
+  "lastSuccessfulRefreshAt": "2026-10-26T13:51:52.212Z",
   "articleCount": 300,
   "articles": [
     {
@@ -4262,6 +4262,25 @@
       "category": "Research"
     },
     {
+      "id": "article_475883fb5b466ab0f867",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Multilevel Stochastic Plug-and-Play for Sparse-View CT Reconstruction",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2606.24567",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "category": "Research"
+    },
+    {
       "id": "article_477aec7b3423ddbcf4f9",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4889,6 +4908,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_5027addc5c2e991c11fa",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "SpatialMem: Metric-Aligned Long-Horizon Video Memory for Language Grounding and QA",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2601.14895",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_5042d6460f7a33013376",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5114,6 +5152,25 @@
       "url": "https://arxiv.org/abs/2606.09623",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "category": "Research"
+    },
+    {
+      "id": "article_541d792c3d4255057aef",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Harmful Responses Are Jailbreak Templates: Transferring Autoregressive Jailbreaks to Diffusion Language Models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.31331",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "category": "Safety"
     },
     {
       "id": "article_547c6a5325fe889e6e90",
@@ -5646,63 +5703,6 @@
       "url": "https://arxiv.org/abs/2610.31954",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_5d9bdbd420d98b6e800e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Automated Nucleus Segmentation in Histology Images: An Attention U-Net Approach with Comprehensive Preprocessing and Inference Pipelines",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31902",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_5dba9927f833b0e32d23",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Final Outcomes: Quantifying Claim-Level Information Dynamics in Multi-Agent LLM Interaction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.32333",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_5e17d70baf983c58026c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Uncertainty-Guided Latent Diagnostic Trajectory Learning for Sequential Clinical Diagnosis",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2604.05116",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
