@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_c03d852a2c7829a01d67",
-  "publishedAt": "2026-10-25T21:03:56.216Z",
-  "lastSuccessfulRefreshAt": "2026-10-25T21:03:56.216Z",
+  "snapshotId": "snapshot_e03fd467c91972b3ef5f",
+  "publishedAt": "2026-10-25T23:26:02.895Z",
+  "lastSuccessfulRefreshAt": "2026-10-25T23:26:02.895Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_6f4826a287e273fccdb0",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://minimaxir.com/2026/10/cheap-llms",
+      "publishedAt": "2026-10-25T21:11:31.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_726bb7d2a4f544bdd0b1",
       "sourceId": "hacker-news",
@@ -5670,25 +5689,6 @@
       "url": "https://arxiv.org/abs/2610.31593",
       "publishedAt": "2026-10-23T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_510fa6f32385b305c03c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "The Imperfective Paradox in Large Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2601.09373",
-      "publishedAt": "2026-10-23T04:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
