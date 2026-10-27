@@ -1,10 +1,66 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_5a89bc26b0f4594f221b",
-  "publishedAt": "2026-10-26T19:44:01.326Z",
-  "lastSuccessfulRefreshAt": "2026-10-26T19:44:01.326Z",
+  "snapshotId": "snapshot_0787b199fbb9d985e17a",
+  "publishedAt": "2026-10-26T23:33:41.216Z",
+  "lastSuccessfulRefreshAt": "2026-10-26T23:33:41.216Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_7226c9aa6e3258c96a17",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "publishedAt": "2026-10-26T22:41:48.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_c31c272c181ea98cb0c5",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "publishedAt": "2026-10-26T22:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_ca62efee3918f32d4f01",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Magic state cultivation on a superconducting quantum processor",
+      "description": "We present an experimental study of magic state cultivation on a superconducting quantum processor. We implement cultivation, including code-switching into a surface code, and develop a fault-tolerant measurement protocol to bound the magic state fidelity. Cultivation reduces the error by a factor of 40, with a state fidelity of at least 0.9999(1) (retaining 8% of attempts).",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://arxiv.org/abs/2512.13908",
+      "publishedAt": "2026-10-26T19:37:59.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_95d52d3d42dac6a47383",
       "sourceId": "simon-willison",
@@ -41,6 +97,61 @@
       "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
       "publishedAt": "2026-10-26T16:35:44.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_ba8c34dc4ffffcb1e10c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "description": "The only things that go online are web search (can be turned off in settings) and any MCP connectors you add yourself. I couldn't find anything that could easily parse images and bigger PDFs. I build it using Electron bridged with llama. I spent a fair amount of the work building guards vs tweaking prompts (that didn't really work for small models).",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/FrigadeHQ/hob",
+      "publishedAt": "2026-10-26T16:12:29.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_6aa54b4ce665acc154b9",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Working with academic communities to build scientific understanding",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "publishedAt": "2026-10-26T14:30:00.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_279e594a8424474ebc02",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "publishedAt": "2026-10-26T13:45:00.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_53c47ae4182039fdce8d",
@@ -5588,120 +5699,6 @@
       "url": "https://arxiv.org/abs/2610.31786",
       "publishedAt": "2026-10-26T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_59f887b1fbaca26c4e6c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Frame Theoretical Derivation of Three Factor Learning Rule for Oja's Subspace Rule",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2604.02849",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_5a23a861b70cf53d546a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Batched NN 4D-Var: a performant hybrid model framework for the Integrated Forecasting System",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.32582",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_5a40f6b7d1213698b4b4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Operationalising Weaker Faithfulness: Recovery, Ambiguity and Computational Limits",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31724",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_5a69e2871818973995ab",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Forecasting Associations, Not Interventions: A Preregistered Causal Audit of Covariate-Aware Time Series Foundation Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31869",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_5a82123f4947f8bb02bb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DisPOSE: Projected Polystochastic Diffusion for Self-Supervised Multi-View 3D Human Pose Estimation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.07419",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_5a83adefab9a276c72ea",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SOPO: Socratic Guided Policy Optimization for Span-Level Hallucination Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.32212",
-      "publishedAt": "2026-10-26T04:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
