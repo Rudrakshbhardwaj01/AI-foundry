@@ -1,10 +1,143 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_8316e2f7e43f6ab0751c",
-  "publishedAt": "2026-10-27T15:42:51.893Z",
-  "lastSuccessfulRefreshAt": "2026-10-27T15:42:51.893Z",
+  "snapshotId": "snapshot_3d503c806d87d73fccc9",
+  "publishedAt": "2026-10-27T20:25:10.778Z",
+  "lastSuccessfulRefreshAt": "2026-10-27T20:25:10.778Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_1a03d3d4697dc1029fd5",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.brangus.io/survival-llm",
+      "publishedAt": "2026-10-27T19:55:06.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_72034fba0678e5ebc8af",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Game Boy Color on My Conference Badge",
+      "description": "I've been hacking around with it again, and then I ran into with Steve Francia. Which means, if you can obtain the ROM, you can run The Legend of Zelda: Link's Awakening on your conference badge! Photo of the badge running Zelda, in full color, with visible touch buttons below the screen.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge",
+      "publishedAt": "2026-10-27T19:34:18.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_513e976d8a52b34be37c",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Build specialized multimodal models with LFM3",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "publishedAt": "2026-10-27T17:16:52.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_16c94929e012dfd6617c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "publishedAt": "2026-10-27T16:40:15.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_2627276b187ef82612f5",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "publishedAt": "2026-10-27T16:25:30.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_8113ebd3dc53289484ff",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "publishedAt": "2026-10-27T16:12:42.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_971adc9fa24ae31bd009",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Genie 4: A new generation of world simulation",
+      "description": "Genie 4 introduces real-time interactive world simulation with native audio, advanced physics, natural human motion, and steering powered by Gemini models.",
+      "summaryMethod": "official_metadata",
+      "summaryContentSource": "page:meta:description",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "source-excerpt"
+      ],
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "publishedAt": "2026-10-27T16:01:38.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_6f6c166ec476bcc12701",
       "sourceId": "github",
@@ -62,6 +195,25 @@
       "url": "https://oioannou.com/blog/ai-promised-less-work",
       "publishedAt": "2026-10-27T11:08:14.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_9efae2ec42355b083ab6",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "publishedAt": "2026-10-27T07:00:00.000Z",
+      "category": "Industry"
     },
     {
       "id": "article_7b879d21760857184227",
@@ -5550,157 +5702,6 @@
       "url": "https://arxiv.org/abs/2606.08258",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_3405ee8a9d90df84fcbb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Dynamic Query as Budgeting for Tiny Object Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.33430",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_3424a5846de3482619ac",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Reproducible Evaluation as the Substrate for Safe Prompt Compression in Production Agents",
-      "description": "Applied to a production merchant-facing agent, correctness-gated compression shrinks the agent's full prompt surface by 3.5-7.6% without regressing held-out task correctness, consistently across three independent subject-model families, and for one, correctness measurably improves. CatalyzeX Code Finder for Papers (What is CatalyzeX? Have an idea for a project that will add value for arXiv's community? Which authors of this paper are endorsers?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2610.31972",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_34a2f5d3f97ea4b7720b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "\"I Strongly Suspect This Website Is a Scam\": Benchmarking PII Leakage and Detection without Defense in Autonomous Web Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.00497",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_34ee7f47d22540e0013e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "How Does Post-Training Shape LLM Value Preferences?",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.33371",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_34f1803c6a8b38fc3e2a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "CuraLoc: Repository-Level Fault Localization via Planned Code Inspection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.31809",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_35294cf80c7e4771b550",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "StableHand: Quality-Aware Flow Matching for World-Space Dual-Hand Motion Estimation from Egocentric Video",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.18553",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_354c277a7edd9385f4ae",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.32555",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_356ff1113afc4ebfa89a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Simultaneous analysis of approximate leave-one-out cross-validation and mean-field inference",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2501.02624",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
