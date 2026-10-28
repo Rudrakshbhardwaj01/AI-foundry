@@ -1,10 +1,67 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_f2f0d30be9a82f24bd00",
-  "publishedAt": "2026-10-28T10:20:41.003Z",
-  "lastSuccessfulRefreshAt": "2026-10-28T10:20:41.003Z",
+  "snapshotId": "snapshot_79fe5d59ef829ff278b1",
+  "publishedAt": "2026-10-28T16:45:37.405Z",
+  "lastSuccessfulRefreshAt": "2026-10-28T16:45:37.405Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_4782079daa5d2d8a7aae",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "publishedAt": "2026-10-28T15:46:30.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_26c0d0f250d42a5c3483",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "publishedAt": "2026-10-28T14:58:17.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_8dc2e6518dfe8af7f644",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai",
+      "publishedAt": "2026-10-28T13:41:30.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_0978edd6d39c0643d037",
       "sourceId": "simon-willison",
@@ -22,6 +79,25 @@
       "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz",
       "publishedAt": "2026-10-28T10:09:07.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_0836a1c7fce985910609",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Legora is building the agentic operating system for legal work",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/legora",
+      "publishedAt": "2026-10-28T09:30:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_cf123c5e8443f5a99fa7",
@@ -5625,82 +5701,6 @@
       "url": "https://arxiv.org/abs/2610.00391",
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_4da0a4e3f4f94542c393",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Can One Hear Geometry? Gauge-Invariant Spectral Descriptors for Text-to-B-rep Retrieval",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.33484",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4e2f2305fd48a6886184",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Latent Abstraction for Retrieval-Augmented Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2604.17866",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4e820074bb98ff2e99f0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "mdRNAcat: A Molecular Dynamics RNA Catalog of REST2 Conformational Ensembles",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.35204",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_4ee5f66be7452729e1cc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Dense Representation Learning and Differentiable Shape Modeling for Spine Landmark Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.36951",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }
