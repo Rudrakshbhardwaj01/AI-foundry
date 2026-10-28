@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_3d503c806d87d73fccc9",
-  "publishedAt": "2026-10-27T20:25:10.778Z",
-  "lastSuccessfulRefreshAt": "2026-10-27T20:25:10.778Z",
+  "snapshotId": "snapshot_7d250db5b18781875796",
+  "publishedAt": "2026-10-27T23:54:52.673Z",
+  "lastSuccessfulRefreshAt": "2026-10-27T23:54:52.673Z",
   "articleCount": 300,
   "articles": [
     {
@@ -137,6 +137,25 @@
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
       "publishedAt": "2026-10-27T16:01:38.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_90badad87a6266dc2342",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/retell-ai",
+      "publishedAt": "2026-10-27T15:00:00.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_6f6c166ec476bcc12701",
@@ -5683,25 +5702,6 @@
       "url": "https://arxiv.org/abs/2509.01107",
       "publishedAt": "2026-10-27T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_33ca1bcd77d4ad035138",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MS-COOT: Comparing Morse-Smale Complexes with Co-Optimal Transport",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.08258",
-      "publishedAt": "2026-10-27T04:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
