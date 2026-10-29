@@ -1,10 +1,85 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_1e31a428c146c0e0986c",
-  "publishedAt": "2026-10-29T14:36:17.520Z",
-  "lastSuccessfulRefreshAt": "2026-10-29T14:36:17.520Z",
+  "snapshotId": "snapshot_f19d2f60c9670d04e3bf",
+  "publishedAt": "2026-10-29T20:03:31.210Z",
+  "lastSuccessfulRefreshAt": "2026-10-29T20:03:31.210Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_a637ad8e4d3636900bfa",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "description": "Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. Jacob says that Fable 5 (and then 5.1) was the model that made this level of autonomy possible.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+      "publishedAt": "2026-10-29T17:00:26.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_c4de2c00612d6f20827c",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/updated-model-spec",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_11596e2519c9bd339f7f",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "publishedAt": "2026-10-29T15:06:17.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_0b02376570428d7463d8",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "LLM Voice",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "publishedAt": "2026-10-29T14:57:55.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_9c34e398719973e51de1",
       "sourceId": "simon-willison",
@@ -62,6 +137,44 @@
       "category": "Research"
     },
     {
+      "id": "article_08681f271a5db94c36cb",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How we detect frontier model misalignment",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_a93a017b086bf202a5cc",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "publishedAt": "2026-10-29T07:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_2cfce86004c79439f1a9",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -117,6 +230,25 @@
       "url": "https://huggingface.co/blog/mistral-large4",
       "publishedAt": "2026-10-29T00:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_9102acfc97c84738c534",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "category": "Open Source"
     },
     {
       "id": "article_9345c355e76a2821dad3",
@@ -5565,139 +5697,6 @@
       "url": "https://arxiv.org/abs/2610.37613",
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_495354ce896c1e0b097b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "An Embarrassingly Simple Data Selection Strategy for Million-Scale Multi-Modal Instruction-Tuning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2503.13383",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_496106a9d21801b5cbc1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DyRA: Portable Dynamic Resolution Adjustment Network for Existing Detectors",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2311.17098",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_49840cd5186843d4a589",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37649",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_49e8046f008aef18acef",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Computational and Statistical Guarantees of the c-Rectified flow",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.02487",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4a2c4a4f21911d5d963d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Waypoint: Analytically Modeling GEMM for CPUs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.34914",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4a39c55f94ab84ded006",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "ToPO: Token-Oriented Preference Optimization for Text-to-Image Diffusion Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.03688",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_4a51957a446b9ad0fcab",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Three Worlds for the Price of a Logarithm: Baseline-Protected Best-of-Both-Worlds Combinatorial Semi-Bandits",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.36245",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
