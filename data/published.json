@@ -1,10 +1,66 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_b08c469c33c1a5b6c9c8",
-  "publishedAt": "2026-10-28T21:30:10.923Z",
-  "lastSuccessfulRefreshAt": "2026-10-28T21:30:10.923Z",
+  "snapshotId": "snapshot_8d5cbfffcca3da3991b7",
+  "publishedAt": "2026-10-29T01:11:34.720Z",
+  "lastSuccessfulRefreshAt": "2026-10-29T01:11:34.720Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_2cfce86004c79439f1a9",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "publishedAt": "2026-10-29T00:30:37.000Z",
+      "category": "Policy"
+    },
+    {
+      "id": "article_07f196a3aee45a7d5877",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled",
+      "publishedAt": "2026-10-29T00:16:08.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_fa3dc3eb56d08882d510",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Ted Sanders",
+      "description": "In general, LLM performance is incredibly multidimensional. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. ] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+      "publishedAt": "2026-10-28T23:23:21.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_659a01df13a5878486a8",
       "sourceId": "hacker-news",
@@ -5643,63 +5699,6 @@
       "url": "https://arxiv.org/abs/2610.37139",
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_4b51ce170cd343ef57ec",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "WCC: A Learning-Based Framework for Deciding When to Apply Cooperative Coevolution in Large-Scale Optimization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37329",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4b81b055ffbde8dd14a8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Displacement Moments and Path-Terminal Separation in Brownian Interpolant Sampling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37413",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4c79b97d7a8c0035a78f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "CLeaR: A Unified Framework for Resolving the Leakage-Degradation Dilemma in Style Transfer",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.38136",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }

@@ -1,10 +1,66 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_79fe5d59ef829ff278b1",
-  "publishedAt": "2026-10-28T16:45:37.405Z",
-  "lastSuccessfulRefreshAt": "2026-10-28T16:45:37.405Z",
+  "snapshotId": "snapshot_b08c469c33c1a5b6c9c8",
+  "publishedAt": "2026-10-28T21:30:10.923Z",
+  "lastSuccessfulRefreshAt": "2026-10-28T21:30:10.923Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_659a01df13a5878486a8",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections",
+      "publishedAt": "2026-10-28T20:10:16.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_c9b04f453e262eb0e81a",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "publishedAt": "2026-10-28T17:00:58.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_a30cc0275a884274af42",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "GitHub Octoverse 2026",
+      "description": "This is a pretty stark representation of the impact of agentic engineering on GitHub. Commits more than tripled to 7.38 billion per month, with most of that increase in the second half of this year. New repository rate doubled this year, to 30.3 million per month. The report includes new numbers by industry, and breaks out numbers for repositories that involve \"interoperability or reverse engineering\".",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+      "publishedAt": "2026-10-28T16:45:23.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_4782079daa5d2d8a7aae",
       "sourceId": "hacker-news",
@@ -63,6 +119,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_7384527407baafbd6fc1",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "publishedAt": "2026-10-28T13:15:00.000Z",
+      "category": "Industry"
+    },
+    {
       "id": "article_0978edd6d39c0643d037",
       "sourceId": "simon-willison",
       "sourceName": "Simon Willison",
@@ -79,6 +154,25 @@
       "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz",
       "publishedAt": "2026-10-28T10:09:07.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_d7939f7af6d2253e6fc7",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "The future of the firm",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "publishedAt": "2026-10-28T10:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_0836a1c7fce985910609",
@@ -5604,101 +5698,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2609.38136",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4ca25f7f5fd402ff6d5b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.35985",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4cda6020969f36d98560",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Fig: Automated Multiagent Behavior Elicitor",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.28891",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_4d1a4f95ec3aa05ca6e1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SPARCL: Spectral Partitioned Analytic Continual Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.21307",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4d2b8245ad77433575eb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Quantum Evolution Kernel for Node-Attributed Graphs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.36984",
-      "publishedAt": "2026-10-28T04:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4d312a550eeccf86f81b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Interpretable Synthetic Medical Tabular Data Generation for Clinical Decision Support Using Fuzzy Cognitive Maps",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.00391",
       "publishedAt": "2026-10-28T04:00:00.000Z",
       "category": "Safety"
     }

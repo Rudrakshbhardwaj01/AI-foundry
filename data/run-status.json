@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "runId": "run_3054c2ca9d9b8d8f",
-  "startedAt": "2026-10-28T21:29:55.890Z",
-  "finishedAt": "2026-10-28T21:30:10.923Z",
+  "runId": "run_101f7e679db5c0b1",
+  "startedAt": "2026-10-29T01:11:19.769Z",
+  "finishedAt": "2026-10-29T01:11:34.720Z",
   "status": "success",
   "attemptedSources": 8,
   "successfulSources": 7,
