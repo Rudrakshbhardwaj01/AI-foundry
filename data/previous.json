@@ -1,10 +1,164 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_b52160de4a64dbcbf2c8",
-  "publishedAt": "2026-10-30T13:18:43.522Z",
-  "lastSuccessfulRefreshAt": "2026-10-30T13:18:43.522Z",
+  "snapshotId": "snapshot_d9441fb6e165af4818e7",
+  "publishedAt": "2026-10-30T18:43:11.351Z",
+  "lastSuccessfulRefreshAt": "2026-10-30T18:43:11.351Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_8a0fb6c516ca22b438b9",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "nemotron-halloween",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "publishedAt": "2026-10-30T17:57:24.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_7221f00ba8df9465c0aa",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews",
+      "publishedAt": "2026-10-30T17:24:45.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_3a13a385a1c15dde145a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Spinf-serve – inference server for bulk scoring and decisions",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/spinfinc/spinf-serve",
+      "publishedAt": "2026-10-30T17:03:12.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_7072daeb725388009a7b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "US tech stocks see sharp falls over AI cost fears",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "publishedAt": "2026-10-30T16:13:02.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_f1c662671f49940447fd",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "publishedAt": "2026-10-30T15:52:18.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_5c3ce9d5f461856cd9fb",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12007",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12007",
+      "publishedAt": "2026-10-30T13:50:33.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_10c894e803c20ff8dddf",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Making it easier for websites to express AI training preferences",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "publishedAt": "2026-10-30T09:30:00.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_5af358027f0db0caef17",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Community safety report and new protections for teens",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "publishedAt": "2026-10-30T09:00:00.000Z",
+      "category": "Safety"
+    },
     {
       "id": "article_00223993a3313442fe15",
       "sourceId": "arxiv",
@@ -1504,6 +1658,25 @@
       "url": "https://arxiv.org/abs/2610.38207",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Research"
+    },
+    {
+      "id": "article_0c0d6dbfaf78a6b2b2ae",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Orthogonal and Parametrized Multi-Attribute Steering of LLMs",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.37517",
+      "publishedAt": "2026-10-30T04:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_0c39ad00c2f468e4ba43",
@@ -5531,176 +5704,6 @@
       "url": "https://arxiv.org/abs/2602.16681",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_32433500c5fe8800f612",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AnyMo: Scaling Any-Modality Conditional Motion Generation with Masked Modeling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.29488",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_327e20f72c6e55e8c8ca",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Low-Rank Space Captures Linear Alignment Between LLM and Human Neural Activity During Naturalistic Language Listening",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.40511",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_32f816dd9d0a795fb70a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Denoising Graph Super-Resolution towards Improved Collider Event Reconstruction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2409.16052",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_3308a2766b67cf557a8b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Multiplicity Correction: Sharp Retrieval Thresholds for Attention with Correlated Distractors",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.34682",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_3322432c4da4d226f2f9",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Interpretable Synthetic Medical Tabular Data Generation for Clinical Decision Support Using Fuzzy Cognitive Maps",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.00391",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_33243a78c4dc8b8ab411",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Network Topology Does Not Matter: The Breakdown of Classical Consensus in LLM Populations",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37699",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_333b73b447da329f63a8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "What a Weight Update Buys: Leverage Across Training Stages",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37719",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_3348cad8c1ba17b80220",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Measuring Where Intent Gets Lost in Agentic Smart Contract Synthesis",
-      "description": "To our knowledge, this is the first study in smart contract synthesis to gather missing requirements before generation and check the result against an independently written executable model. We release our tools, 600 tasks and all results. CatalyzeX Code Finder for Papers (What is CatalyzeX? Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2610.37830",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_335a0951799f2670b974",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AdaptLSTM: Efficient Adaptive Online Learning for Cloud Workload Forecasting under Distribution Drift",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.12265",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }

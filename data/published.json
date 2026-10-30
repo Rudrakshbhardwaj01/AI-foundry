@@ -1,10 +1,45 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_d9441fb6e165af4818e7",
-  "publishedAt": "2026-10-30T18:43:11.351Z",
-  "lastSuccessfulRefreshAt": "2026-10-30T18:43:11.351Z",
+  "snapshotId": "snapshot_e23bd9f440c725d46dc7",
+  "publishedAt": "2026-10-30T22:46:44.099Z",
+  "lastSuccessfulRefreshAt": "2026-10-30T22:46:44.099Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_e4c21d90f7b93a8782d3",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "dbreunig/nesformer",
+      "description": "If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. I think we should build it! It's okay if it's not fast. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 15 years ago by Christopher Pow.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer",
+      "publishedAt": "2026-10-30T21:59:22.000Z",
+      "category": "Policy"
+    },
+    {
+      "id": "article_c28ea3d0ea1997bf0449",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Automatic deduction of FlashAttention kernel from ~25 lines of SQL",
+      "description": "In this demo, we automatically deduce a FlashAttention kernel with 25 lines of SQL, which just expresses vanilla attention. ddx: a database extension that adds automatic differentiation in the style of JAX to standard SQL, assuming the above array data model. einfold: a modular query planner for fast tensor contractions in vanilla SQL, again, assuming the above array data model.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py",
+      "publishedAt": "2026-10-30T20:09:47.000Z",
+      "category": "Policy"
+    },
     {
       "id": "article_8a0fb6c516ca22b438b9",
       "sourceId": "hugging-face",
@@ -100,6 +135,42 @@
       "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
       "publishedAt": "2026-10-30T15:52:18.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_6fa268a6832171ee00cb",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+      "description": "Easy clues are 1 point, medium are 2, and hard are 3. However, it turns out agents are really bad at drawing that way. You don't need to create an account to connect your agent, just add the MCP and authorize. The best-supported way to achieve that at the time was long-polling.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://sketch.wakeshift.ai/games/q5ucru",
+      "publishedAt": "2026-10-30T15:23:11.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_1c60258d6bad87d8fa6c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite 98% of the company's code",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+      "publishedAt": "2026-10-30T14:08:20.000Z",
+      "category": "Industry"
     },
     {
       "id": "article_5c3ce9d5f461856cd9fb",
@@ -5628,82 +5699,6 @@
       "url": "https://arxiv.org/abs/2610.39373",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_31142fb5ce4fc150168e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SciGame: Let Agents Play the Scientific Discovery Games in the Real and Counterfactual World",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37919",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_3135bbad6869e35f4af4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Multi-Agent Reinforcement Learning for Global Climate Policy Cooperation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37870",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_314703cf05cf2ef2df19",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SelfGRL: Self-Organized Graph Representation Learning Inspired by Helmholtz Free Energy Minimization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2512.24062",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_321c2f60a82573d2a8d3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "VETime: Vision Enhanced Zero-Shot Time Series Anomaly Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2602.16681",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
