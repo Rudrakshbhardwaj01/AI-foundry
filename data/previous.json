@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_4f89f71317787bf754f5",
-  "publishedAt": "2026-10-31T14:39:31.139Z",
-  "lastSuccessfulRefreshAt": "2026-10-31T14:39:31.139Z",
+  "snapshotId": "snapshot_9c888e5dc6758cbb25fd",
+  "publishedAt": "2026-10-31T19:05:02.398Z",
+  "lastSuccessfulRefreshAt": "2026-10-31T19:05:02.398Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_d456098cde9d06172d9d",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "The Impact of Generative AI on Critical Thinking",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "publishedAt": "2026-10-31T18:02:29.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_0b83bcaa5331d48a3cfa",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Jointter – A daily word puzzle using dots and lines",
+      "description": "Initially, if the target word had 5 letters, I allowed users to enter 4- or 5-letter guesses, but that just confused players. So, I came up with a different solution: adding red dots for dots that aren't part of the target word. Is it fun to play, and what could be improved? You can find the game at It’s free and requires no registration.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://www.jointter.com/",
+      "publishedAt": "2026-10-31T16:24:24.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_e4c215de4b4d9900a596",
       "sourceId": "hacker-news",
@@ -5661,44 +5698,6 @@
       "url": "https://arxiv.org/abs/2610.37823",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_304d692c385e8523ee1c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.39468",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_30b025dbd43c57402984",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "inkGround: Benchmarking Fine-grained Visual Grounding Capabilities of Vision-Language Models for Cursive Handwriting in the Wild",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.38720",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }
