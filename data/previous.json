@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_e23bd9f440c725d46dc7",
-  "publishedAt": "2026-10-30T22:46:44.099Z",
-  "lastSuccessfulRefreshAt": "2026-10-30T22:46:44.099Z",
+  "snapshotId": "snapshot_433ecd16253cb111338e",
+  "publishedAt": "2026-10-31T01:59:41.915Z",
+  "lastSuccessfulRefreshAt": "2026-10-31T01:59:41.915Z",
   "articleCount": 300,
   "articles": [
     {
@@ -171,6 +171,25 @@
       "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
       "publishedAt": "2026-10-30T14:08:20.000Z",
       "category": "Industry"
+    },
+    {
+      "id": "article_d1b024b58af87085b40d",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs",
+      "publishedAt": "2026-10-30T14:08:20.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_5c3ce9d5f461856cd9fb",
@@ -5680,25 +5699,6 @@
       "url": "https://arxiv.org/abs/2610.38687",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_30ecc328e90fc17ee096",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "What Makes Medical Examination Items Difficult? Using Large Language Models to Explore Patterns Associated With Empirical Item Difficulty",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.39373",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }

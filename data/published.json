@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_433ecd16253cb111338e",
-  "publishedAt": "2026-10-31T01:59:41.915Z",
-  "lastSuccessfulRefreshAt": "2026-10-31T01:59:41.915Z",
+  "snapshotId": "snapshot_4f89f71317787bf754f5",
+  "publishedAt": "2026-10-31T14:39:31.139Z",
+  "lastSuccessfulRefreshAt": "2026-10-31T14:39:31.139Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_e4c215de4b4d9900a596",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "publishedAt": "2026-10-31T13:25:10.000Z",
+      "category": "Industry"
+    },
     {
       "id": "article_e4c21d90f7b93a8782d3",
       "sourceId": "simon-willison",
@@ -5680,25 +5699,6 @@
       "url": "https://arxiv.org/abs/2610.38720",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_30e34348ef2e468c309a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Deogen: Automatic Benchmark Generation for Reasoning over Policies",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.38687",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
