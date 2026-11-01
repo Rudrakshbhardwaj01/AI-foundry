@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_9c888e5dc6758cbb25fd",
-  "publishedAt": "2026-10-31T19:05:02.398Z",
-  "lastSuccessfulRefreshAt": "2026-10-31T19:05:02.398Z",
+  "snapshotId": "snapshot_3c0130d671a2353d590d",
+  "publishedAt": "2026-10-31T22:40:50.533Z",
+  "lastSuccessfulRefreshAt": "2026-10-31T22:40:50.533Z",
   "articleCount": 300,
   "articles": [
     {
@@ -60,6 +60,23 @@
       "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
       "publishedAt": "2026-10-31T13:25:10.000Z",
       "category": "Industry"
+    },
+    {
+      "id": "article_05caf9d9fcee9ae6197c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: A language model that lives in a boot sector",
+      "description": "Entire inference engine is 510 bytes of MBR, weights, vocab, and strings reside in the sectors following MBR. Now the bias' address is determined from the loop counter, and no pointers have to survive the division. sectorllm is the most similar to my project, as it runs an actual 5-layer llama2 with attention mechanism in just 1.2K of assembly code.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/kerlenton/bootgpt",
+      "publishedAt": "2026-10-31T12:58:29.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_e4c21d90f7b93a8782d3",
@@ -5679,25 +5696,6 @@
       "url": "https://arxiv.org/abs/2610.38220",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_3034ca63797f4c164563",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learning Without Clocks: Partition-Invariant Neural Network",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37823",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
