@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_b2611d65f283a050426e",
-  "publishedAt": "2026-11-01T20:08:44.212Z",
-  "lastSuccessfulRefreshAt": "2026-11-01T20:08:44.212Z",
+  "snapshotId": "snapshot_fb0a503e962cf727e09f",
+  "publishedAt": "2026-11-01T23:44:47.056Z",
+  "lastSuccessfulRefreshAt": "2026-11-01T23:44:47.056Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_07ea77864f209bd8b5b6",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+      "publishedAt": "2026-11-01T22:10:45.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_27cee3584bd2bde1a61e",
       "sourceId": "hacker-news",
@@ -5673,25 +5692,6 @@
       "url": "https://arxiv.org/abs/2610.37684",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_2edd847e8c73434f65ac",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Towards Functional Correctness of Code Models with Selective Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2505.13553",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
