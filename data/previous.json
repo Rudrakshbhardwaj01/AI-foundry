@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_c0597ea339c624aa11e9",
-  "publishedAt": "2026-11-01T01:50:13.704Z",
-  "lastSuccessfulRefreshAt": "2026-11-01T01:50:13.704Z",
+  "snapshotId": "snapshot_c3e4a4067b90a06931d1",
+  "publishedAt": "2026-11-01T08:40:31.139Z",
+  "lastSuccessfulRefreshAt": "2026-11-01T08:40:31.139Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_64ac1ec2cf81e40225c8",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "The AI cost of JavaScript frameworks",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+      "publishedAt": "2026-11-01T06:06:19.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_de68d07adf550854cd0b",
       "sourceId": "simon-willison",
@@ -5674,25 +5693,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2610.39343",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_2ffd2cfdde6f7bc9b015",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Inverse-and-Edit: Simple and Effective Framework for Fast Image Editing",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2506.19103",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Infrastructure"
     }
