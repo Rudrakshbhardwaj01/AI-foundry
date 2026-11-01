@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_e8480b48e6bd217b33b8",
-  "publishedAt": "2026-11-01T15:44:11.413Z",
-  "lastSuccessfulRefreshAt": "2026-11-01T15:44:11.413Z",
+  "snapshotId": "snapshot_b2611d65f283a050426e",
+  "publishedAt": "2026-11-01T20:08:44.212Z",
+  "lastSuccessfulRefreshAt": "2026-11-01T20:08:44.212Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_27cee3584bd2bde1a61e",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "It wasn't AI that flipped Proton's charge",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking",
+      "publishedAt": "2026-11-01T18:53:55.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_a2c66a05b24895eab4f4",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Kyle Kingsbury",
+      "description": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. Having done that work, how can they demonstrate its quality to users?",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+      "publishedAt": "2026-11-01T16:49:04.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_1ea5e446ac84b4be59ad",
       "sourceId": "hacker-news",
@@ -5655,44 +5692,6 @@
       "url": "https://arxiv.org/abs/2505.13553",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_2f9f0590bf77f5ddd633",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MorphSIG: Subject-Driven Image Generation via Decoupled Anchoring and Feature Transport",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.39530",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_2ff211b7bd45aaed9a99",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Where Do We (Not) Need Temporal Context in Low-Resource Video Task Adaptation?",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.03837",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }

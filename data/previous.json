@@ -1,10 +1,46 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_c3e4a4067b90a06931d1",
-  "publishedAt": "2026-11-01T08:40:31.139Z",
-  "lastSuccessfulRefreshAt": "2026-11-01T08:40:31.139Z",
+  "snapshotId": "snapshot_e8480b48e6bd217b33b8",
+  "publishedAt": "2026-11-01T15:44:11.413Z",
+  "lastSuccessfulRefreshAt": "2026-11-01T15:44:11.413Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_1ea5e446ac84b4be59ad",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "publishedAt": "2026-11-01T13:47:24.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_34071352614bf7cdb476",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "description": "I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories. OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s. It's v0.3.0 at this time.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/ivankovic/omnidiff",
+      "publishedAt": "2026-11-01T13:02:30.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_64ac1ec2cf81e40225c8",
       "sourceId": "hacker-news",
@@ -5657,44 +5693,6 @@
       "url": "https://arxiv.org/abs/2606.03837",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_2ff5a1a3a5bc9c83b61d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Asymmetric Flow Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.12964",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_2ff7d1b8fef43a45b853",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MulClip: A table-free activation function with monotonic and folding regimes for reservoir computing on microcontrollers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.39343",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
