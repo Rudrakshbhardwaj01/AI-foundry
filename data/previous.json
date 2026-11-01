@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_3c0130d671a2353d590d",
-  "publishedAt": "2026-10-31T22:40:50.533Z",
-  "lastSuccessfulRefreshAt": "2026-10-31T22:40:50.533Z",
+  "snapshotId": "snapshot_c0597ea339c624aa11e9",
+  "publishedAt": "2026-11-01T01:50:13.704Z",
+  "lastSuccessfulRefreshAt": "2026-11-01T01:50:13.704Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_de68d07adf550854cd0b",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "datasette-llm 0.1a9",
+      "description": "I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. Previously you would also need to specify a model with -s plugins.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "publishedAt": "2026-10-31T22:10:01.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_5ac3df94e74b7aaac6f9",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI text watermarking and quality loss",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "publishedAt": "2026-10-31T21:50:13.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_d456098cde9d06172d9d",
       "sourceId": "hacker-news",
@@ -5658,44 +5695,6 @@
       "url": "https://arxiv.org/abs/2506.19103",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_2ffdf5e6d1b8b55ed38a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Prompts to Proxies: Emulating Human Preferences via a Compact LLM Ensemble",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2509.11311",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_30264604f8fbde804d08",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Rubricon: Automated Rubric Generation and Refinement for LLM Evaluation and Training",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.38220",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
