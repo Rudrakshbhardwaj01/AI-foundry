@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_fb0a503e962cf727e09f",
-  "publishedAt": "2026-11-01T23:44:47.056Z",
-  "lastSuccessfulRefreshAt": "2026-11-01T23:44:47.056Z",
+  "snapshotId": "snapshot_97cf34212f0125c224ce",
+  "publishedAt": "2026-11-02T04:20:07.570Z",
+  "lastSuccessfulRefreshAt": "2026-11-02T04:20:07.570Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_4c00abda9fe502bd4001",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+      "publishedAt": "2026-11-02T01:47:07.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_07ea77864f209bd8b5b6",
       "sourceId": "hacker-news",
@@ -5673,25 +5692,6 @@
       "url": "https://arxiv.org/abs/2610.38342",
       "publishedAt": "2026-10-30T04:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_2eab1e43d9afa4617b56",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "An Introduction to Large Language Models for Scientists and Professionals",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.37684",
-      "publishedAt": "2026-10-30T04:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
