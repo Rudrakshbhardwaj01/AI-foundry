@@ -1,10 +1,123 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_5a2b07f6eb3e616e7fd0",
-  "publishedAt": "2026-11-02T12:45:18.808Z",
-  "lastSuccessfulRefreshAt": "2026-11-02T12:45:18.808Z",
+  "snapshotId": "snapshot_3262eceb811df21a5f1a",
+  "publishedAt": "2026-11-02T22:07:36.774Z",
+  "lastSuccessfulRefreshAt": "2026-11-02T22:07:36.774Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_6b1692f74bcb2bf2efcc",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "publishedAt": "2026-11-02T19:27:37.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_b195aa70f104a2e247c8",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Egoless Mathematics in the AI Era",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+      "publishedAt": "2026-11-02T18:54:44.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_4008b51997d44ed86678",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "publishedAt": "2026-11-02T16:40:29.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_9191f3cc94084d1251c9",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Introducing the Grid Protectors Program",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/grid-protectors-program",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_ff7fe9d3cc3127e49182",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "description": "The latest data is published on alternating Thursdays at 10am. On December 3rd, 2025, the Bureau announced a significant change to that question. When I went looking for the updated question language in the latest XLSX file, I couldn't find it. Beginning with the October 19, 2026 collection, instrument wording was updated due to Executive Order 14434.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+      "publishedAt": "2026-11-02T13:31:26.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_442b93febcb925e22e19",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "LifeVal",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/lifeval",
+      "publishedAt": "2026-11-02T09:00:00.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_ba8d45a8fc51b9ed3ad5",
       "sourceId": "hacker-news",
@@ -2834,6 +2947,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_301f2da2b19f3007c2fc",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "What Breaks When Facts Become Stories? The Distortions Source-Agreement Metrics Miss When Models Retell Real Events",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.39500",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_3048e547237e50de480a",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5564,137 +5696,6 @@
       "url": "https://arxiv.org/abs/2610.41939",
       "publishedAt": "2026-11-02T05:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_61d09736ca600cfb7914",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "4-Tensor Attention Model for Semantic Physical Reality",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.11716",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_623b0fe58f143cb73431",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
-      "description": "Code, data tables and prompts are released. CatalyzeX Code Finder for Papers (What is CatalyzeX? arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2610.40883",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_62686059ef3d269141b3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Meshless Latent Dynamics Models for Model Order Reduction of time-dependent Partial Differential Equations",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.41043",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_62bd869159e0f515a944",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "The psychophysics of affect in large language models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.40985",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_64a6abd453e640926138",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DiTGaze: Geometry-Conditioned Diffusion Augmentation for Few-Shot Gaze Estimation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2511.11231",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_64f1268185ec9915116f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
-      "description": "Under a controlled Security-Aligned Supervised Fine-Tuning protocol, evidence preservation can improve substantially while authorisation-sensitive decisions deteriorate. Frozen-score recalibration reveals substantial but backbone-dependent recovery, while paired recovery provides only a modest additional gain. CatalyzeX Code Finder for Papers (What is CatalyzeX? Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2610.40798",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_6503284d4c21d2b29ed8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.41100",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
