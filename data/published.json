@@ -1,10 +1,28 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_3262eceb811df21a5f1a",
-  "publishedAt": "2026-11-02T22:07:36.774Z",
-  "lastSuccessfulRefreshAt": "2026-11-02T22:07:36.774Z",
+  "snapshotId": "snapshot_2408fc211ac068323837",
+  "publishedAt": "2026-11-03T03:34:52.314Z",
+  "lastSuccessfulRefreshAt": "2026-11-03T03:34:52.314Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_0f2e52c6aa8d706de73d",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "llm 0.37",
+      "description": "I added gpt-6.1-sol and gpt-6.1-terra, plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. That's mainly because I have Opus 5.5 or GPT-6 Astra help me with triage to spot the most useful fixes! I really see them as bug reports with attached examples - sometimes I land them, sometimes I implement my own fix.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/2/llm",
+      "publishedAt": "2026-11-02T23:49:30.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_6b1692f74bcb2bf2efcc",
       "sourceId": "hacker-news",
@@ -44,6 +62,44 @@
       "category": "Tools"
     },
     {
+      "id": "article_2a1c3672ebe2ce3331f8",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_a7df9bf53d05e7c3c200",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_4008b51997d44ed86678",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -61,6 +117,25 @@
       "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
       "publishedAt": "2026-11-02T16:40:29.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_d6e896d8e464a9e6eb0d",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Scaling Git at OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_9191f3cc94084d1251c9",
@@ -5621,81 +5696,6 @@
       "url": "https://arxiv.org/abs/2610.42118",
       "publishedAt": "2026-11-02T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_6078eee5f88697a469ad",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A small HER2 reader for routine H&E slides: real-world deployment",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.40662",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_6128fde9748278ddc305",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
-      "description": "Instead, we introduce Agentic World Modeling (AWM), which reformulates next-observation prediction as a multi-turn evidence-acquisition task. Integrated with trajectory-level TTS, AWM enables parallel exploration over a single shared environment. CatalyzeX Code Finder for Papers (What is CatalyzeX? Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2610.40927",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_6198937e725ce2725bc3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "FlowMoDE: Coarse-to-fine Flow Matching for Detail-aware Sim-to-Real Monocular Depth Estimation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.41190",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_619ae46a17a759f969b3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Observable-Specific Validity Tests for Scientific AI: Controlled Approximations and Intervention Response",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.41939",
-      "publishedAt": "2026-11-02T05:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
