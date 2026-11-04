@@ -1,10 +1,179 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_ce27860caaaa0d815e84",
-  "publishedAt": "2026-11-03T11:36:42.372Z",
-  "lastSuccessfulRefreshAt": "2026-11-03T11:36:42.372Z",
+  "snapshotId": "snapshot_6a15c57371df241b2982",
+  "publishedAt": "2026-11-03T19:00:51.356Z",
+  "lastSuccessfulRefreshAt": "2026-11-03T19:00:51.356Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_31b3766c8a696b90b042",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "I use AI (Oct 2026)",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026",
+      "publishedAt": "2026-11-03T18:11:11.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_7e599b52ac3122d760af",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12077",
+      "description": "devices the 16 heads of the test model were split 5/5/6 and it aborted. For a permuted q, e. aborted with \"view of permuted tensor not implemented\". the cont is not needed for -sm tensor with a non-unified KV cache.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12077",
+      "publishedAt": "2026-11-03T17:50:42.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_481977cdb398b7a91242",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "publishedAt": "2026-11-03T17:22:37.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_fa5b1f840988a5268830",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "publishedAt": "2026-11-03T17:15:21.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_f4601701986d38fb1cd2",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "description": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "summaryMethod": "official_metadata",
+      "summaryContentSource": "page:meta:description",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "source-excerpt"
+      ],
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "publishedAt": "2026-11-03T17:01:49.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_817c7f528c4595f9e1fa",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "publishedAt": "2026-11-03T16:35:36.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_9068ea248f738fc541d5",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "description": "All of this is possible without allowing Astra to write training loops. The second explores how well models, once armed with code, can run operations to update and improve other models. spaCy author Matthew Honnibal called the paper misleading for conflating the two, and Sean Goedecke deconstructed the Qwen3.5-0.8B update example as taking the same steps that a human ML researcher would use.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+      "publishedAt": "2026-11-03T16:29:48.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_85d88bed513c7cb94418",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Google will turn off search for schools that reject AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback"
+      ],
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "publishedAt": "2026-11-03T15:25:47.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_86ebc8395410e1df9bc8",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Accelerating engineering for the physical world",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_46d4b364dc7892eafe0f",
       "sourceId": "openai-news",
@@ -1848,6 +2017,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_0ce73025b58ba4720ef2",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Generated storm lifecycles fill the rare-event tail of short rainfall records",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.41365",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_0d0b1c02d91e9b94888c",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -1941,6 +2129,25 @@
       "url": "https://arxiv.org/abs/2608.00013",
       "publishedAt": "2026-11-03T05:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_0dccb4d2c6f6162e726d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "PsyInterviewee: Informational Invariance and Relational Adaptivity in Mental Health Interview Simulation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.41289",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "category": "Research"
     },
     {
       "id": "article_0df37e2cd54699796bd1",
@@ -5494,215 +5701,6 @@
       "url": "https://arxiv.org/abs/2611.00963",
       "publishedAt": "2026-11-03T05:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_2287b62e4c3edc7d3acc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DiffCap-Bench: A Comprehensive, Challenging, Robust Benchmark for Image Difference Captioning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.04503",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_22a072d25ae5efba0797",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AGiR: Mitigating Gift Over-Reliance in Mixed-Motive Games",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.02875",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_22f541ad19bedeea8844",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Information-Theoretic Design of Sparse Autoencoder-Based Steering",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.01378",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_22fa915f41c4a623906e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SynForecast: Controlled Synthetic Time Series for Forecasting Research",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.02802",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_232efab6f34d1f189635",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Scaling Theory of Multi-Epoch Pretraining: Late-Time Overfitting and Ensembling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03590",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_239c9abbf1394742638c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Getting a Grip: Operating Human-Agent Software Teams Through Governed Messages",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.00689",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_23a827b31a69e1f9f211",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DiA: Directional Adapter",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.00029",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_23c5592dcb7dfae9e297",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Towards Self-Evolving Narrative Systems: Real-Time Adaptation and Long-Term Optimization with LLMs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.01954",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_23caa8a2ef4ad3a8b8b3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Can LLMs Reliably Evaluate Themselves? A Probabilistic VC Framework",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.02253",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_23e1ff92b7bcf9261f2a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "FDSG: Forecasting Dynamic Scene Graphs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2506.01487",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_2410207e75dd32ca86a7",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AdKnob: Ad Intensity Control and Labeling for LLM-Native Advertising",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.00822",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }

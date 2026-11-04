@@ -1,10 +1,48 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_6a15c57371df241b2982",
-  "publishedAt": "2026-11-03T19:00:51.356Z",
-  "lastSuccessfulRefreshAt": "2026-11-03T19:00:51.356Z",
+  "snapshotId": "snapshot_8fa872ada45e195b4200",
+  "publishedAt": "2026-11-04T00:03:58.019Z",
+  "lastSuccessfulRefreshAt": "2026-11-04T00:03:58.019Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_6d2097974c0612e45c1a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2605.29713",
+      "publishedAt": "2026-11-03T21:40:53.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_43dd475c3043172e1dc2",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "publishedAt": "2026-11-03T21:26:44.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_31b3766c8a696b90b042",
       "sourceId": "hacker-news",
@@ -190,6 +228,25 @@
         "headline-only"
       ],
       "url": "https://openai.com/index/heimstaden",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "category": "Industry"
+    },
+    {
+      "id": "article_fc25be8766ad841db10d",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/cisco-cyber",
       "publishedAt": "2026-11-03T08:00:00.000Z",
       "category": "Industry"
     },
@@ -5644,63 +5701,6 @@
       "url": "https://arxiv.org/abs/2611.02853",
       "publishedAt": "2026-11-03T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_2259d5f7fdf562306e34",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Closing the Dynamics Gap through Self-Directed Robotic Interaction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.02691",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_2273ce9cfb2e48e6251d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "To Align Long, Plan Short: Simulating Diverse Profile-Aligned Students by Realizing Short-Term Plans in Long-Horizon Learning Environments",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.02002",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_2285d34ee5703f55b314",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "4K Image Super-Resolution on Mobile NPUs: Mobile AI 2026 Challenge Report",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.00963",
-      "publishedAt": "2026-11-03T05:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }

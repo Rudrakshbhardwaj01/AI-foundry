@@ -4,10 +4,10 @@
     "name": "OpenAI News",
     "status": "success",
     "accessMethod": "rss",
-    "itemCount": 1350,
+    "itemCount": 1354,
     "attempts": 1,
-    "lastAttemptAt": "2026-11-03T19:00:38.052Z",
-    "lastSuccessfulFetchAt": "2026-11-03T19:00:38.052Z",
+    "lastAttemptAt": "2026-11-04T00:03:48.829Z",
+    "lastSuccessfulFetchAt": "2026-11-04T00:03:48.829Z",
     "error": null
   },
   "google-deepmind": {
@@ -17,8 +17,8 @@
     "accessMethod": "rss",
     "itemCount": 100,
     "attempts": 13,
-    "lastAttemptAt": "2026-11-03T19:00:40.466Z",
-    "lastSuccessfulFetchAt": "2026-11-03T19:00:40.466Z",
+    "lastAttemptAt": "2026-11-04T00:03:51.091Z",
+    "lastSuccessfulFetchAt": "2026-11-04T00:03:51.091Z",
     "error": null
   },
   "anthropic": {
@@ -44,8 +44,8 @@
     "accessMethod": "rss",
     "itemCount": 2774,
     "attempts": 17,
-    "lastAttemptAt": "2026-11-03T19:00:45.696Z",
-    "lastSuccessfulFetchAt": "2026-11-03T19:00:45.696Z",
+    "lastAttemptAt": "2026-11-04T00:03:53.422Z",
+    "lastSuccessfulFetchAt": "2026-11-04T00:03:53.422Z",
     "error": null
   },
   "hugging-face": {
@@ -55,8 +55,8 @@
     "accessMethod": "rss",
     "itemCount": 896,
     "attempts": 13,
-    "lastAttemptAt": "2026-11-03T19:00:47.132Z",
-    "lastSuccessfulFetchAt": "2026-11-03T19:00:47.132Z",
+    "lastAttemptAt": "2026-11-04T00:03:54.244Z",
+    "lastSuccessfulFetchAt": "2026-11-04T00:03:54.244Z",
     "error": null
   },
   "mit-technology-review": {
@@ -74,8 +74,8 @@
     "accessMethod": "atom",
     "itemCount": 20,
     "attempts": 4,
-    "lastAttemptAt": "2026-11-03T19:00:48.390Z",
-    "lastSuccessfulFetchAt": "2026-11-03T19:00:48.390Z",
+    "lastAttemptAt": "2026-11-04T00:03:55.264Z",
+    "lastSuccessfulFetchAt": "2026-11-04T00:03:55.264Z",
     "error": null
   },
   "import-ai": {
@@ -85,7 +85,7 @@
     "accessMethod": "rss",
     "itemCount": 0,
     "attempts": 3,
-    "lastAttemptAt": "2026-11-03T19:00:48.776Z",
+    "lastAttemptAt": "2026-11-04T00:03:55.943Z",
     "lastSuccessfulFetchAt": "2026-10-19T05:43:55.979Z",
     "error": "Feed request failed after 3 attempts: HTTP 403"
   },
@@ -110,10 +110,10 @@
     "name": "Hacker News",
     "status": "success",
     "accessMethod": "hacker-news-api",
-    "itemCount": 5,
+    "itemCount": 6,
     "attempts": 31,
-    "lastAttemptAt": "2026-11-03T19:00:49.259Z",
-    "lastSuccessfulFetchAt": "2026-11-03T19:00:49.259Z",
+    "lastAttemptAt": "2026-11-04T00:03:56.322Z",
+    "lastSuccessfulFetchAt": "2026-11-04T00:03:56.322Z",
     "error": null
   },
   "the-batch": {
@@ -153,10 +153,10 @@
     "name": "GitHub",
     "status": "success",
     "accessMethod": "github-releases",
-    "itemCount": 3,
+    "itemCount": 2,
     "attempts": 2,
-    "lastAttemptAt": "2026-11-03T19:00:50.777Z",
-    "lastSuccessfulFetchAt": "2026-11-03T19:00:50.777Z",
+    "lastAttemptAt": "2026-11-04T00:03:57.539Z",
+    "lastSuccessfulFetchAt": "2026-11-04T00:03:57.539Z",
     "error": null
   },
   "semianalysis": {
