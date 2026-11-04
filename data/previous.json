@@ -1,10 +1,104 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_6939ef7bd1c761c49ced",
-  "publishedAt": "2026-11-04T06:49:39.417Z",
-  "lastSuccessfulRefreshAt": "2026-11-04T06:49:39.417Z",
+  "snapshotId": "snapshot_a23f1cbfb0d04898b494",
+  "publishedAt": "2026-11-04T15:04:15.327Z",
+  "lastSuccessfulRefreshAt": "2026-11-04T15:04:15.327Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_137985560b3fcbd9ea3a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Jaron Lanier on parallels between AI and social media",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.youtube.com/watch?v=WxaRn8kX2eI",
+      "publishedAt": "2026-11-04T14:10:14.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_dab2a27dca29a784c983",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: v0.9.0",
+      "description": "ggml is updated to v0.29.0, bringing FP8 E4M3, flash attention rows, NCCL-based multi-node tensor parallelism and performance work across the CPU, CUDA, SYCL, Metal, Vulkan, OpenCL and Hexagon backends. For a 3rd year in a row, llama. The Hexagon backend gains support for several new ops, including the lightning indexer, top-k mask, conv2d and upscale. aac6da801 docs: fix Vulkan example command in build.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.9.0",
+      "publishedAt": "2026-11-04T13:08:06.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_f47919c1844a6b7fd18a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "publishedAt": "2026-11-04T11:52:17.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_8abf098a8a7dc7cd7d7e",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "publishedAt": "2026-11-04T10:23:34.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_3c86e780ed5569a67fd1",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "publishedAt": "2026-11-04T08:46:29.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_001e47a4d172ab2859aa",
       "sourceId": "arxiv",
@@ -2570,6 +2664,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_24a145e0f9cef1310d3d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "DIKT: A Diagnostic and Interpretable Knowledge Tracing Framework for Prediction and Model-based Learning Analysis",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.02774",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_24a6f4c5c5f2a0bf3af0",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4487,6 +4600,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_3e20b1aa5c3c1095d930",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.03260",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_3e3eb04025debcb92387",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4656,6 +4788,25 @@
       "url": "https://arxiv.org/abs/2609.20687",
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "category": "Research"
+    },
+    {
+      "id": "article_3fdce1338869b924c4cb",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "M-PFT: Angular Margin for Calibrated Prompt-Tuning of Fine-Tuned Vision-Language Models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.39861",
+      "publishedAt": "2026-11-04T05:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_3ff05beb5cb3d11dda0d",
@@ -5548,158 +5699,6 @@
       "url": "https://arxiv.org/abs/2611.04708",
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_4a3cb83c5e0bbbbb3a16",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Proposals: Region-Consistent Open-Set Object Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03741",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4acbe9ee94db84120ac0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Honest Small Decision Models for Finance: Scale, Specialization Collapse, and Mixed-Corpus Remediation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03755",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4aee3002aa4f0e2526a6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "From Perturbation Sensitivity to Sparse Autoencoder Feature Interpretation: An EEG Foundation-Model Case Study",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.34091",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4aefc33f5f9c2acf50b4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Language Models Can Benefit from Domain-Specific Inductive Biases",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03756",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4b3d1375719decdc8fca",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "HybridSpec: Throughput-Aware Speculative Decoding for Hybrid GDN-MoE Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.04055",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4b4e2fc355c7bb81e344",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Cognitive Framework for Idea Diversity in Large Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2602.20408",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4b6fabcae09f43014138",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Dual-VaDE: Efficient and Robust Prototype Learning via Variational Dual-Domain Mixture Priors",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05099",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4b7071f8501e1540268d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Towards Automatic Heart Murmur Characterization from Multi-spot Phonocardiograms",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03654",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }
