@@ -1,10 +1,143 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_a23f1cbfb0d04898b494",
-  "publishedAt": "2026-11-04T15:04:15.327Z",
-  "lastSuccessfulRefreshAt": "2026-11-04T15:04:15.327Z",
+  "snapshotId": "snapshot_3fc7299162abeeef7035",
+  "publishedAt": "2026-11-04T21:24:07.751Z",
+  "lastSuccessfulRefreshAt": "2026-11-04T21:24:07.751Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_3d175a027d53efa4f4c6",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Everything is an AI scam now",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now",
+      "publishedAt": "2026-11-04T21:05:19.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_de44649371d44ae4ccca",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "publishedAt": "2026-11-04T19:55:14.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_cfb794d1c247869ae671",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "publishedAt": "2026-11-04T17:50:10.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_22d1cc969117fdf3e7a1",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Progress on provable inference for large language models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "publishedAt": "2026-11-04T17:17:46.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_73fea1267fd71c8b2840",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "datasette-llm 0.1a10",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm",
+      "publishedAt": "2026-11-04T15:26:02.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_4807e07cec86994338d2",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: I built a tool that prices a prebuilt PC part by part",
+      "description": "Users paste a listing and receive a value grade, dated component estimates and a shareable report. AI reads the listing but my custom built price engine determines the grade (updated every day). Self financed and working now. Looking for feedback re: scoring, interface, and if its helpful.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "url-cleaned"
+      ],
+      "url": "https://pcdealcheck.com/",
+      "publishedAt": "2026-11-04T15:25:33.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_18ebceb30d329fd9b321",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "publishedAt": "2026-11-04T14:30:00.000Z",
+      "category": "Industry"
+    },
     {
       "id": "article_137985560b3fcbd9ea3a",
       "sourceId": "hacker-news",
@@ -98,6 +231,25 @@
       "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
       "publishedAt": "2026-11-04T08:46:29.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_d8034931cc19cdc35b0d",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "publishedAt": "2026-11-04T07:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_001e47a4d172ab2859aa",
@@ -5546,157 +5698,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.03834",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_48fbf29457aef1ce6008",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Unsatz: Evaluating Scientific Discovery Without a Given Ansatz",
-      "description": "Abstract:Before a scientist fits any parameter, they must decide what the model contains: which quantities exist, which are hidden, how they interact, and how they are measured. We introduce Unsatz, a benchmark in which an LLM agent must construct the ansatz itself. CatalyzeX Code Finder for Papers (What is CatalyzeX? Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2611.03713",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4956cb5c9306ac973c0d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Multi-Axis Max@K Reinforcement Learning for Representative Diversity in Text-to-Image Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.14962",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_495b847353cbb24ecd35",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EpiLens: Lightweight RAG for Epidemiological Knowledge Acquisition",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.26730",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4962f82d1b4dc65b0d31",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Logarithmic Regret for Alternating Mirror Descent",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05243",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_496cb4608cd1ea278b23",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Not All Proofs Are Equal: Evaluating LLM Proof Quality Beyond Correctness",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.10379",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_49d9a0044f3be8657d80",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Latent-Condensed Transformer for Efficient Long Context Modeling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2604.12452",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_49eb24ecdd6827f231aa",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Mixture of Wide Experts: Sparse Routing for Interpretable Native Coordinates",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03655",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4a06f5aff236fbd8e265",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "CLARA: A Cognitively-Driven Clarification Framework for Grounding Ambiguous Requests",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.04708",
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "category": "Tools"
     }
