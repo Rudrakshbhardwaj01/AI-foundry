@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_3fc7299162abeeef7035",
-  "publishedAt": "2026-11-04T21:24:07.751Z",
-  "lastSuccessfulRefreshAt": "2026-11-04T21:24:07.751Z",
+  "snapshotId": "snapshot_c08ac3d8d07cc9f67dbf",
+  "publishedAt": "2026-11-05T01:37:12.215Z",
+  "lastSuccessfulRefreshAt": "2026-11-05T01:37:12.215Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_9082a341e80387e2f820",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "You'll need nerves of steel to work with AI agents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents",
+      "publishedAt": "2026-11-05T00:01:30.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_3d175a027d53efa4f4c6",
       "sourceId": "hacker-news",
@@ -23,6 +42,23 @@
       "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now",
       "publishedAt": "2026-11-04T21:05:19.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_01f4010408d6b71dda72",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Gauge – Open-Source CLI to recursively improve your docs",
+      "description": "We’re open-sourcing our CLI to recursively improve your docs for coding agents. Our CLI provides primitives for docs/devrel/eng teams to measure, analyze, and improve how coding agents use their product. The intention is for your agent to run some sensible evaluations and find at least one point of friction you can fix.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/gauge-sh/gauge-cli",
+      "publishedAt": "2026-11-04T20:31:30.000Z",
+      "category": "Open Source"
     },
     {
       "id": "article_de44649371d44ae4ccca",
@@ -231,6 +267,25 @@
       "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
       "publishedAt": "2026-11-04T08:46:29.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_5865f4a78c81717711f1",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "A thousand fewer paths to root",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_d8034931cc19cdc35b0d",
@@ -5643,63 +5698,6 @@
       "url": "https://arxiv.org/abs/2606.00386",
       "publishedAt": "2026-11-04T05:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_485da9c2cfeacfc158e9",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RoboScope Kit: Unified Interfaces for Fast and Scalable Embodied-AI Evaluation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03850",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4894d747ce525a2a37a5",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Which Deep Learner? A Systematic Evaluation of Advanced Deep Forecasting Models Accuracy and Efficiency for Network Traffic Prediction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2601.02694",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_48c7552c0c77d18a69b2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Low-Rank Hierarchical Merging for Efficient Long-to-Short Reasoning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03834",
-      "publishedAt": "2026-11-04T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
