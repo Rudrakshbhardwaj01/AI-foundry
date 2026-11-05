@@ -1,10 +1,48 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_1d9a397ae6a48b9d4dbe",
-  "publishedAt": "2026-11-05T08:56:17.816Z",
-  "lastSuccessfulRefreshAt": "2026-11-05T08:56:17.816Z",
+  "snapshotId": "snapshot_d47285623777c577f0ba",
+  "publishedAt": "2026-11-05T17:07:30.725Z",
+  "lastSuccessfulRefreshAt": "2026-11-05T17:07:30.725Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_f344d700b06cff748442",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "publishedAt": "2026-11-05T17:05:16.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_cbccae7e86daaef8abbf",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Offline survival assistant – local LLM and Kiwix, runs from a USB stick",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md",
+      "publishedAt": "2026-11-05T15:25:36.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_000ffd543b5748658806",
       "sourceId": "arxiv",
@@ -101,6 +139,44 @@
       "category": "Open Source"
     },
     {
+      "id": "article_014cbd0b90fb6b656785",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Deep Learning of Compositional Targets with Hierarchical Spectral Methods",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2602.10867",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_0184a9c7650474cee461",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "MiCaDe: Online LiDAR-Camera Miscalibration Change Detection for Autonomous Driving",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04912",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_01cb517e113b3c6256bd",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -175,6 +251,25 @@
       "url": "https://arxiv.org/abs/2611.06854",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_02f42e3f215c58123267",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Predicting protein structures at any folding stage from sequence",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04287",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_035b09b60c999a48e386",
@@ -252,6 +347,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_052cb246172351a2ecfd",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.10942",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_0539596ee6bc4374f254",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -309,6 +423,25 @@
       "category": "Infrastructure"
     },
     {
+      "id": "article_0639a4f33565430ea734",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "OmniST: Topology-Invariant Spatiotemporal Forecasting with Guaranteed-Coverage Uncertainty at Unseen Sensor Locations",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04256",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_0639e4837f582dde96f6",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -326,6 +459,25 @@
       "url": "https://arxiv.org/abs/2611.06397",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_06923bca9d8e3b0e959d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "DIKT: A Diagnostic and Interpretable Knowledge Tracing Framework for Prediction and Model-based Learning Analysis",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.02774",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_074caaf6fff7812918be",
@@ -537,6 +689,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_08f3e553443dab1abe36",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.10571",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_0955d64694bacb9cff93",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -632,6 +803,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_0a49e6b751d5d28f1a90",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Learning curves in natural and artificial systems",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05224",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_0a583602305188c22247",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -666,6 +856,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.04574",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_0a8cd3472843ac1a1798",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Federated Transfer Learning for Medical Image Classification under Mixed Skew",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05035",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Safety"
     },
@@ -1050,6 +1259,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_0eb40dfa7e6c29661583",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Two-Layer Random ReLU Networks Can Separate Disjoint Classes",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04211",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Research"
+    },
+    {
       "id": "article_0f0736dab9733f4a492f",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -1105,6 +1333,25 @@
       "url": "https://arxiv.org/abs/2611.03768",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_0f89c1646267092ed1df",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Can saliency maps flag chest radiograph classifier errors at a new hospital? An external validation study",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05011",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_0fb2f1267debcc4fd4a2",
@@ -1259,6 +1506,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_127913407cb2c95fd9e6",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Where Did the Update Go? Certifying Declared Change Envelopes for Model Updates",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04192",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_12cf570125b31557b98f",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -1390,6 +1656,25 @@
       "url": "https://arxiv.org/abs/2608.19540",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_142b77ac76a28c0060c2",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Tadpole: Autoencoders as Foundation Models for 3D PDEs with Online Learning",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2605.15284",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_14a8408943004997cea4",
@@ -1829,6 +2114,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_1a56c3d3ddd8b9539e73",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "The Implicit Bias of Hyperbolic Representation Learning for Multiclass Data: A Busemann Risk Perspective",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.07131",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Safety"
+    },
+    {
       "id": "article_1a5e61a8db61a6be8a42",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -1884,6 +2188,25 @@
       "url": "https://arxiv.org/abs/2611.06855",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_1afcb05e3797f056e61a",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05163",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
     },
     {
       "id": "article_1bf18556e9445e0d2480",
@@ -2019,6 +2342,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_1e3b643a4fff3b96cc8e",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Ensembles of Random Partition-Based Models under Covariate Shift",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05195",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Safety"
+    },
+    {
       "id": "article_1e9158ec8176cefcbe13",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -2133,6 +2475,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_2011b6ec06f3b5ac5e33",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Diffusion Plug-in Priors for Self-Supervised Ultrasound Video Restoration",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05206",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_202c43557e15f358a8a2",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -2245,6 +2606,25 @@
       "url": "https://arxiv.org/abs/2611.05581",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_2123536e0aca79e28c48",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Gaussian Partitioning for Reliable Learning of Multi-Index Models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05264",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
     },
     {
       "id": "article_212d40326b6d42511630",
@@ -2416,6 +2796,25 @@
       "url": "https://arxiv.org/abs/2611.05382",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_237f3463ec64558c0828",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Physics-Informed Identification of Tensegrity Prestress across Taut-Slack Transitions",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04007",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
     },
     {
       "id": "article_23cec511a1cc9952f2f8",
@@ -2608,6 +3007,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_25b02359c3317ed6135b",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Sample-Grained Approximate Unlearning with Provable Per-Sample Bounds",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04501",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Safety"
+    },
+    {
       "id": "article_25c0f061edd807abdb93",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -2796,6 +3214,25 @@
       "url": "https://arxiv.org/abs/2611.05404",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_27a141e6f91e2920cf8e",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Exploiting Biases in Attention for Transformers",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04657",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_27bbe418aaaf2b1b49e8",
@@ -3064,6 +3501,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_2bcc56659dd7516008ab",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.02102",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_2bd8e828fa9934b26beb",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -3081,6 +3537,25 @@
       "url": "https://arxiv.org/abs/2609.20701",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Research"
+    },
+    {
+      "id": "article_2bdb34ca729e6d19a096",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Beyond the Dirac Delta: Mitigating Diversity Collapse in Reinforcement Fine-Tuning for Versatile Image Generation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2601.12401",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Safety"
     },
     {
       "id": "article_2c516d8996adcd96fa66",
@@ -3254,6 +3729,25 @@
       "category": "Safety"
     },
     {
+      "id": "article_2ec2754d778d36cd294f",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Dexterous In-Hand Object Pose Reaching with Learned Safety Filters",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.37652",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Safety"
+    },
+    {
       "id": "article_2ee9448d8569912aef63",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -3328,6 +3822,25 @@
       "url": "https://arxiv.org/abs/2611.04239",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_2fd64a53355323cab54d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Say the Same, Act Differently: Diagnosing and Steering Text-Action Divergence in Reasoning VLAs",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04166",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Safety"
     },
     {
       "id": "article_2fd9ddecf4ed50750a5f",
@@ -3672,6 +4185,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_33873e49d5dc5c6a6542",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Finite-Sample Convergence in Networked Average Reward MARL: Decentralization Pitfalls and Entropy Remedies",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04072",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_339825e25249a20018a5",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -3746,6 +4278,25 @@
       "url": "https://arxiv.org/abs/2611.05911",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_3541bc29545294bf842e",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05304",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
     },
     {
       "id": "article_3560cc7247987adf43c3",
@@ -4147,6 +4698,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_394378a5951c784aa491",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Self-Privileged Fine-Tuning",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.04632",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_395e35ddaf6e79756e30",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4164,6 +4734,25 @@
       "url": "https://arxiv.org/abs/2611.04185",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_39c80baa83f5ac3a1721",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "PolicyIK: High-Precision Inverse Kinematics for Robot Arms with Reinforcement Learning",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05372",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
     },
     {
       "id": "article_3a52e53cc0d9ec659893",
@@ -4259,6 +4848,25 @@
       "url": "https://arxiv.org/abs/2611.06732",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_3c31d3e9509af91955d4",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2303.12212",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_3c94b18439036c4817aa",
@@ -4432,6 +5040,44 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_3e8566f2b314beee3361",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "HyVox: Rethinking Low-Power Voice Intelligence towards Neuromorphic-von Neumann Edge Computing",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.03735",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_3e915bd197dd4a73c7aa",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Radial Basis Function Networks as Projection Heads in Self-Supervised Learning",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2606.21590",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_3ea53b354e211133019a",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4487,6 +5133,25 @@
       "url": "https://arxiv.org/abs/2611.05593",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_3fab18c1472a791d4df1",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Example-driven Parametrisations for Bayesian Shape Optimisation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.11984",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Research"
     },
     {
       "id": "article_3fc7ae049a512634055e",
@@ -5002,6 +5667,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_43f04b961b569a956896",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Foundation model for particle collision data analysis",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2601.17126",
+      "publishedAt": "2026-11-05T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_44572a9fced24bd77ce4",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5019,689 +5703,6 @@
       "url": "https://arxiv.org/abs/2611.00892",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_44c374ce375c9d2a11f2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06868",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_44cda586766fdb957e25",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Procedural Adversarial Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06890",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_453d8d3d5af66d3fc2e1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "FlashRelight: Portrait Video Relighting with Dynamic Lighting",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06355",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4596ae728adbd295acaf",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DUP: Detection-guided Unlearning for Backdoor Purification in Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2508.01647",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_45cba602cdd73cda1028",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Uniform Race: Parameter-Free Approximate Rejection Sampling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.34639",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_4677987ffa1f96ed20fe",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Decomposing Rank Reversals under Temporal Nonstationarity: Alignment, Aggressiveness, and Instability",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.04116",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_46c45ed8619171bce84e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MotoVerse: A Benchmark for Predictive Perception of Motorized Two-Wheelers in Dense Unstructured Traffic",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06007",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_46ec5dce1ed69ce2d595",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "LongCounsel-8: A Benchmark Suite for Longitudinal Depression Tracking from Multi-Session Counseling Dialogues",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.03507",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_46fc27a059707600c46b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learning Hierarchical Patch Splitting Policies for Faster Vision Transformers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05742",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_46fd907bc8d7e7d89009",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "PTQ4SAM3: Semantics-Preserving Post-Training Quantization for Segment Anything Model 3",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06143",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_472a38f2fe0ffa939fc2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.26617",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_475c5b600063e1764e33",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Split-KV: Efficient Context Parallelism for Training Diffusion Drafters",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05926",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_47b3cd8da47d98973cdf",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RouTex: Multi-reference 3D Texture Generation by Reprogramming Rotary Position Encoding",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06070",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_47faf0a2eede2c8a0998",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Designing Benchmarks for Knowledge Work",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.23262",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4817e2564a7694ed5e4b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RATSIFT: Resolution-Adaptive Transformer for Solar Irradiance Forecasting and Temporal Downscaling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03738",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_48f165adc9e7936fd3b4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "ChangeJEPA: Predict Before You Compare for Remote Sensing Change Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05570",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_49090f4f6f14e2fd611b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Bg-Mix: On Using Image Backgrounds for Data Augmentation in Electron Microscopy Images",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03455",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_49cbdbbc8eaad8623a19",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Rethinking Dataset Distillation for Classification: Do Distilled Sets Outperform Coresets?",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.18209",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_49d5bdbef8ed5ca6dd73",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Spatio-Temporal Multi-Order Interaction for Video Recognition",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05633",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4a4483a3daa06ef306ab",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Measuring Risk, Not Harm: Detecting Psychological Harm Risk Factors in LLM Conversations",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06806",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4aa886b9552cdf5d494f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Challenge-Aware Knowledge Recruitment with Meta-Agent Supervision for Medical Multi-Agent Reasoning",
-      "description": "on a multi-specialist backbone it improves accuracy on 8 of 9 datasets and adds 6 percentage points over Challenger Only. These results show that when and why external resources are recruited is a key design choice in multi-agent medical reasoning. CatalyzeX Code Finder for Papers (What is CatalyzeX? Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2611.05393",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4ada796b7cd698a7c7cf",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Relevance Propagation as Entropic Optimal Transport on Filippov Neural Networks: Sinkhorn Propagation and Region Relevance in Image Classifiers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05594",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4afb34c138bcdec905b2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EchoKV: Self-Corrective KV Cache Eviction via Iterative Query Feedback",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05903",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_4b404b0ffa3806d19fae",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Hallucination Is Linearly Decodable from Mid-Layer Hidden States in Quantized LLMs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.02628",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_4b6196611fc731fce6de",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Query-Oblivious Coresets for Softmax Attention: Improved Bounds and Efficient Constructions",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.06327",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_4c1630d7a90536bae0f6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06793",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_4c1fb41bd815c871485d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "$\\Phi$asmaNet: A Staged Spectral Token-Refinement Architecture for Fast Gravitational-Wave Signal-to-Noise Ratio Prediction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05309",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_4c57cf8adfc211202782",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "From Outcome to Representation: Tracing Reasoning Mechanisms through Integrated Policy Gradient",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2602.02313",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4c7fe33e2d5b91834ff0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "HISA: Efficient Hierarchical Indexing for Fine-Grained Sparse Attention",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2603.28458",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4d0f2872374cc7e2995b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Hyperparameter Transfer in Graph Neural Networks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.05017",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_4d37900e4d8c3ef258fe",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SpikePose: Lightweight Video Human Pose Estimation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06594",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4db5d69198f1d3274c4e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "An Axiomatic Framework for Reinforcement Learning in Open Multi-Agent Systems",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.03301",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4dcaf930daa61ce47f8b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Noise-regularized training of quantum circuit Born machines under a finite shot budget",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06630",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4e341f970f9ce417933d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06918",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4e67e58256e597583450",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RDT-3D: Resolution-Decoupled Training for High-Fidelity 3D Geometry Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06141",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4e6a37fb04f1a4bb7ed3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Ordinal Credit Assignment: Multi-Step Reinforcement Learning from Comparisons Alone",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.06375",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
