@@ -1,10 +1,49 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_d47285623777c577f0ba",
-  "publishedAt": "2026-11-05T17:07:30.725Z",
-  "lastSuccessfulRefreshAt": "2026-11-05T17:07:30.725Z",
+  "snapshotId": "snapshot_05c2b35e9bae92d959bc",
+  "publishedAt": "2026-11-05T22:45:57.444Z",
+  "lastSuccessfulRefreshAt": "2026-11-05T22:45:57.444Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_bfc5f3621d5b1b66f616",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models",
+      "publishedAt": "2026-11-05T20:21:43.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_2d6b47481270531060e5",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "publishedAt": "2026-11-05T19:35:16.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_f344d700b06cff748442",
       "sourceId": "google-deepmind",
@@ -42,6 +81,25 @@
       "url": "https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md",
       "publishedAt": "2026-11-05T15:25:36.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_125b3edf25dc001b4bcd",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_000ffd543b5748658806",
@@ -5646,63 +5704,6 @@
       "url": "https://arxiv.org/abs/2611.04586",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_43ecb3e90a283c514eb9",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.05369",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_43f04b961b569a956896",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Foundation model for particle collision data analysis",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2601.17126",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_44572a9fced24bd77ce4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learning to Group and Order: Cross-Instance Self-Supervised RL for Vision-Centric MLLMs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.00892",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
