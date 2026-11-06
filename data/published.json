@@ -1,10 +1,46 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_058a5f2233efa6a03185",
-  "publishedAt": "2026-11-06T18:13:03.187Z",
-  "lastSuccessfulRefreshAt": "2026-11-06T18:13:03.187Z",
+  "snapshotId": "snapshot_fd608206e633f54bf351",
+  "publishedAt": "2026-11-06T23:22:52.426Z",
+  "lastSuccessfulRefreshAt": "2026-11-06T23:22:52.426Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_36a57442a4769394932a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI is dramatically accelerating AI research",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "publishedAt": "2026-11-06T20:27:23.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_d57ed50da8341c057d8a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+      "description": "Hi there:) Around a month ago, I released LDraw Nova, an agentic toolset for assembling LEGO CAD models by generating LDraw source code files. For more details, here's the Show HN post: From the comments, I got the impression that there was quite an interest in seeing not only AI-generated LEGO models, but also AI-animated LEGO ones. and then, animate them via Blender!",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+      "publishedAt": "2026-11-06T19:41:20.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_f5fa45af5dfa324b3189",
       "sourceId": "simon-willison",
@@ -153,6 +189,25 @@
       ],
       "url": "https://www.anthropic.com/research/how-researchers-use-claude",
       "publishedAt": "2026-11-06T09:13:30.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_577feea8237b090931c7",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
       "category": "Model Releases"
     },
     {
@@ -5641,63 +5696,6 @@
       "url": "https://arxiv.org/abs/2608.28699",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_4942c2d164cdba5d91b2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "LinAlg-Bench: A Forensic Benchmark Revealing Structural Failure Modes in LLM Mathematical Reasoning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.16675",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_497c438a7125af5cd4cc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "How Far Can You Steer? Behavior-Capability Frontiers in Contrastive Activation Addition",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06001",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4a04f443710ab1482c20",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DS@GT ARC at CheckThat! 2026: A Verdict-Anchored Pipeline for Generating Fact-Checking Articles",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05382",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }

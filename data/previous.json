@@ -1,10 +1,160 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_dcda1e2a69c9ed11ab2e",
-  "publishedAt": "2026-11-06T11:17:54.349Z",
-  "lastSuccessfulRefreshAt": "2026-11-06T11:17:54.349Z",
+  "snapshotId": "snapshot_058a5f2233efa6a03185",
+  "publishedAt": "2026-11-06T18:13:03.187Z",
+  "lastSuccessfulRefreshAt": "2026-11-06T18:13:03.187Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_f5fa45af5dfa324b3189",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Nilay Patel",
+      "description": "And agents aren't real and they might not be being used the way that anyone wants them to yet. The costs are too high. The benefits are not real. Until everyone can see without needing to be convinced, without needing an ad campaign, without any of this stuff that just using these products makes your life better.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel",
+      "publishedAt": "2026-11-06T17:13:12.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_4b768a4f88742fcf3f05",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: AegisKernel – Zero-trust POSIX runtime for AI agents in <0.016ms",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://adikshatriyag-crypto.github.io/aegis-kernel",
+      "publishedAt": "2026-11-06T17:00:23.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_2a0defa7db72a4b01ccd",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "GPU-Accelerated Weight Teleportation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://humansand.ai/blog/gpu-accelerated-weight-teleportation",
+      "publishedAt": "2026-11-06T16:49:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_e8701e3e509b574c6c54",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/anomalyco/rune",
+      "publishedAt": "2026-11-06T16:31:32.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_81ec8983b75dc9b23ce7",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
+      "description": "The broker solves three major challenges that are especially relevant in corporate environments: (A) Enable users to delegate workloads to agents without providing the agents all the user’s tokens. We needed that infrastructure today. Agentgateway) does RFC 8693 token exchange. Next we are looking to also support headless agents, where agents are invoked by machines.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/zalando-incubator/agentic-identity-broker",
+      "publishedAt": "2026-11-06T15:07:47.000Z",
+      "category": "Policy"
+    },
+    {
+      "id": "article_00e05ea750d70e614e2b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+      "publishedAt": "2026-11-06T14:13:09.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_fed8d00957dead2f7ae3",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "publishedAt": "2026-11-06T14:00:48.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_0a896fcbeb4db776632b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI for scientific discovery: How researchers use Claude",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "publishedAt": "2026-11-06T09:13:30.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_7d32e3aa01fc9df8888b",
       "sourceId": "hacker-news",
@@ -215,6 +365,25 @@
       "category": "Safety"
     },
     {
+      "id": "article_0355af1dc1113c613b6d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "AssameseLM-E2B: An Open-Weight Assamese Language Model for Efficient Consumer-Grade Deployment",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.06170",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
       "id": "article_03a4cc78a4b61e6fe7e6",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -287,6 +456,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2606.15306",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_04f8bf5413248bf76a5c",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.06856",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Tools"
     },
@@ -386,6 +574,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_057560e2d4fc3912c863",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "A Framework for Context Enrichment and Selective Robustness in LLM Social Agents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.06914",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Tools"
+    },
+    {
       "id": "article_060b389a33d3e55c6e45",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -460,6 +667,25 @@
       "url": "https://arxiv.org/abs/2611.06633",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_06aa6537fce3a4c3f34b",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "SRRM: A Retrieval-Reconstruction Benchmark for Evaluating Long-Context Memory in Small Language Models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05386",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_06f8805deb258dca4100",
@@ -803,6 +1029,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_0a2db1997c91596b0ec3",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "CyclicJudge: Mitigating Judge Bias Efficiently in LLM-based Evaluation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2603.01865",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_0a4459bc6bb016257dab",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -915,6 +1160,25 @@
       "url": "https://arxiv.org/abs/2604.09568",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_0bf9346f9fdf44844e09",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Token Time Continuous Diffusion for Language Modeling",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2607.14106",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_0c3abf7f086f10b8093b",
@@ -1084,6 +1348,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.06022",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_0dfcaf55c6ca41362615",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "NodeSyn: Socially Aligned Synthetic Data for AI Evaluation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2605.14381",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Model Releases"
     },
@@ -1259,6 +1542,25 @@
       "category": "Infrastructure"
     },
     {
+      "id": "article_10eac18feeeeedcf15ec",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Prediction-Intervention Games and Invariant Sets",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2605.16828",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Safety"
+    },
+    {
       "id": "article_11ce6656db19d56ccdae",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -1390,6 +1692,25 @@
       "url": "https://arxiv.org/abs/2611.07367",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_132f6fa8f6591bdad651",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Overview of the NTCIR-19 SciClaimEval Task: Cross-modal Claim Verification in Scientific Papers",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.06090",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_13bb0a517b54970fd435",
@@ -2075,6 +2396,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_1b191e23e915f6534691",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Does Explanation Correctness Matter? Linking Computational XAI Evaluation to Human Understanding",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2603.25251",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_1b644a78462052ef116b",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -2092,6 +2432,25 @@
       "url": "https://arxiv.org/abs/2611.08053",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_1b7f708d88aadd3a7c2d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "PAYWORTHY: Can LLMs Predict Which Freelance Jobs an AI Agent Will Complete?",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05759",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_1bce0a5aa6d336cc410e",
@@ -2702,6 +3061,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_250f74f381725b0535cf",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05163",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_2538e2dd4ed1730844a8",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -3021,6 +3399,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.07069",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_2831d662710894e599c6",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Towards the Query Complexity of Sampling under Strong Log-Concavity and Log-Sobolev Inequalities",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.05813",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Research"
     },
@@ -3746,6 +4143,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_33d2465931dfbbccb821",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.06043",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_33edfae87fb023cb38f4",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4273,6 +4689,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2602.24207",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_3da693844b2ef5873bfe",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Teaching Diffusion to Speculate Left-to-Right",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2606.11552",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Infrastructure"
     },
@@ -4942,6 +5377,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_45aa0709e386035e4505",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "A Rigorous, Tractable Measure of Model Complexity",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2605.21167",
+      "publishedAt": "2026-11-06T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_4628b3d5d51d4336e0c2",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5227,11 +5681,11 @@
       "category": "Tools"
     },
     {
-      "id": "article_4a1a3f7cb144d0e84952",
+      "id": "article_4a04f443710ab1482c20",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
       "sourceType": "Research paper",
-      "title": "openJiuwen: Beyond Static Harnesses for Long-Horizon Coding Agents",
+      "title": "DS@GT ARC at CheckThat! 2026: A Verdict-Anchored Pipeline for Generating Fact-Checking Articles",
       "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
       "summaryMethod": "fallback",
       "summaryContentSource": "fallback",
@@ -5241,465 +5695,9 @@
         "fallback",
         "headline-only"
       ],
-      "url": "https://arxiv.org/abs/2608.27969",
+      "url": "https://arxiv.org/abs/2611.05382",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_4afa946da26e53b44f98",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Generative Modeling for Cascading Extremes via Autoregressive Transformers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05728",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4bdc6d19385c7a00bee2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Probabilistic Meshless Methods on Manifolds",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.39855",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4c721f88f85ef8257cea",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08179",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4cb6e5afca8cb904ed83",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "GPTQ-2D: Cubic-Time Two-Sided Adaptive Rounding",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.27042",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4cf91037ec73b2403706",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Finite-width shift of the edge of chaos in deep neural networks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06582",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4d61ce15e4c5025ba818",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Community detection with the Bethe-Hessian",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2411.02835",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_4d8e374a85268ab7dd2e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Quadratic Attention: Separable Gaussian Operators for ODE Vision Transformers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08236",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4dbb42c0e6d4d91c4dcd",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "BUMP: Brief Unexpected Mid-Interpolation Peak",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08182",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4ead7391716efc8da0ed",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Regulating Autonomous Mobility-on-Demand Operators with Fixed and Adaptive Penalties: A Multi-Agent Reinforcement Learning Approach",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.07122",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4f4a53e028ed936d219c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "TinySense+: Entropy-Aware CSI Compression for Scalable and Adaptive Wi-Fi Sensing",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2601.15838",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4fd48e29aeda25b1091f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "VIPA: View-Invariant Projector-Based Adversarial Attack",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.07443",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_4fda53c26adde45f4ea1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Adaptive Semantic Branching: Disagreement-Localized Cross-Trajectory Regeneration for Reasoning Candidate Expansion",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.07918",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_504f8fb7c02889b0bb85",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Improving Long-Tail Detection via Layout-Instruction Conditioned Diffusion Synthesis",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.07553",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_50dab18fdf90b3a6250e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06876",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_50ead22f7c6b455cbe31",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "NaijaFacts: A Framework for Disentangling Language from Knowledge in Facts about Nigeria",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06504",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_50ec95cc7d6af5856843",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MOO: A Multi-view Oriented Observations Dataset for Viewpoint Analysis in Cattle Re-Identification",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2603.04314",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_50ee6f9777f75f0d1a70",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Using Transformers for Teaching and Learning via Symbolic Distillation of Neural A-life Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.07254",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_518ae4cd576f9be3b313",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Coding with the Enemy: Can Human Developers Detect AI Agent Sabotage?",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.05647",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_51f8cdd0176fd0ba1398",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Adapting LLM Judges to Observed Human Annotation Policy through Soft Prompt Tuning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.07126",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_5230e58aede65eb921ad",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Recovery Theory for Projected Power Iterations in Permutation Synchronization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.09502",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_528308eb149cda561592",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08477",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_52cea8692fba590a7a09",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Structural Rationale Distillation via Reasoning Space Compression",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.07139",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_534baa441f6a1d4526dd",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Zuse: A Decision Model for European Languages",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06238",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_534c517e2fee828a39e1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Depth-Recurrent Attention Mixture (Dreamer): Giving Latent Reasoning the Attention it Deserves",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2601.21582",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
