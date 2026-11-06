@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_05c2b35e9bae92d959bc",
-  "publishedAt": "2026-11-05T22:45:57.444Z",
-  "lastSuccessfulRefreshAt": "2026-11-05T22:45:57.444Z",
+  "snapshotId": "snapshot_15fe2b669aeaec7fc841",
+  "publishedAt": "2026-11-06T03:08:10.061Z",
+  "lastSuccessfulRefreshAt": "2026-11-06T03:08:10.061Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_3fb29225d04244d46155",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "publishedAt": "2026-11-05T23:09:57.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_bfc5f3621d5b1b66f616",
       "sourceId": "hacker-news",
@@ -23,6 +42,25 @@
       "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models",
       "publishedAt": "2026-11-05T20:21:43.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_ea57900ab389fac2109e",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_2d6b47481270531060e5",
@@ -64,6 +102,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_8b8289a2044fdd7d65c1",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Australian universities are creating AI-native graduates",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_cbccae7e86daaef8abbf",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -99,6 +156,25 @@
       ],
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
       "publishedAt": "2026-11-05T09:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_ba2e7969ccb8c746dc64",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/merge-builds-with-openai",
+      "publishedAt": "2026-11-05T08:00:00.000Z",
       "category": "Model Releases"
     },
     {
@@ -5628,82 +5704,6 @@
       "url": "https://arxiv.org/abs/2605.11473",
       "publishedAt": "2026-11-05T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_4308184819d07a2c9fbe",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Post-stratified importance sampling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.05238",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_43155617dd901ed605dc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EnzymeRSI: A dual-loop recursive self-improvement system for enzyme design",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06321",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_435ea44135d534d20e91",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RAGAM-AI: A Hybrid Reinforcement Learning based Agentic approach powered by Generative AI for Edge Resource Management",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06554",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4384e62fd43b217dd89c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Conditional independence and graphical models for rankings",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.04586",
-      "publishedAt": "2026-11-05T05:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
