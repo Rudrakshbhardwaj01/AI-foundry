@@ -1,10 +1,28 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_fd608206e633f54bf351",
-  "publishedAt": "2026-11-06T23:22:52.426Z",
-  "lastSuccessfulRefreshAt": "2026-11-06T23:22:52.426Z",
+  "snapshotId": "snapshot_df4420ccedf0912fd3ea",
+  "publishedAt": "2026-11-07T20:24:07.071Z",
+  "lastSuccessfulRefreshAt": "2026-11-07T20:24:07.071Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_8a492012cd8a032020ad",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback"
+      ],
+      "url": "https://hunch.net/?p=13764006",
+      "publishedAt": "2026-11-07T18:02:17.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_36a57442a4769394932a",
       "sourceId": "hacker-news",
@@ -5677,25 +5695,6 @@
       "url": "https://arxiv.org/abs/2610.07729",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_4933cae166b8a72a596d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Visual Boundaries: Rethinking Scene Segmentation for Movie RAG",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.28699",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
