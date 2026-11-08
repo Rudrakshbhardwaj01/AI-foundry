@@ -1,10 +1,48 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_bc6ef8271dc188a2e9e1",
-  "publishedAt": "2026-11-08T17:11:47.325Z",
-  "lastSuccessfulRefreshAt": "2026-11-08T17:11:47.325Z",
+  "snapshotId": "snapshot_037ad847d09e1300d4a2",
+  "publishedAt": "2026-11-08T21:17:40.642Z",
+  "lastSuccessfulRefreshAt": "2026-11-08T21:17:40.642Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_9913f3e90e0e8f334fdc",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "How I Fight AI Brain Fry",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "publishedAt": "2026-11-08T19:37:42.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_3d169ac1e8b933ccccd7",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+      "publishedAt": "2026-11-08T18:43:07.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_3696e6edb160ef4729b5",
       "sourceId": "github",
@@ -5654,44 +5692,6 @@
       "url": "https://arxiv.org/abs/2611.07226",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_47ac6e2c91a072c3b210",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Near-Optimal Decentralized Stochastic Convex Optimization over Networks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.04757",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_47ec1da82ab3cb28adac",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MOF-VERIFY: A Failure-Aware Agentic Harness for MOF Hypothesis Verification",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.03056",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Research"
     }
   ]
 }

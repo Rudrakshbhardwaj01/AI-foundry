@@ -1,10 +1,49 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_b469a3cd66fe4fd8eedc",
-  "publishedAt": "2026-11-07T23:47:43.053Z",
-  "lastSuccessfulRefreshAt": "2026-11-07T23:47:43.053Z",
+  "snapshotId": "snapshot_bc6ef8271dc188a2e9e1",
+  "publishedAt": "2026-11-08T17:11:47.325Z",
+  "lastSuccessfulRefreshAt": "2026-11-08T17:11:47.325Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_3696e6edb160ef4729b5",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12207",
+      "description": "fast paths (96, 128, 256). other architectures achieve on the same hardware. no change to the underlying math. built from Zamba2's real hyperparameters (28/28 passing). CPU for a cause not yet diagnosed.",
+      "summaryMethod": "source_excerpt",
+      "summaryContentSource": "content",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "deduplicated-or-filtered",
+        "url-cleaned",
+        "source-excerpt"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12207",
+      "publishedAt": "2026-11-08T14:20:48.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_24cd3561b55628ab3633",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/synchopate/llama-modchip",
+      "publishedAt": "2026-11-08T10:22:04.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_8d39ac62bb7ef2eb0159",
       "sourceId": "hacker-news",
@@ -5653,44 +5692,6 @@
       "url": "https://arxiv.org/abs/2610.03056",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_48aff70461f1d746e397",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SAVeR$^2$: Reasoning-based Safety Alignment for Large Reasoning Models via Verifiable Rewards",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.07482",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_48cdc8703df6391b24af",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EvoGuard: Mitigating Degradation in Online Skill Evolution",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.06444",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
