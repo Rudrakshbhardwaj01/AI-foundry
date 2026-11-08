@@ -1,10 +1,25 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_df4420ccedf0912fd3ea",
-  "publishedAt": "2026-11-07T20:24:07.071Z",
-  "lastSuccessfulRefreshAt": "2026-11-07T20:24:07.071Z",
+  "snapshotId": "snapshot_b469a3cd66fe4fd8eedc",
+  "publishedAt": "2026-11-07T23:47:43.053Z",
+  "lastSuccessfulRefreshAt": "2026-11-07T23:47:43.053Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_8d39ac62bb7ef2eb0159",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "description": "I am already a victim of it, working 20 years as a research engineer in computer vision, zooming into pixel level details to hand craft algorithms. Now with AI and available fantastic libraries it's possible to play safe so that your body does not pay the price of your profession. EyeRhythm also has a visual log for the neck movement.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [],
+      "url": "https://eyesrhythm.com/",
+      "publishedAt": "2026-11-07T21:47:47.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_8a492012cd8a032020ad",
       "sourceId": "hacker-news",
@@ -5674,25 +5689,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.06444",
-      "publishedAt": "2026-11-06T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_491585fca29d21b85f60",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Foveated Compression: Selective High-Resolution Preservation for Token-Efficient VLMs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.07729",
       "publishedAt": "2026-11-06T05:00:00.000Z",
       "category": "Infrastructure"
     }
