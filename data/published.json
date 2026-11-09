@@ -1,10 +1,103 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_0021e374a8326bc11aaa",
-  "publishedAt": "2026-11-09T08:23:58.159Z",
-  "lastSuccessfulRefreshAt": "2026-11-09T08:23:58.159Z",
+  "snapshotId": "snapshot_189c2bfc3a1bb02299ea",
+  "publishedAt": "2026-11-09T19:00:10.569Z",
+  "lastSuccessfulRefreshAt": "2026-11-09T19:00:10.569Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_3a188c8310831d696770",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "DeepX claims inference up to 100B parameters at less than 5 W",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim",
+      "publishedAt": "2026-11-09T18:33:58.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_ed947c4484d16b08ecd5",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+      "description": "hey HN, i built this because i wanted to know what had actually photographed my street. type in any place and it finds every satellite that passed over it in the last 7 days (SGP4 on the CelesTrak catalog, runs in your browser in about half a second), then pulls the real Sentinel-2 / Landsat / NASA images from those passes.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://www.watched.earth/",
+      "publishedAt": "2026-11-09T17:51:31.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_a9345ae43b389b1d30ec",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "description": "A collection of multilingual, region-specific synthetic persona datasets that support sovereign AI development across many countries and regions.",
+      "summaryMethod": "source_excerpt",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "deduplicated-or-filtered",
+        "source-excerpt"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "publishedAt": "2026-11-09T15:05:57.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_36b31da9cf815bb5e1f4",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12223",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12223",
+      "publishedAt": "2026-11-09T12:52:12.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_6bbd3f734c80f30d3c3a",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "description": "The only addition is solving the quadratic program, which is non-convex, but can be solved efficiently via a standard QP solver (1–2 seconds each layer). The total additional overhead is negligible compared to first-order methods, as the time for calibration dominates. At 50% pruning, HOPE's average rank improves to 1.58 (vs. The gains in benchmark performance (shown above) validate that this trade-off is advantageous.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "publishedAt": "2026-11-09T12:34:29.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_0002bebec2607d684544",
       "sourceId": "arxiv",
@@ -1182,6 +1275,25 @@
       "url": "https://arxiv.org/abs/2606.30317",
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_116efd403721fee5892d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Spatiotemporal Dynamics-Aware Industrial Anomaly Detection and Reasoning",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.08080",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_118ef01ce0f6851766db",
@@ -5590,120 +5702,6 @@
       "url": "https://arxiv.org/abs/2611.09317",
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_565a86dfabfe1f26c44a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DIFFLET: A Fast Inference Engine for Diffusion Transformer Models on AWS Trainium",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.23047",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_56980dbf5123be16f837",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Benchmarking Machine Learning for Chaotic Three-Body Dynamics in Astrophysics",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08634",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_56b8a48155f69e9907da",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learning to Persuade Exposes How Easily LLMs Abandon Correct Beliefs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.11624",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_56fcc8db3cc70fedb4b2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Project and Generate: Divergence-Free Neural Operators for Incompressible Flows",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2603.24500",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_575f8963bc4cf6b821f1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "BMMS: Policy-Conditioned Measurement of Behavioral Compliance in Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09147",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_578a731b680ead37300e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Training Stability under Adaptive Curricula",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08787",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Research"
     }
   ]
 }
