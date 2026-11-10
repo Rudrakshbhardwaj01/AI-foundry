@@ -1,10 +1,84 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_18c645f1fbb9746dc06b",
-  "publishedAt": "2026-11-10T09:32:01.902Z",
-  "lastSuccessfulRefreshAt": "2026-11-10T09:32:01.902Z",
+  "snapshotId": "snapshot_46fdff1ff13723f8bb71",
+  "publishedAt": "2026-11-10T17:28:28.143Z",
+  "lastSuccessfulRefreshAt": "2026-11-10T17:28:28.143Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_84cf0e01d02810aaf0e8",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Gemini 4 Carbon is now available",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "publishedAt": "2026-11-10T16:03:47.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_df5fb86a2db2161f3295",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12246",
+      "description": "X1-85, none at 8 rows) and runs about 40x slower. Use at most 8 rows per workgroup on Qualcomm when hsk or hsv > 128. Smaller heads keep 16 rows, which is faster for them on the X2 Elite. Gemma 4 E4B pp512 at depth 4096 with flash attention 81-90 -> 117 t/s.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12246",
+      "publishedAt": "2026-11-10T13:09:53.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_b08147f5649abd224574",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "description": "AlphaProof Code agents wrote over three million lines of machine-checked proof in Lean to verify the core cryptographic protections in Signal down to machine instructions.",
+      "summaryMethod": "official_metadata",
+      "summaryContentSource": "page:meta:description",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "source-excerpt"
+      ],
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "publishedAt": "2026-11-10T12:02:28.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_9ac5e011f1657dcc9580",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Helping caregivers use AI in everyday life",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "publishedAt": "2026-11-10T12:00:00.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_23fe6b871a4009d18694",
       "sourceId": "openai-news",
@@ -60,6 +134,25 @@
       "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
       "publishedAt": "2026-11-10T07:19:38.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_dde0ebf1f98ee03952ad",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "publishedAt": "2026-11-10T07:00:00.000Z",
+      "category": "Research"
     },
     {
       "id": "article_023f1d175ef7160df8eb",
@@ -118,6 +211,41 @@
       "category": "Tools"
     },
     {
+      "id": "article_648c60bfbd37b68ce123",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "description": "The payment method section now shows the linked Google Cloud account, with a pending status. Usage is metered and reported to Google Cloud, so adding credits is not available while the organization is billed through the marketplace. Included credits still apply: if your organization has a Team or Enterprise subscription, the monthly included credits are applied before any pay-as-you-go usage is reported to Google Cloud.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_c7d5849fd0cd8fe1c16a",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Decision Models in Hugging Face",
+      "description": "Each candidate label is converted into a hypothesis, and the model measures how strongly the input entails that hypothesis. The reported score is therefore 1.7. Notice that the winning probability is 0.99, but the reported confidence is 0.98. Hugging Face introduced a dedicated decision-model tag for discovering compatible models.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://huggingface.co/blog/decision",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
       "id": "article_2e86abed8c650f46bc9f",
       "sourceId": "simon-willison",
       "sourceName": "Simon Willison",
@@ -134,6 +262,24 @@
       "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic",
       "publishedAt": "2026-11-09T23:58:46.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_6066eeba7bc7ede13961",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "description": "Introducing Gemini Robotics 2.5, our most capable vision-language-action model enhancing dexterity, reliability, and safety for real-world environments.",
+      "summaryMethod": "official_metadata",
+      "summaryContentSource": "page:meta:description",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "source-excerpt"
+      ],
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+      "publishedAt": "2026-11-09T19:51:47.000Z",
+      "category": "Safety"
     },
     {
       "id": "article_b53a40f88a3121ba085f",
@@ -5543,158 +5689,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.09446",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_5047f3d1b6049c8bb665",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Code Owns the Simulation, Jev Owns the Evaluation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.01834",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_508a8654a899f0c14664",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "ELPAC: Endpoint-Anchored Latent Progression with Stage-Varying Multimodal Coordination",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08541",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_50aa205a4738e76da7dd",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09382",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_50c5fdbab8f733aaa971",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Self-Distillation is Optimal Among Spectral Shrinkage Estimators",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.17778",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_50ee2b8f1a3dcbd616a7",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "What Does a Sparse Autoencoder Feature Do? A Weight-Based Account",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2601.22447",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_515c6286dfc4ad633721",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Think Fast, Plan Selectively: Adaptive Deliberation for Efficient Data-Driven MPC",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.32591",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_51900fe0850e06e25efe",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Approximating the Reachability Value of Posterior-Deterministic POMDPs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2602.07473",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_51c7f691d962ff468e0f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Guidance for Prior Change via Density Ratio Estimation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.21729",
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "category": "Infrastructure"
     }
