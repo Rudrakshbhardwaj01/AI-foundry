@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_189c2bfc3a1bb02299ea",
-  "publishedAt": "2026-11-09T19:00:10.569Z",
-  "lastSuccessfulRefreshAt": "2026-11-09T19:00:10.569Z",
+  "snapshotId": "snapshot_f23df6890dcd2b3280b3",
+  "publishedAt": "2026-11-10T01:58:30.550Z",
+  "lastSuccessfulRefreshAt": "2026-11-10T01:58:30.550Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_2e86abed8c650f46bc9f",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "llm-anthropic 0.31",
+      "description": "Anthropic released Fable 5.2 and Mythos 5.2 today. It's good - legs the right side of the bicycle, good frame, nice pouch, weird little fingers on the handlebars. The pouch looks slightly misaligned with the top of the beak. max failed to return an image at all, running out of tokens after spending 128,000 thinking about them.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic",
+      "publishedAt": "2026-11-09T23:58:46.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_b53a40f88a3121ba085f",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "publishedAt": "2026-11-09T19:00:00.000Z",
+      "category": "Industry"
+    },
     {
       "id": "article_3a188c8310831d696770",
       "sourceId": "hacker-news",
@@ -23,6 +60,25 @@
       "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim",
       "publishedAt": "2026-11-09T18:33:58.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_ee3bc4e51b78dc7d3244",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/Dodaios/ste80-humanizer",
+      "publishedAt": "2026-11-09T18:05:44.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_ed947c4484d16b08ecd5",
@@ -61,6 +117,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_eb944d82c851f044d00b",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/control-room",
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "category": "Safety"
+    },
+    {
       "id": "article_36b31da9cf815bb5e1f4",
       "sourceId": "github",
       "sourceName": "GitHub",
@@ -97,6 +172,44 @@
       "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
       "publishedAt": "2026-11-09T12:34:29.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_8943c53138366e558a44",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_d9f7155fa5e710c03aaa",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/kuken",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_0002bebec2607d684544",
@@ -5588,120 +5701,6 @@
       "url": "https://arxiv.org/abs/2607.12455",
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_5521e51b97c2a8b61ab6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Fifty-Two Shades of Pig: What the UCR Archive Really Asks Classifiers to Do",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09843",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_559969795f0fde3751aa",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Sparse All-Layer Connector for Domain Generalised Semantic Segmentation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.15660",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_55b538aa23f2e1550216",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SliceWorld: A Predictive and Controllable World-State Model for CT Report Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.24371",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_55f9112a15e754a324bc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AdaptivePnP: Fast Auto-Tuned Plug-and-Play for Deconvolution",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09845",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_562d37baa35d2a433006",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Did I See It or Think It? Probing Reality Monitoring in Vision-Language Models with Concept Injection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09014",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_565230fcd82b322ac7a0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Stable probabilistic emulation of partially observed dynamical systems",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09317",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
