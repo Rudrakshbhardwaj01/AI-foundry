@@ -1,10 +1,122 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_f23df6890dcd2b3280b3",
-  "publishedAt": "2026-11-10T01:58:30.550Z",
-  "lastSuccessfulRefreshAt": "2026-11-10T01:58:30.550Z",
+  "snapshotId": "snapshot_18c645f1fbb9746dc06b",
+  "publishedAt": "2026-11-10T09:32:01.902Z",
+  "lastSuccessfulRefreshAt": "2026-11-10T09:32:01.902Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_23fe6b871a4009d18694",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Closing the AI guidance gap in education",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "publishedAt": "2026-11-10T09:00:00.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_338a46758ea5f4f590c4",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "description": "Today's other big model release, Claude Fable 5.2, is 80x that price at $8/$40. For that, one measure that's useful is the Artificial Analysis. GPT-6 Luna (non-reasoning): $0.07 total, bottom segment $0.06, thin unlabeled segments above. The Muse Ember models sit right on that Pareto line - the line at which you can only improve one dimension by giving up another.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "publishedAt": "2026-11-10T07:28:21.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_08eee71ec5bf46023eb4",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "publishedAt": "2026-11-10T07:19:38.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_023f1d175ef7160df8eb",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "description": "In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+      "publishedAt": "2026-11-10T05:34:14.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_070da6e00ac4d032a0c0",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Yonkers Rises",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
+      "publishedAt": "2026-11-10T03:53:04.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_cfe9dba3a5ac47c581de",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+      "publishedAt": "2026-11-10T03:20:06.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_2e86abed8c650f46bc9f",
       "sourceId": "simon-willison",
@@ -86,13 +198,11 @@
       "sourceName": "Hacker News",
       "sourceType": "Community discovery signal",
       "title": "Show HN: Every satellite that passed over any place this week, and its photos",
-      "description": "hey HN, i built this because i wanted to know what had actually photographed my street. type in any place and it finds every satellite that passed over it in the last 7 days (SGP4 on the CelesTrak catalog, runs in your browser in about half a second), then pulls the real Sentinel-2 / Landsat / NASA images from those passes.",
+      "description": "hey HN, i built this because I'm a satellite nerd who was bored this past weekend. also cool is that Sentinel-2 timestamps are often 5-10 min off from when the sat actually crosses your spot, so some cool math was involved in making it accurate on the site. it only shows real images taken from those exact satellites, and it never store your location.",
       "summaryMethod": "extractive",
       "summaryContentSource": "content",
       "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered"
-      ],
+      "summaryFlags": [],
       "url": "https://www.watched.earth/",
       "publishedAt": "2026-11-09T17:51:31.000Z",
       "category": "Infrastructure"
@@ -5587,120 +5697,6 @@
       "url": "https://arxiv.org/abs/2608.21729",
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_51e4c43c33d88e0b1e4b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Maswao: An automatically collected, prepared, and benchmarked dataset for South African Sign Language",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.02903",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_531aa59dc4b895d3200a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.05466",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_53ace7d04164ba6bc9b8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond MMSE: Enhancing PnP Restoration with ProxiMAP",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.16396",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_53f490039641a54722c1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Semantic Conditional Similarity (SCS): A Formal Mathematical Framework",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08778",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_54ddb20673988368cc7c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Health-System-Wide Mapping of Demographic Information in Routine Clinical Histopathology",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09851",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_550baa01ff620713b6b8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.12455",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
