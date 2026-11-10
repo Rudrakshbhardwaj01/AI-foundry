@@ -1,10 +1,66 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_46fdff1ff13723f8bb71",
-  "publishedAt": "2026-11-10T17:28:28.143Z",
-  "lastSuccessfulRefreshAt": "2026-11-10T17:28:28.143Z",
+  "snapshotId": "snapshot_768574a322edf2a5607a",
+  "publishedAt": "2026-11-10T22:29:45.803Z",
+  "lastSuccessfulRefreshAt": "2026-11-10T22:29:45.803Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_83aeb400d1d9231ce08a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Apple has new Mac app coming to make running local AI models easy",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy",
+      "publishedAt": "2026-11-10T21:25:03.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_d72d74414717479b62de",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "llm-gemini 0.36",
+      "description": "Gemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else. Nice elegant sailor hat with a blue bow. Funky but workable bicycle design. Here's the HTML result (I had to prompt \"build that into a standalone HTML file\" to get a version with no external dependencies).",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
+      "publishedAt": "2026-11-10T20:09:44.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_c4e8c4a6ef71dbb0fd80",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "An Open Field Guide to Inference Engineering",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://docs.modelplane.ai/guides/inference-guide",
+      "publishedAt": "2026-11-10T17:55:07.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_84cf0e01d02810aaf0e8",
       "sourceId": "google-deepmind",
@@ -78,6 +134,44 @@
       "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "publishedAt": "2026-11-10T12:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_5da3b70be9637f278ae5",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI usage generates a fragile codebase",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase",
+      "publishedAt": "2026-11-10T10:25:58.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_9941c0f2b253d0180209",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Introducing Businesses in ChatGPT",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "publishedAt": "2026-11-10T10:00:00.000Z",
+      "category": "Industry"
     },
     {
       "id": "article_23fe6b871a4009d18694",
@@ -5596,101 +5690,6 @@
       "url": "https://arxiv.org/abs/2611.09100",
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_4e113a419f56b046d5fc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "GenScale: A Benchmark for Relative Object Scale in Image Generation and Editing",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.00525",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4e2a470f66c5cd5b59ae",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Optimal In-context Adaptivity and Distributional Robustness of Transformers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2510.23254",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4e9e1c9a8635302a1936",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DataHelix: A CPU-GPU Co-Scheduling Data Plane for Multimodal Model Training",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09411",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4f3a102814fc7644d705",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "CacheGraft: Enhancing Retrieval-Augmented Generation via Latent-Space Document Enrichment",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.07393",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4f9e44b895a64d68c953",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Logit Laundering: Evading Data-Use Auditing in Large Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09446",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
