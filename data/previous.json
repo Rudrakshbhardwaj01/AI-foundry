@@ -1,10 +1,48 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_768574a322edf2a5607a",
-  "publishedAt": "2026-11-10T22:29:45.803Z",
-  "lastSuccessfulRefreshAt": "2026-11-10T22:29:45.803Z",
+  "snapshotId": "snapshot_8321921d3da98a4c0c81",
+  "publishedAt": "2026-11-11T02:10:09.180Z",
+  "lastSuccessfulRefreshAt": "2026-11-11T02:10:09.180Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_abb46f4b218dd1526e47",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "category": "Policy"
+    },
+    {
+      "id": "article_bd9df67d8a6f3fd071b1",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI is an information gateway. Audiences still don't want it making their news",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news",
+      "publishedAt": "2026-11-11T00:15:33.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_83aeb400d1d9231ce08a",
       "sourceId": "hacker-news",
@@ -79,6 +117,21 @@
       "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
       "publishedAt": "2026-11-10T16:03:47.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_366b7440cb9e3d7cabe4",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Aircad – Professional drafting and 3D modeling in the browser",
+      "description": "You can make professional quality design documents with it. Current CAD tools are expensive and slow to improve. Collaboration is often an expensive add-on that raises your subscription, is hard to learn, and feels unnatural. Aircad builds it in: version history, drawing comparison, forking, and realtime collaboration.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [],
+      "url": "https://aircad.com/",
+      "publishedAt": "2026-11-10T15:01:19.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_df5fb86a2db2161f3295",
@@ -5633,63 +5686,6 @@
       "url": "https://arxiv.org/abs/2611.08799",
       "publishedAt": "2026-11-09T05:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_4d5dffe74c23246e9cfd",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MINE: Entropy-coded Memory-efficient Inference for Large Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09424",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4d709f5fdc6ea9a21a33",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Self-Distilling Future Video Representations for World Action Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30320",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4d879de4fc63efe94fc4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "BayesCrop: Real-Time Probabilistic Multi-Crop Video Reframing",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.09100",
-      "publishedAt": "2026-11-09T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
