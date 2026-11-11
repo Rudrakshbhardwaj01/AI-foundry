@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_0039ad44f8df8125066b",
-  "publishedAt": "2026-11-11T09:42:46.146Z",
-  "lastSuccessfulRefreshAt": "2026-11-11T09:42:46.146Z",
+  "snapshotId": "snapshot_80d3359c8d6659aa61e9",
+  "publishedAt": "2026-11-11T17:41:19.727Z",
+  "lastSuccessfulRefreshAt": "2026-11-11T17:41:19.727Z",
   "articleCount": 300,
   "articles": [
     {
@@ -23,6 +23,94 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_134e6855077aa3b9a9df",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+      "description": "),… Why I think it's useful for a wider audience: Adobe showed agents editing Photoshop files at MAX this week, with a private beta planned for early 2027. I'm confident that this will only improve. Windows builds in CI, I haven't used it there myself yet but I have some reports that it works perfectly fine. Coming up next is support for pixel art.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/klad-app/klad",
+      "publishedAt": "2026-11-11T16:00:50.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_2d1ec6225a4abaec7692",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "description": "Hey HN, I’m Eric and I want to share an OSS project that I’ve been building in my free time. And if you want to make your notes available to a frontier model, you can just share it with Anthropic, OpenAI, etc. To support Windows/Mac/Linux, I decided to go with Electron. cpp for transcription and Apple’s on-device SpeechAnalyzer if your system supports it.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "publishedAt": "2026-11-11T15:33:06.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_d6ead8aaefaff5091afe",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Anthropic's IPO roadshow video",
+      "description": "Each chip needs its own tailored software stack and inference stack, which is expensive and difficult to build. They build on each other. We believe that this can accelerate even further as we approach recursive self-improvement. Claude will be able to discover compute multipliers entirely by itself, allowing the number of compute multipliers to grow faster and faster.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow",
+      "publishedAt": "2026-11-11T15:11:59.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_97e80256ac0b8d403f86",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "description": "AlphaGenome 2 is available today for non-commercial research via the AlphaGenome API, and in private preview for commercial research. This enables AlphaGenome 2 to predict variant effects and gene regulation for new cell states, such as those that occur from disease or vaccination. For example, given unseen single-cell data from a COVID-19 mRNA vaccine study, AlphaGenome 2 distinguished vaccine-activated immune T cells from resting ones.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "publishedAt": "2026-11-11T15:00:15.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_a24d584c7389c47450fa",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://pietromiotti.com/latest/maya-site?maya=",
+      "publishedAt": "2026-11-11T12:05:22.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_250e6fd53e9d345ed4fa",
@@ -4540,6 +4628,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_473209ae713a809eb9e6",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Meituan-Robotics-0: A Vision-Language-Action Foundation Model for Desktop Manipulation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.08577",
+      "publishedAt": "2026-11-11T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
       "id": "article_48133484900ec24022b3",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5581,120 +5688,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2602.02212",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_592c94431beca013acfb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Towards Scalable Network-Based Interventions for HIV Treatment and Prevention via R2C-Agent",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13312",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_59d28a6f57b27fc1fe0e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DEPUTYBENCH: Evaluating Contextual Safety in Enterprise Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13355",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_5a3013e9ac498629928f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "One Byte, One Token: Byteifying a 27B Hybrid-Attention LLM with Self-Generated Data",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13607",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_5a663ef5102877d4056a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "An ensemble of graph generative models for assisted history matching of the Brugge field case",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.12927",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_5af14902ff1b7a28e995",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Latin American Studies since the 1980s: From Apocalyptic Dreams to Assimilationist Consolidation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13216",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_5b6a1bc4973deb6eadfc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Market-Conditioned JEPA: Learning from Unpredictable Market Shocks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13572",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "category": "Safety"
     }
