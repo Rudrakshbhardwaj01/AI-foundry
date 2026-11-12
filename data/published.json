@@ -1,10 +1,123 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_9b611544b1f852f7c64d",
-  "publishedAt": "2026-11-12T16:33:29.568Z",
-  "lastSuccessfulRefreshAt": "2026-11-12T16:33:29.568Z",
+  "snapshotId": "snapshot_ab6fb0478977178f3204",
+  "publishedAt": "2026-11-12T22:34:04.622Z",
+  "lastSuccessfulRefreshAt": "2026-11-12T22:34:04.622Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_19eeb1c0121b2842d3e9",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "publishedAt": "2026-11-12T21:56:11.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_ffc7f3f0e7bccd03b70e",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+      "publishedAt": "2026-11-12T21:09:49.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_527e943e27a3f131b4ab",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/amplitude",
+      "publishedAt": "2026-11-12T20:00:00.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_e0d99661ca101d09de60",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "publishedAt": "2026-11-12T19:07:35.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_19238a8707255ad5bd5a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+      "description": "AI, YC F26) are open-sourcing AgentRun and turning it into a full managed agents platform. Detailed analytics on how your agents behave You can bring your own agent. AgentRun works with Pi, Claude Agents, Codex, OpenCode, and any other harness that supports ACP. You can self-host it (see 1-click install on Render) with an OpenRouter key, or try the hosted version at console.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "publishedAt": "2026-11-12T18:15:48.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_94d638f68b127da4db87",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "publishedAt": "2026-11-12T18:00:50.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_b36b0cdc011908f5e946",
       "sourceId": "openai-news",
@@ -5573,120 +5686,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2605.25399",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_53889ad7ca882afe5cef",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Epistemic Infrastructures of Science in AI Era Should Rebalance Costs of Generation and Verification",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.10425",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_5414e60eb844157a6ee4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EEG-X: Toward Device-Agnostic and Noise-Robust Foundation Model for EEG",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2511.08861",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_548c8b3c424c7503516d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "T-SANDHI: Tone Sandhi-aware Adaptive Network with Decoupled Hybrid Injection for Low-resource Taiwanese Hokkien Speech Recognition",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.18194",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_5495a6b2f18ac106e6f3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Scalable and Calibrated Sampling for Bayesian Generalized Linear Mixed Model via Stochastic Gradient Markov Chain Monte Carlo",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2403.03007",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_5526c2c19335bd4302b4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "khammoon: From a Linguistic Guideline to a Thai Morpheme Segmenter",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13012",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_5567d0314edf0f0dd859",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "ORCA: Hunting Compositional Failures in Text-to-Image Diffusion",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.09841",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "category": "Safety"
     }

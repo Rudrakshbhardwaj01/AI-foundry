@@ -1,10 +1,68 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_9136d8e238267a2697a4",
-  "publishedAt": "2026-11-12T00:00:44.283Z",
-  "lastSuccessfulRefreshAt": "2026-11-12T00:00:44.283Z",
+  "snapshotId": "snapshot_9b611544b1f852f7c64d",
+  "publishedAt": "2026-11-12T16:33:29.568Z",
+  "lastSuccessfulRefreshAt": "2026-11-12T16:33:29.568Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_b36b0cdc011908f5e946",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "publishedAt": "2026-11-12T09:30:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_7e0d2858856a8fc44e01",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_35cf26dc3d6060529605",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Supporting research on AI and children’s safety",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/children-first-declaration",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "category": "Safety"
+    },
     {
       "id": "article_abb46f4b218dd1526e47",
       "sourceId": "openai-news",
@@ -5631,63 +5689,6 @@
       "url": "https://arxiv.org/abs/2610.09841",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_56938e97197d109928ca",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Mixture of Cognitive Experts in Large Vision-Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.10796",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_56e37cbadbb98d420771",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Rethinking Evaluation for Video Capsule Endoscopy: Validation Protocol, Source-Video Diversity, and Cross-Dataset Shift",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13245",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_570f94f5b169fd7ca786",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "TanCRAFT: Context-Reasoned Anticipatory Feedback for Assembly Tasks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.14470",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
