@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_80d3359c8d6659aa61e9",
-  "publishedAt": "2026-11-11T17:41:19.727Z",
-  "lastSuccessfulRefreshAt": "2026-11-11T17:41:19.727Z",
+  "snapshotId": "snapshot_9136d8e238267a2697a4",
+  "publishedAt": "2026-11-12T00:00:44.283Z",
+  "lastSuccessfulRefreshAt": "2026-11-12T00:00:44.283Z",
   "articleCount": 300,
   "articles": [
     {
@@ -23,6 +23,137 @@
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "publishedAt": "2026-11-12T00:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_42bdbaaddea8440abcbc",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+      "publishedAt": "2026-11-11T21:24:35.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_1d3baab3eb74ef5c66bd",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "aws-emulator",
+      "description": "It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently requires Docker to run on macOS or Windows.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator",
+      "publishedAt": "2026-11-11T21:18:30.000Z",
+      "category": "Policy"
+    },
+    {
+      "id": "article_ebd04f85552af529a628",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/huawei-csl/MACaQ",
+      "publishedAt": "2026-11-11T20:23:57.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_0d93a9f00efa972db0e8",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12291",
+      "description": "based on query tokensGQA ratio. because those head sizes were incorrectly treated as unaligned.",
+      "summaryMethod": "source_excerpt",
+      "summaryContentSource": "content",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "deduplicated-or-filtered",
+        "url-cleaned",
+        "source-excerpt"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12291",
+      "publishedAt": "2026-11-11T19:52:29.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_6f48d6b8722117b5579b",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Browse tools.simonwillison.net by tag",
+      "description": "I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags",
+      "publishedAt": "2026-11-11T18:42:50.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_65fa23a004ebcec79b8c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AWS emulator",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/aws/aws-emulator",
+      "publishedAt": "2026-11-11T18:21:38.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_032aad37e98db94b4c80",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "llm 0.37.2",
+      "description": "Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w. LLM has a mechanism called extra-openai-models. yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/11/llm",
+      "publishedAt": "2026-11-11T17:19:52.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_134e6855077aa3b9a9df",
@@ -92,6 +223,25 @@
       "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
       "publishedAt": "2026-11-11T15:00:15.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_8bddeaeb661ca4f4366a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "My AI agents found an unmapped Maya site",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "publishedAt": "2026-11-11T12:05:22.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_a24d584c7389c47450fa",
@@ -5538,158 +5688,6 @@
       "url": "https://arxiv.org/abs/2611.14470",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_5727bda0288285e4b0d0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "FedVP: Federated Learning across Heterogeneous Models by Pooling Locally Trained Verifiers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13708",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_57c8ec4de0091d5428c6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Passive Imitation: On-Policy Mid-Training Distillation for Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13855",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_57d0e0342067a08200be",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.12982",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_57e0a70ab054756099ad",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Where Has the Foreign Signal Gone? Contributor Composition and the Reliability of Social Media Sentiment",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.28175",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_58031d7984403fd37706",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Compute-Optimal Scaling Laws for Spiking Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.15146",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_584f292d6930f3892b52",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Structured Confidence Perturbation via Fisher Geometry for Adversarial Training",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.14046",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_586d98205bef75621401",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MRFoundry: Knowledge-guided agent loops for end-to-end MRI research",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13289",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_590170bdf773c6fb3bb3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "3A-VLA: Abstraction-Aligned Action Learning for Vision-Language Agents in 3D Game Worlds",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2602.02212",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
