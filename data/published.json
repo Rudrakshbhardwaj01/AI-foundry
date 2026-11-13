@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_ab6fb0478977178f3204",
-  "publishedAt": "2026-11-12T22:34:04.622Z",
-  "lastSuccessfulRefreshAt": "2026-11-12T22:34:04.622Z",
+  "snapshotId": "snapshot_29c56d1f2ff211c14582",
+  "publishedAt": "2026-11-13T03:07:56.673Z",
+  "lastSuccessfulRefreshAt": "2026-11-13T03:07:56.673Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_41e1e4c0030ddd8a4a1e",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "publishedAt": "2026-11-12T23:06:17.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_f672ee558afe986b6962",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "llm-gemini 0.37",
+      "description": "Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. I'm finding Gemini 4's pricing really confusing. The Hydrogen price will make more sense after December 1st, when it will represent a 75% discount. It's still considerably more expensive than Claude Haiku 5.5 and GPT-6 Luna - they're both $0.10/$0.50, so Hydrogen is 15x that.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini",
+      "publishedAt": "2026-11-12T22:55:19.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_19eeb1c0121b2842d3e9",
       "sourceId": "hacker-news",
@@ -41,6 +78,25 @@
       ],
       "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
       "publishedAt": "2026-11-12T21:09:49.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_31bfa8a065f22623bb0b",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "publishedAt": "2026-11-12T20:00:00.000Z",
       "category": "Tools"
     },
     {
@@ -116,6 +172,25 @@
       ],
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
       "publishedAt": "2026-11-12T18:00:50.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_823ad0ed16968e98ba63",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "publishedAt": "2026-11-12T12:00:00.000Z",
       "category": "Model Releases"
     },
     {
@@ -5612,82 +5687,6 @@
       "url": "https://arxiv.org/abs/2607.04096",
       "publishedAt": "2026-11-11T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_51bf585346d741355214",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DepthGS: Depth-Guided Gaussian Splatting with Adaptive Regularization for High-Quality Surface Reconstruction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13628",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_52554cc271ef7912e317",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Decision-Focused Learning via Neural Optimization Layers for Battery-Assisted Grid-Import Smoothing in AI Data Centers",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13694",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_528cfcb587b732935ff9",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Branch-and-Commit for Frozen RL Agents: When and Where to Spend Test-Time Compute",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13003",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_53679c3ce10590c082ea",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Towards end-to-end LLM-based censoring-aware survival analysis",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.25399",
-      "publishedAt": "2026-11-11T05:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
