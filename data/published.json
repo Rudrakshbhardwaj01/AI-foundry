@@ -1,10 +1,27 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_750601b14a8fac1d9560",
-  "publishedAt": "2026-11-14T06:52:10.582Z",
-  "lastSuccessfulRefreshAt": "2026-11-14T06:52:10.582Z",
+  "snapshotId": "snapshot_ebf4d10a4913b6caa3e8",
+  "publishedAt": "2026-11-14T18:57:32.305Z",
+  "lastSuccessfulRefreshAt": "2026-11-14T18:57:32.305Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_1b001eab78673ca4573e",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "description": "I'm snipedbywifi, and i've been working on terminactory. (yes, I had heavy AI assistance, disclaimer! If anyone actually has this issue / want of a terminal-based game that runs alongside your agents so you don't doomscroll, do you have any suggestions, or additional ideas I could add? It's hosted on GitLab, soo, that's one additional thing i'd like to mention Thanks for reading!",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://gitlab.com/snipedbywifi/terminactory",
+      "publishedAt": "2026-11-14T14:05:54.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_160a8a8f03941b8c9edf",
       "sourceId": "hacker-news",
@@ -5681,25 +5698,6 @@
       "url": "https://arxiv.org/abs/2611.16359",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_3822b5de3de30fbe7eee",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Your PID Is Already a Neural Network: Learning Its Gains with Only Three Weights and No Teacher",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16050",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
