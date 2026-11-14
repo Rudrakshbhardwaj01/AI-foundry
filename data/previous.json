@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_46fc0fe13c6c95746845",
-  "publishedAt": "2026-11-13T18:39:21.850Z",
-  "lastSuccessfulRefreshAt": "2026-11-13T18:39:21.850Z",
+  "snapshotId": "snapshot_7d4630498ffe0c52a1f0",
+  "publishedAt": "2026-11-14T00:09:00.056Z",
+  "lastSuccessfulRefreshAt": "2026-11-14T00:09:00.056Z",
   "articleCount": 300,
   "articles": [
     {
@@ -24,6 +24,25 @@
       "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
       "publishedAt": "2026-11-13T18:00:39.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_fc7b25ed205390a8a60c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "OpenAI disbands its robotics team as its general models start running robots",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots",
+      "publishedAt": "2026-11-13T17:55:23.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_0c88b5f46673d2f301d9",
@@ -5681,25 +5700,6 @@
       "url": "https://arxiv.org/abs/2604.07338",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_38d1e4a4e97ce7e95bbd",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Efficient Alternating Minimization with Applications to Weighted Low Rank Approximation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2306.04169",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }

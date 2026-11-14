@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_7d4630498ffe0c52a1f0",
-  "publishedAt": "2026-11-14T00:09:00.056Z",
-  "lastSuccessfulRefreshAt": "2026-11-14T00:09:00.056Z",
+  "snapshotId": "snapshot_750601b14a8fac1d9560",
+  "publishedAt": "2026-11-14T06:52:10.582Z",
+  "lastSuccessfulRefreshAt": "2026-11-14T06:52:10.582Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_160a8a8f03941b8c9edf",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "publishedAt": "2026-11-14T02:52:59.000Z",
+      "category": "Industry"
+    },
     {
       "id": "article_5523a905b303f8dc766f",
       "sourceId": "hugging-face",
@@ -84,6 +103,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_9abbe59c3567c090f3d8",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "publishedAt": "2026-11-13T15:08:44.000Z",
+      "category": "Tools"
+    },
+    {
       "id": "article_13bcf0a778955e6900f7",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -108,7 +146,7 @@
       "sourceName": "Hugging Face",
       "sourceType": "Blog post",
       "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "description": "We believe this is the most lightweight, versatile and sensible platform for building cross-platform and private AI products. Today we release libraries v1.0.0, highlighting our responsibility to those developers. For more information about how to add ggml-org projects to your packaging and release pipelines, please check the following discussion. cpp team at Hugging Face is thankful for the incredible support from the community.",
+      "description": "We believe this is the most lightweight, versatile and sensible platform for building cross-platform and private AI products. Today we release libraries v1.0.0, highlighting our responsibility to those developers. cpp team at Hugging Face is thankful for the incredible support from the community. \",\"plan\":\"team\"}},\"createdAt\":\"2026-11-14T01:12:45.000Z\",\"type\":\"comment\",\"data\":{\"edited\":false,\"hidden\":false,\"latest\":{\"raw\":\"congrats with the release!",
       "summaryMethod": "extractive",
       "summaryContentSource": "page:html:main",
       "summaryQuality": "high",
@@ -157,6 +195,25 @@
       "url": "https://status.claude.com/incidents/nn11wk485zfn",
       "publishedAt": "2026-11-13T10:18:13.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_ead3603c0558886fac8c",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/business/customer-stories/shield",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_001f3d371ebf92324b8e",
@@ -5643,63 +5700,6 @@
       "url": "https://arxiv.org/abs/2611.16050",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_383801e925e9332af012",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Time-Frequency-Condition Multimodal Fusion Foundation Model for Universal Rotating-Machinery Fault Diagnosis under Multi-Element Heterogeneous Scenarios",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.15051",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_384d1d694feffa8b29ac",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Flow Reconstruction from Sparse Measurements in Urban Drainage Networks: A Simulation-Based Evaluation of Data-Driven Sparse Sensing",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2511.04556",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_387575d9fa770eed08a4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Appear2Meaning: A Cross-Cultural Benchmark for Structured Cultural Metadata Inference from Images",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2604.07338",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
