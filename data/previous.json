@@ -1,10 +1,125 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_cde3f0beb5a645c192ec",
-  "publishedAt": "2026-11-13T11:22:38.037Z",
-  "lastSuccessfulRefreshAt": "2026-11-13T11:22:38.037Z",
+  "snapshotId": "snapshot_46fc0fe13c6c95746845",
+  "publishedAt": "2026-11-13T18:39:21.850Z",
+  "lastSuccessfulRefreshAt": "2026-11-13T18:39:21.850Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_5523a905b303f8dc766f",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "publishedAt": "2026-11-13T18:00:39.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_0c88b5f46673d2f301d9",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "publishedAt": "2026-11-13T17:30:10.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_cd4824367991c50f5563",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "XYBench: Helping with the problem behind the question",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "publishedAt": "2026-11-13T17:02:35.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_13bcf0a778955e6900f7",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Introducing ChatGPT Wallet",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "publishedAt": "2026-11-13T15:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_26d26dd6fbeada1ea89e",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "description": "We believe this is the most lightweight, versatile and sensible platform for building cross-platform and private AI products. Today we release libraries v1.0.0, highlighting our responsibility to those developers. For more information about how to add ggml-org projects to your packaging and release pipelines, please check the following discussion. cpp team at Hugging Face is thankful for the incredible support from the community.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "publishedAt": "2026-11-13T14:05:22.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_4b374416463d50048d11",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI Is Destroying the Trust Between Writers and Readers",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391",
+      "publishedAt": "2026-11-13T11:13:46.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_097e220b97612387c1c7",
       "sourceId": "hacker-news",
@@ -955,6 +1070,25 @@
       "category": "Safety"
     },
     {
+      "id": "article_0b19ee71a0d5c2393fa6",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Continual Instruction Tuning for LLM-based Management of Continuum Resources",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.10292",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_0b7cffedeb24e1fec925",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -1332,6 +1466,25 @@
       "url": "https://arxiv.org/abs/2611.15722",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Safety"
+    },
+    {
+      "id": "article_0f56b81d7c9dd95b0c58",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Hint, Not Hole: Localization-Robust Video Overlay Removal",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.13711",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_0f62239c3897e2f05b1e",
@@ -1977,6 +2130,25 @@
       "url": "https://arxiv.org/abs/2611.10380",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_178734204bb74d2c910d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Ninety-Six Ways to Measure a Scribe: Fragmented Evaluation of Ambient Scribes in Healthcare",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.14284",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "category": "Safety"
     },
     {
       "id": "article_17cb757bf57f9b8feb3e",
@@ -3533,6 +3705,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.14942",
+      "publishedAt": "2026-11-13T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_249927f400f2d62cbd0c",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Compute the Interactions, Not the Attributes: What a Fact Layer Must Supply in the Chinese Sexagenary System",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.13597",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Infrastructure"
     },
@@ -5509,196 +5700,6 @@
       "url": "https://arxiv.org/abs/2306.04169",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_391464e65f3be62c8222",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "PhysPatch: A Physically Realizable and Transferable Adversarial Patch Attack for Multimodal Large Language Models-based Autonomous Driving Systems",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2508.05167",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_39193f533add500f7b76",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Accuracy: A Geometric Stability Analysis of Large Language Models in Chess Evaluation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2512.15033",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_392cab3d21aabda0f7d0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Folio: Recoverable Multi-Resolution Context Folding for Long-Horizon Language Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16627",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_39a5f866b8a2ae157586",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Distribution-First Framework for Learning Risk-Sensitive Individualized Treatment Rules",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16274",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_3a24159c6ea020a33d66",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Uncertainty-Guided Label Rebalancing for CPS Safety Monitoring",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2603.25670",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_3a301fd6d828f68e67ed",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "From Pixels to Prompts: Physics-Guided Language Enhancement for AI-Generated Image Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.14898",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_3ad6ada4d6977d4e2066",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Human or Synthetic? What a Fixed Budget Buys for Post-Training",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16895",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_3b1320bd6572adeccf8b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Where Autonomy Belongs: A Separation of Powers for Agentic Program Evolution",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.15309",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_3b3ec1227fda34641cb8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "HyperSkill: Training-Free Omnimodal GRPO via Hypergraph-Indexed Skill-Library Evolution",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.15178",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_3b854e3d1c847a95865e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Stack more levels: how to get general and human-like Mario playing",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16175",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
