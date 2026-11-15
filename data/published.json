@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_ebf4d10a4913b6caa3e8",
-  "publishedAt": "2026-11-14T18:57:32.305Z",
-  "lastSuccessfulRefreshAt": "2026-11-14T18:57:32.305Z",
+  "snapshotId": "snapshot_92499b5a7f6b4fa81887",
+  "publishedAt": "2026-11-15T02:22:25.593Z",
+  "lastSuccessfulRefreshAt": "2026-11-15T02:22:25.593Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_f73b7489b4ca3a818af4",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "datasette-llm 0.1a11",
+      "description": "datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama. Screenshot of a chat interface.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "publishedAt": "2026-11-14T23:59:28.000Z",
+      "category": "Policy"
+    },
+    {
+      "id": "article_e880ed69ef0f2c1a9e16",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "publishedAt": "2026-11-14T22:26:30.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_1b001eab78673ca4573e",
       "sourceId": "hacker-news",
@@ -5660,44 +5697,6 @@
       "url": "https://arxiv.org/abs/2611.15750",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_3800ffcb0b7fa976cc1f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Are Causal Neuron Circuits Unique and Transferable?",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13885",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_38209fe58808f47d78f6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "IsharaBART: An efficient BART-Based Framework for Low-Resource Bangla Sign Language Translation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16359",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }
