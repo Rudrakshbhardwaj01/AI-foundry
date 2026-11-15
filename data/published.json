@@ -1,10 +1,28 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_92499b5a7f6b4fa81887",
-  "publishedAt": "2026-11-15T02:22:25.593Z",
-  "lastSuccessfulRefreshAt": "2026-11-15T02:22:25.593Z",
+  "snapshotId": "snapshot_0331f8cd9883fb236649",
+  "publishedAt": "2026-11-15T09:44:46.753Z",
+  "lastSuccessfulRefreshAt": "2026-11-15T09:44:46.753Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_b03eecb6ef6ad8a4833e",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12406",
+      "description": "Decode per-layer NVFP4 and MXFP8 schemes, validate companions, and use stored scale shapes with a warning for the declared MXFP8 [32,32] grid. Stream 128 rows per expert through LazyChunkedTensor. Full-model chunk metadata is roughly 370 MiB. CPU prefill/decode logits remain within 3.1e-6 absolute error, with 100% argmax agreement.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12406",
+      "publishedAt": "2026-11-15T09:27:48.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_f73b7489b4ca3a818af4",
       "sourceId": "simon-willison",
@@ -5678,25 +5696,6 @@
       "url": "https://arxiv.org/abs/2607.18777",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_37a6d2e2a5606ed39052",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Sensitivity-Aware Surrogate Modeling with Random Feature Expansions",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.15750",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
