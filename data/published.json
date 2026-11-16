@@ -1,10 +1,143 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_3d8afa755c08ec344831",
-  "publishedAt": "2026-11-16T08:17:26.507Z",
-  "lastSuccessfulRefreshAt": "2026-11-16T08:17:26.507Z",
+  "snapshotId": "snapshot_905d2c79d36f29d6619e",
+  "publishedAt": "2026-11-16T18:46:14.091Z",
+  "lastSuccessfulRefreshAt": "2026-11-16T18:46:14.091Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_60e0d9d81c508a44ce09",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Broadening access to AI for scientists",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_7f2cdd1bcf325a954e13",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_2eaa3f973239ea1c4cb9",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "publishedAt": "2026-11-16T12:00:00.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_6cb8354ccd02fe202082",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "publishedAt": "2026-11-16T09:00:00.000Z",
+      "category": "Industry"
+    },
+    {
+      "id": "article_7f5b5fde95b8fcc36f57",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Our first phase of embedded assessments",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "category": "Safety"
+    },
+    {
+      "id": "article_936178ef9a8497984da9",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "publishedAt": "2026-11-16T06:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_d746278f9daf0965da77",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "publishedAt": "2026-11-16T06:00:00.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_0085a6850e0cee3aac7c",
       "sourceId": "arxiv",
@@ -461,6 +594,25 @@
       "category": "Safety"
     },
     {
+      "id": "article_0a724298e673b3104769",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "NaijaFacts: A Framework for Disentangling Language from Knowledge in Facts about Nigeria",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.06504",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "category": "Tools"
+    },
+    {
       "id": "article_0aa621f3c8850e8bdef1",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -630,6 +782,25 @@
       "url": "https://arxiv.org/abs/2611.17908",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_0f5cb53712c4994ff795",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "ZONOS3-Mini Technical Report",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.16525",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_105b8fb2278c5475d03d",
@@ -4066,6 +4237,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_5ac78b4961cc263f8065",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Time Flies When You Parallelise: Pareto-efficient Time Series Foundation Models with Linear Recurrences",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.16934",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_5afba75eecd7e64c5a3a",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4083,6 +4273,25 @@
       "url": "https://arxiv.org/abs/2512.05024",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "category": "Safety"
+    },
+    {
+      "id": "article_5b81a6cb1756bb1d9037",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "A Convex-Analytic Reformulation for Poisoning Attacks on Logistic Regression",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.17143",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "category": "Research"
     },
     {
       "id": "article_60b03755c925ab00c9e5",
@@ -5489,215 +5698,6 @@
       "url": "https://arxiv.org/abs/2611.17905",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_8058fbca9f5031533057",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "PADSNet: Physics-Aware Dual-Stream Network with Biomechanical Priors for Laryngeal Lesion Classification",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.17852",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_80b7a6706cc05025bff7",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Courteous Anticipation: Improving Long-Lived Task Planning in Persistent Shared Environments",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.20289",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_816702512d0db6c654f6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Prediction Gain: LASR as a Metric for Action-Grounded Latents in World Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.17775",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_83075ee909518e9bcd1d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Electrocardiographic Imaging via Posterior Sampling under Operator Discrepancy",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.17851",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_832a374a9dc5d1326752",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Variational Latent Equilibrium for Learning in Neuronal Circuits",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2603.09600",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_83916ad921be954a5fac",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learning Word-Level Explanations of Text Reuse in Latin Literature with Little Annotation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.18319",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_83c32e6ab55f69a78a92",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "HyBridge: Bridge-Guided Self-Supervised Hyperbolic Hypergraph Representation Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16351",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_84ba063108bc8879f65a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Causal-prior-constrained deep learning for rapid-intensification warning of western North Pacific tropical cyclones",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.40304",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_8536420c81494c0c704b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Knowledge After Collapse: Context and Wording Shape Factual Accessibility in Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.17763",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_856c82824e60723ce0d1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Retrieval of Coastal Biogeochemical Parameters From Near-Surface Hyperspectral Remote Sensing Reflectance Using Physics-Aware Meta-Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.05623",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_857b4e0e3965e9a6ebe0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AnaDiffusion: Anatomically Compositional Latent Diffusion for Controllable 3D Brain MRI Generation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2608.23014",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
