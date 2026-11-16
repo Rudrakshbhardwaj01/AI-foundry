@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_0331f8cd9883fb236649",
-  "publishedAt": "2026-11-15T09:44:46.753Z",
-  "lastSuccessfulRefreshAt": "2026-11-15T09:44:46.753Z",
+  "snapshotId": "snapshot_86444d9d5b4dd72d11db",
+  "publishedAt": "2026-11-15T16:47:41.439Z",
+  "lastSuccessfulRefreshAt": "2026-11-15T16:47:41.439Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_43bfec34cb236796e4b6",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "All AI-generated code should be Open Source",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+      "publishedAt": "2026-11-15T14:46:58.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_b03eecb6ef6ad8a4833e",
       "sourceId": "github",
@@ -231,6 +250,23 @@
       "category": "Open Source"
     },
     {
+      "id": "article_21539a4dff944241582b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Carton Clock – A working pendulum clock made from empty drink cartons",
+      "description": "After my last trash clock, I wanted to see how low I could go. It has a pendulum, an escapement, and hands for seconds, minutes, and hours, and runs for about an hour. The design of the gears and escapement was AI-assisted: Claude built me interactive browser tools that generate templates and 3D-printable jigs and tools. CU at Congress, I guess!",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://www.niklasroy.com/carton-clock",
+      "publishedAt": "2026-11-13T12:00:18.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_4b374416463d50048d11",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -248,6 +284,25 @@
       "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391",
       "publishedAt": "2026-11-13T11:13:46.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_cca90d1696d75e9913d7",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "What thousands of conversations look like inside a language model",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://operator0x.com/field-notes/qwen-conversation-state-space",
+      "publishedAt": "2026-11-13T10:26:01.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_097e220b97612387c1c7",
@@ -5639,63 +5694,6 @@
       "url": "https://arxiv.org/abs/2611.17239",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_3777236b67b39eaf7c91",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Eliciting and Mitigating Specification Satisficing in Coding Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16289",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_37800283b596c4f66908",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Moving Beyond the DRW Model: Learning Quasar Variability with Generative Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.15040",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_378b1616c7be00fdcbe0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.18777",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }

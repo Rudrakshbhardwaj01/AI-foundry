@@ -1,10 +1,66 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_86444d9d5b4dd72d11db",
-  "publishedAt": "2026-11-15T16:47:41.439Z",
-  "lastSuccessfulRefreshAt": "2026-11-15T16:47:41.439Z",
+  "snapshotId": "snapshot_fe239a50cae5071a57b0",
+  "publishedAt": "2026-11-16T01:19:28.448Z",
+  "lastSuccessfulRefreshAt": "2026-11-16T01:19:28.448Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_efabe04823ddd47b4029",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "datasette-maplibre 0.1a0",
+      "description": "The first new Datasette geospatial plugin in quite a while! Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at /dev/tools/openfreemap-demo. I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly. Screenshot of a web map interface.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+      "publishedAt": "2026-11-15T23:58:36.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_2046098a07e184a55550",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "publishedAt": "2026-11-15T22:00:01.000Z",
+      "category": "Policy"
+    },
+    {
+      "id": "article_05ff2615696884c353b1",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Our new blog for science",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_43bfec34cb236796e4b6",
       "sourceId": "hacker-news",
@@ -41,6 +97,24 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12406",
       "publishedAt": "2026-11-15T09:27:48.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_6cfba3e74102bd73edd6",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "datasette-agent 0.6a0",
+      "description": "Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Below the search box is a Datasette Agent heading with a text input and an ask button. User has typed: Tell me about - the box is showing autocomplete results for the repos and releases tables.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent",
+      "publishedAt": "2026-11-15T03:49:47.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_f73b7489b4ca3a818af4",
@@ -5619,81 +5693,6 @@
       "url": "https://arxiv.org/abs/2611.15298",
       "publishedAt": "2026-11-13T05:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_36715140bf5e5ee999b4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning",
-      "description": "Open-weight auditor pairs show near-zero chance-corrected agreement, which measures consistency rather than accuracy against proof truth. These results motivate separate reporting of execution failures, selected-answer precision, and independently assessed proof validity. CatalyzeX Code Finder for Papers (What is CatalyzeX? Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2611.14794",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_369809cea13ac8657454",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Context-Predictive Low-Rank Adaptation for Face Presentation Attack Detection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16534",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_369b19127d128330e2ab",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Small Language Models for Inference-Capability Routing: Effects of Model Capacity and Prompt Optimization on Downstream Quality and Efficiency",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16414",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_36e2bc6c3737286ff825",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.17239",
-      "publishedAt": "2026-11-13T05:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
