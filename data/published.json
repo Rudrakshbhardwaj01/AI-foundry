@@ -1,10 +1,46 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_905d2c79d36f29d6619e",
-  "publishedAt": "2026-11-16T18:46:14.091Z",
-  "lastSuccessfulRefreshAt": "2026-11-16T18:46:14.091Z",
+  "snapshotId": "snapshot_3f6d63ecd0dd253df63a",
+  "publishedAt": "2026-11-17T02:17:23.649Z",
+  "lastSuccessfulRefreshAt": "2026-11-17T02:17:23.649Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_173c34cd9eae96a3089f",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "llm 0.37.3",
+      "description": "A bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's logging code. That was a bug fix. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/16/llm",
+      "publishedAt": "2026-11-16T23:57:26.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_ab513282f940022305d3",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "vllm: v0.34.0",
+      "description": "Opt out with --gpu-memory-utilization 0.9 or --no-enable-extensible-kv-cache. Kimi K3.1 groundwork landed (, ), but K3.1 is not servable in this release. Headroom for measured allocator fragmentation, validated on Qwen3.5-397B-A17B-FP8 at TP8+EP on 8×H200 (). enable-ep-weight-filter with EPLB: DeepSeek-R1 NVFP4 DEP8 reads 105 GiB per rank instead of 385 GiB ().",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
+      "publishedAt": "2026-11-16T23:22:00.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_60e0d9d81c508a44ce09",
       "sourceId": "openai-news",
@@ -5660,44 +5696,6 @@
       "url": "https://arxiv.org/abs/2611.17632",
       "publishedAt": "2026-11-16T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_7fd36e316f1d2acf933f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Between Obligations and Evidence: A Participatory Study of Translating the EU AI Act into Technical Requirements",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.18439",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_802452bd88cd5a5a7763",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Cracks in Embeddings: Robustness and Stability of JEPA-Based Chest X-Ray Representations",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.17905",
-      "publishedAt": "2026-11-16T05:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
