@@ -1,10 +1,64 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_7d2d624a22b0545262b6",
-  "publishedAt": "2026-11-17T10:57:26.049Z",
-  "lastSuccessfulRefreshAt": "2026-11-17T10:57:26.049Z",
+  "snapshotId": "snapshot_45b3c82a1e89782b91db",
+  "publishedAt": "2026-11-17T19:39:59.582Z",
+  "lastSuccessfulRefreshAt": "2026-11-17T19:39:59.582Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_be8bfdfda4835ac423f8",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+      "description": "Daniel helped build Netflix's internal developer portal. We now support per-second billing, and just shipped StarSling Disks - persistent disks that give you a 4.9x speedup in dependencies ready over actions/cache. (36.4x) Yes, you can do these optimizations yourself with prompts so we’ve released skills for this:. To get fast and cost effective CI you need a process that continues making improvements.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://starsling.dev/",
+      "publishedAt": "2026-11-17T19:01:43.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_a1d905ebdd934b17e26a",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_09a8f79a43cbdec97777",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+      "description": "We started 3 weeks back, and currently we’re able to serve and run GLM 5.3 flash (FP8) on AWS trn2.48xlarge, and will bring more models support soon. We hope you find this useful. Feel free to share the models you want support for next, and we welcome any contributions to the repository.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "publishedAt": "2026-11-17T16:01:04.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_001833bdfea0dc2b6f52",
       "sourceId": "arxiv",
@@ -5643,63 +5697,6 @@
       "url": "https://arxiv.org/abs/2611.19319",
       "publishedAt": "2026-11-17T05:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_2a25788760499ef51ba6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AgentGA: Evolving Code Solutions in Agent-Seed Space",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2604.14655",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_2a5f6aeec420188641ac",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Risk-certified prompt optimization for LLM-as-a-judge guardrails",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.20156",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_2af1bb5dcd2c36f3abad",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "TEMPO: Regime-Aware Operator Learning with Locally Adapted POD Bases",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.21344",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
