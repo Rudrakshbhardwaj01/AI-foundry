@@ -1,10 +1,100 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_d50d464dedea3a68db12",
-  "publishedAt": "2026-11-18T10:29:09.034Z",
-  "lastSuccessfulRefreshAt": "2026-11-18T10:29:09.034Z",
+  "snapshotId": "snapshot_a85c24abe2fb7e769fd3",
+  "publishedAt": "2026-11-18T18:59:32.115Z",
+  "lastSuccessfulRefreshAt": "2026-11-18T18:59:32.115Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_4ef49024ee69245e55cc",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "description": "A CatBoost regressor that only sees information available before dispatch reaches R² = 0.98, with a mean absolute error of 1.71 h and a median error of 0.51 h in 5-fold cross-validation. The measured times include real contention. It builds an explicit layer graph and accounts for compute, memory traffic and inter-device communication. It does not mean adding GPUs makes a job slower.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "publishedAt": "2026-11-18T18:53:43.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_273f5f507726bc485626",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Genie 4 is now available",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://deepmind.google/blog/genie-4-is-now-available",
+      "publishedAt": "2026-11-18T18:13:42.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_544959a8c8e263b8b033",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Daniel Stenberg",
+      "description": "We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. In another month we have done another 200 and maybe fixed a few more vulnerabilities.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+      "publishedAt": "2026-11-18T15:58:27.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_ecbb06a9acbba904ba97",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+      "publishedAt": "2026-11-18T15:49:34.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_161ab6f7e5c8ae6e3c79",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "description": "To get ahead of the problem, a pretrained TTM model reads SCADA telemetry and QA measurements every 10 minutes. The same approach can support planning for spare parts, staffing, ATM cash, and energy demand. TSPulse can produce representations of time-series windows that support similarity search. Time-series embeddings can support a search for similar patterns across equipment and other signals.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "publishedAt": "2026-11-18T15:00:23.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_42ba6ad6fa7cc8bfc5a8",
       "sourceId": "hacker-news",
@@ -41,6 +131,25 @@
       "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12503",
       "publishedAt": "2026-11-18T08:28:45.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_7d98ea4e945e90d23a91",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Inside the Codex sandbox",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_da53783385bbe9271687",
@@ -385,6 +494,25 @@
       "category": "Infrastructure"
     },
     {
+      "id": "article_05543979e5fdba72dad6",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.37584",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "category": "Tools"
+    },
+    {
       "id": "article_0562a50c3034f5d7357d",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -535,6 +663,25 @@
       "url": "https://arxiv.org/abs/2611.23091",
       "publishedAt": "2026-11-18T05:00:00.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_07f263bd5226648aca3f",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Morphology-driven single-domain generalization for cross-cohort Alzheimer's disease detection using 3D MRIs",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2505.22465",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "category": "Open Source"
     },
     {
       "id": "article_08126fc16aa0a2f3a61d",
@@ -3520,6 +3667,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_2bd2a3beee7eb4c3057b",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Does the Voice Matter? Evaluating Frustration Detection on Deployed Clinical Voice-Agent Calls",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.21001",
+      "publishedAt": "2026-11-18T05:00:00.000Z",
+      "category": "Tools"
+    },
+    {
       "id": "article_2c3263f68b21bbe84d86",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5531,177 +5697,6 @@
       "url": "https://arxiv.org/abs/2611.21639",
       "publishedAt": "2026-11-18T05:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_4af4af7602d571307bd6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "FAR-Drive: Frame-AutoRegressive Video Generation for Autonomous Driving",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2603.14938",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4b026bcde6f5a5219c76",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "On Minimal Observation Time for Recovering Latent Hawkes Networks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.08400",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4b0ff7d0b485681dbb26",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Amortizing Scaling Law Construction Costs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.05016",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4b26f151430798f583fb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Octree-based Video Representation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.33100",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_4b4f96a69fcac598c810",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Task Convergent Flow Matching for Generative Robotics",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.22609",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4b533fdf5efdd2d6af8b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Practice in Text, Act in Pixels: Correcting Where Perception Fails",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.22722",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4b84d4064e91fe4ba914",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Single Slot: Joint Optimization for Multi-Slot Guaranteed Display Advertising",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.21556",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4cc0c8e883a07f38eaec",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DeltaHarness: Self-Evolving Harnesses for Resource-Adaptive Tool Execution",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.21688",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4d37cebb8a5478754858",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.23205",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
