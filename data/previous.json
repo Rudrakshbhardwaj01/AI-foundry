@@ -1,10 +1,103 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_45b3c82a1e89782b91db",
-  "publishedAt": "2026-11-17T19:39:59.582Z",
-  "lastSuccessfulRefreshAt": "2026-11-17T19:39:59.582Z",
+  "snapshotId": "snapshot_61f32a365cb36bea6e72",
+  "publishedAt": "2026-11-18T02:05:56.668Z",
+  "lastSuccessfulRefreshAt": "2026-11-18T02:05:56.668Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_61e32c4ee9da3bdd0559",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Cerebras Disaggregated Inference",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "publishedAt": "2026-11-18T00:56:23.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_247f7754b992aa397d77",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://revscope.co/blog/search-seo-geo-2026",
+      "publishedAt": "2026-11-18T00:17:58.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_757b93ab72c42c5ea54e",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "External sandboxes for coding agents",
+      "description": "I worked on this project with Prime Radiant, the AI research lab behind Superpowers and other projects. js server which then uses v86 to run Alpine Linux inside WebAssembly. external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance. This external sandbox pattern provides a neat way to experiment with different approaches.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+      "publishedAt": "2026-11-17T22:52:29.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_c2438ff39fce80fbe627",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "description": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.38 with support for the new models. Xhigh (33.85¢) shows two bent legs on the pedals.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+      "publishedAt": "2026-11-17T22:38:52.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_c9e820b3ccf18741a5b9",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
+      "publishedAt": "2026-11-17T21:16:12.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_be8bfdfda4835ac423f8",
       "sourceId": "hacker-news",
@@ -22,6 +115,25 @@
       "url": "https://starsling.dev/",
       "publishedAt": "2026-11-17T19:01:43.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_2326786aa2616c2d6bb2",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Not Everything Needs an LLM",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://newsletter.posthog.com/p/decision-models",
+      "publishedAt": "2026-11-17T18:16:18.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_a1d905ebdd934b17e26a",
@@ -58,6 +170,25 @@
       "url": "https://github.com/RunanywhereAI/trnrt",
       "publishedAt": "2026-11-17T16:01:04.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_d01f89dd096cc69c6ba8",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Introducing ChatGPT for Sales",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "category": "Research"
     },
     {
       "id": "article_001833bdfea0dc2b6f52",
@@ -5564,139 +5695,6 @@
       "url": "https://arxiv.org/abs/2512.07755",
       "publishedAt": "2026-11-17T05:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_2931fc7a4b165abbff4f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.15397",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_2958fb0adac910e01a10",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "An Interpretable Acoustic Coordinate System for Japanese Consonant Morae in Dysarthric Speech",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.19714",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_297fa3c682fed80c7d59",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MAPS: A Multimodal Agentic Framework for POI Data Production Based on Crowdsourced Street-view Imagery",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.19807",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_299994908b79f2236f01",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "OrganLens: Organ-Specific Representation Learning for CT Foundation Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.25164",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_29f694b71455469d5387",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Conic Structure of the Cross-Entropy Loss at the Final Layer and Its Absence in Rectifier Backbones",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.20696",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_2a126cbba08bd4b658a1",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Invariant-Aware Harness Enforcement to Protect LLM Agents from Silent API Failures",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.20595",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_2a199452f3f1a6f59ed8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Hardening Agentic Web Populations Through Multi-Criterion Competitive Co-Evolution: Lessons from Wargame Strategy Optimization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.19319",
-      "publishedAt": "2026-11-17T05:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
