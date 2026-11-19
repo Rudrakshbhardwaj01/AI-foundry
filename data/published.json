@@ -1,10 +1,68 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_a85c24abe2fb7e769fd3",
-  "publishedAt": "2026-11-18T18:59:32.115Z",
-  "lastSuccessfulRefreshAt": "2026-11-18T18:59:32.115Z",
+  "snapshotId": "snapshot_39f174053155744b972b",
+  "publishedAt": "2026-11-19T01:03:45.576Z",
+  "lastSuccessfulRefreshAt": "2026-11-19T01:03:45.576Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_f9fbb60ab3f506a8c483",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "LLM assisted reverse engineering",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "publishedAt": "2026-11-18T22:29:13.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_d3d34d99516a31ef5f92",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Introducing Gemini 4 Neon",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+      "publishedAt": "2026-11-18T21:35:43.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_eb4567c615692f0a9d7d",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "unsupported-length",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "publishedAt": "2026-11-18T19:54:56.000Z",
+      "category": "Research"
+    },
     {
       "id": "article_4ef49024ee69245e55cc",
       "sourceId": "hugging-face",
@@ -96,6 +154,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_a124ee73e244b0ef9314",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "The Silent Consensus",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/the-silent-consensus",
+      "publishedAt": "2026-11-18T10:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_42ba6ad6fa7cc8bfc5a8",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -133,6 +210,25 @@
       "category": "Infrastructure"
     },
     {
+      "id": "article_28d4a873706c3de08ad5",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Research acceleration: The jagged frontier",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "category": "Research"
+    },
+    {
       "id": "article_7d98ea4e945e90d23a91",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -152,6 +248,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_f086723bbeb939578b9c",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "category": "Research"
+    },
+    {
       "id": "article_da53783385bbe9271687",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -169,6 +284,25 @@
       "url": "https://nicolasbouliane.com/blog/death-by-ai",
       "publishedAt": "2026-11-18T06:47:26.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_546560015f7a02bee516",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "category": "Safety"
     },
     {
       "id": "article_00449ad7c53676ec7742",
@@ -5564,139 +5698,6 @@
       "url": "https://arxiv.org/abs/2611.22304",
       "publishedAt": "2026-11-18T05:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_485cc3ae34032cc11c2b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "FrameRouter: Frame Budget Routing for Long-Video Understanding on Video-MME-v2 and Beyond",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.23055",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_48927b8774ea2395617a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Latent Q-Barrier Shielding for Safe In-Context Reinforcement Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.25267",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4956afeda49ad91e0dc5",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Domain-Tuned Diffusion Super-Resolution for 4K Facial Asset Maps",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.21890",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_49e8d272355a624a8d75",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learning Greens Operators through Hierarchical Neural Networks Inspired by the Fast Multipole Method",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2509.20591",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4a2408f51238e7c0a0f0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Solver-Free and Cost-Aware Online Scheduling of AI Data Center Tasks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.22239",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4ae95672cab9c83272b2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "LMLineage: Content Lineage and Context Governance for LLM Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.22511",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4af45d7efc5690743fed",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "ClearTalk: Data-Driven Mandarin Articulation Analysis and Personalized Communication Support for Children with Dysarthria",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.21639",
-      "publishedAt": "2026-11-18T05:00:00.000Z",
-      "category": "Research"
     }
   ]
 }
