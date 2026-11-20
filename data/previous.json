@@ -1,10 +1,121 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_e520cec92895ef4ee2b0",
-  "publishedAt": "2026-11-19T09:06:51.318Z",
-  "lastSuccessfulRefreshAt": "2026-11-19T09:06:51.318Z",
+  "snapshotId": "snapshot_12c9ae4932ec407d5e3f",
+  "publishedAt": "2026-11-19T18:29:16.455Z",
+  "lastSuccessfulRefreshAt": "2026-11-19T18:29:16.455Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_37f5c44fcbf3144f0072",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Chrome AI features wasting much bandwidth",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth",
+      "publishedAt": "2026-11-19T16:54:25.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_7fbd897417ccd137f550",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12543",
+      "description": "handful of threadgroups on an otherwise idle GPU. marked as an op whose allocation may exceed its output size. the host checks that an image fits. the input, and route images that do not fit to the generic kernel.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12543",
+      "publishedAt": "2026-11-19T16:33:59.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_e9cdb9c1317aff4fffdd",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Fuck Your AI Safeguards",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards",
+      "publishedAt": "2026-11-19T16:30:18.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_01e4a81511568b4ecb29",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://thedataexchange.media/pete-warden-moonshine",
+      "publishedAt": "2026-11-19T15:38:12.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_86dfdb9dbe5e0b7f3bb8",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Watch weight-space programming in action with WebGPU",
+      "description": "I wanted to build a full weight-space programming loop entirely in the browser with WebGPU: let an LLM inspect Qwen3.5-0.8B, edit its weights, evaluate, and repeat. the full loop needed too much VRAM. so I turned it into an interactive walkthrough of a concrete example: editing 0.016% of a model's weights to reduce reasoning loops, no gradient descent.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://tabbyml.github.io/weight-space-playground",
+      "publishedAt": "2026-11-19T15:32:47.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_0e6ee38f3779ccd2c988",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "publishedAt": "2026-11-19T08:00:00.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_0031146583a2fe15c1c6",
       "sourceId": "arxiv",
@@ -137,6 +248,25 @@
       "url": "https://arxiv.org/abs/2611.13006",
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_020ee5d83df8f639e603",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Rethinking the Reconstruction-Generation Gap in Representation Autoencoders",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2609.31620",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_0217b1333a61c7180821",
@@ -3423,6 +3553,25 @@
       "category": "Policy"
     },
     {
+      "id": "article_3842876bdc7ed2dd111d",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Anticipating or Speculating? Making Futures Pay in AI Ethics",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.22268",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "category": "Research"
+    },
+    {
       "id": "article_38aeff6674b625049b1b",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -3800,6 +3949,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_3dae94395888468d66ee",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Code World Model 2.0: Towards Infinite Controllable Video Generation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.22925",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "category": "Infrastructure"
+    },
+    {
       "id": "article_3dc01ccaf3850056b774",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -3950,6 +4118,25 @@
       "url": "https://arxiv.org/abs/2610.23297",
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "category": "Research"
+    },
+    {
+      "id": "article_3f0d0f8582a88996a9a1",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "RPMem: Learning Long-Term Recurrent Parametric Memory Across Sessions for LLM Agents",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2609.23466",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_3f105f85f8a3d912af67",
@@ -5054,6 +5241,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_50230a3b96f9037def47",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Visual Harness Scales General VLMs to Medical Images",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.22815",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "category": "Tools"
+    },
+    {
       "id": "article_504a6ac7f07f0aedfb6a",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5488,215 +5694,6 @@
       "url": "https://arxiv.org/abs/2611.24596",
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_547dd9c8f9a749924360",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "LLM-Assisted Reranking to Operationalize Nuanced Objectives in Recommender Systems",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.02883",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_5489636b698bb45588b6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Prescriptive Learning of Linear Policies with Feasibility Guarantees for Binary Decision-Making",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.10923",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_54b5651ffa21e3e38ead",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "TableControl: Gesture Interaction Through Surface Vibrations",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.24218",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_55b532bfb8196b293bf2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "HealthCLBench:Evaluating Context Learning in Health Conversations through Controlled Case Clusters",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.22362",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_55bc215f66e49ee5ec7c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MECI: Multi-Element Collaborative Interaction for Multimodal Entity Linking",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.24522",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_561405e91b3e74d34c4d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SoU-RHS: Bayesian Structured Sparsity for Compact Architecture Recovery in CNNs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.24166",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_5648acde30c0ddb5c868",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Making Mathematical Knowledge Explainable, Accessible and Interoperable Through Large Language Model Integration",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2607.24512",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_566653d253475c6a3fa3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Perplexity Ranks Activation Quantisers but Understates What They Remove",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.23125",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_56cedbf1f59144305612",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "UCLIR: Unsupervised Continual Learning using Independent Representations",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.24093",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_571bb503cb4a8b885a7b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.23509",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_571f58f9a3fd98c98a06",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Feasibility Ceilings Before Learning: Sizing and Timing Bounds for Drone-Mesh Interception",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.20823",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }

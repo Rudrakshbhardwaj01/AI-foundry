@@ -1,10 +1,65 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_12c9ae4932ec407d5e3f",
-  "publishedAt": "2026-11-19T18:29:16.455Z",
-  "lastSuccessfulRefreshAt": "2026-11-19T18:29:16.455Z",
+  "snapshotId": "snapshot_1c5f80e0b171e987bb56",
+  "publishedAt": "2026-11-20T00:51:27.303Z",
+  "lastSuccessfulRefreshAt": "2026-11-20T00:51:27.303Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_c2bb681e54e59d004f6e",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12552",
+      "description": "The static prefill model has a fixed inpoutids shape [1,1,1,outputlen]. Hash each node's output flag and bump the cache version to 8. Falcon-H1 runs on CPU and GPU since Mamba SSM support was added. with -Wextra-semi, which fails builds with fatal warnings.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12552",
+      "publishedAt": "2026-11-19T21:51:28.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_7d8a3e54028179497f58",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "PostgreSQL 19 Released",
+      "description": "This release was definitely worth the wait. For applications that send reads to standbys, PostgreSQL 19 adds \"read-your-writes\" consistency with the new WAIT FOR LSN command. That returns a value like 0/0306EE20. In addition to this, MediaWiki attempts to ensure that the user sees events occurring on the wiki in chronological order.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19",
+      "publishedAt": "2026-11-19T20:43:57.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_307c8c67afb164064e12",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "publishedAt": "2026-11-19T18:47:16.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_37f5c44fcbf3144f0072",
       "sourceId": "hacker-news",
@@ -5637,63 +5692,6 @@
       "url": "https://arxiv.org/abs/2501.02624",
       "publishedAt": "2026-11-19T05:00:00.000Z",
       "category": "Infrastructure"
-    },
-    {
-      "id": "article_53e59c46163984729834",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.24011",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_53ff033c3761de01a20d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "H3Remover: Reinforcing Video Object Removal without Paired Data",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.24633",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_542e7d852e54dfe8a9da",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "From Activity Recognition to Shift Detection: Variational Wi-Fi Sensing with Evidential Uncertainty",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.24596",
-      "publishedAt": "2026-11-19T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
