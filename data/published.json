@@ -1,10 +1,86 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_dba5207bdecaaae1726b",
-  "publishedAt": "2026-11-20T17:06:08.774Z",
-  "lastSuccessfulRefreshAt": "2026-11-20T17:06:08.774Z",
+  "snapshotId": "snapshot_05bf987d385f9ca3647c",
+  "publishedAt": "2026-11-20T23:14:57.312Z",
+  "lastSuccessfulRefreshAt": "2026-11-20T23:14:57.312Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_c05ee7159efb66f7c0d8",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Ravi Vakil",
+      "description": "It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil",
+      "publishedAt": "2026-11-20T19:21:49.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_0d3d91f6473320bd73e9",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12590",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12590",
+      "publishedAt": "2026-11-20T19:02:52.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_64ed5560b64eda8a596f",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Vibecoding an inference chip",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip",
+      "publishedAt": "2026-11-20T18:15:16.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_bdb852a39adac7c96501",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
+      "publishedAt": "2026-11-20T16:59:27.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_29a43a2ee9e853ae7d69",
       "sourceId": "simon-willison",
@@ -41,6 +117,23 @@
       "url": "https://architectlabs.com/blog/frostbite",
       "publishedAt": "2026-11-20T10:01:41.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_3134cc7d9e1ea01d4a84",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Combatting adversarial distillation",
+      "description": "How we’re addressing safety risks of distillation and lessons we’ve learned for strengthening safeguards across the industry. These updated safeguards align more closely with those we use for biology and cybersecurity. On GPT‑6.2 Astra with its updated safeguards, the average attack success rate was below 1% for each attack type. We’re now applying selected safeguard improvements to GPT‑6 Astra as well.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_006ed9ac9ea8d63e47bd",
@@ -5603,101 +5696,6 @@
       "url": "https://arxiv.org/abs/2608.26684",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_4e15690dee2993c3ed35",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Keel: A Frontier Model Teaches a Vision-Language Model by Rewriting Its Weights",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25257",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4e1952987f68bdc70315",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "CryoGaussian: Heterogeneous Cryo-EM Reconstruction Made Explicit with Gaussian Splatting",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.26128",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4ea12cde558a10b289b3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "DORMS: Image Segmentation via Depth-Ordered Region Merge Trees",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.23958",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_51119ce9916d030b82fb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Generative News Recommendation Reproduces Popularity: A Memorization-Based Analysis",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25606",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_514ffa8a7d26a4eeb269",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "When and How Much to Imagine: Adaptive Test-Time Scaling with World Models for Visual Spatial Reasoning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2602.08236",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }

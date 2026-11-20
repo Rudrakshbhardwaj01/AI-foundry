@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_57837bbfa4b0ad6ab2f9",
-  "publishedAt": "2026-11-20T08:03:48.411Z",
-  "lastSuccessfulRefreshAt": "2026-11-20T08:03:48.411Z",
+  "snapshotId": "snapshot_dba5207bdecaaae1726b",
+  "publishedAt": "2026-11-20T17:06:08.774Z",
+  "lastSuccessfulRefreshAt": "2026-11-20T17:06:08.774Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_29a43a2ee9e853ae7d69",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Levent Alpöge",
+      "description": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. No, Claude flew, and danced, and sparkled near that finish line.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge",
+      "publishedAt": "2026-11-20T16:30:48.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_7a7aca35564388abd502",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://architectlabs.com/blog/frostbite",
+      "publishedAt": "2026-11-20T10:01:41.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_006ed9ac9ea8d63e47bd",
       "sourceId": "arxiv",
@@ -1560,6 +1597,25 @@
       "url": "https://arxiv.org/abs/2611.25560",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_128ce5cb527694e29152",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Why Sub-4-Bit Vision CNNs Collapse and Where Mixed-Precision Recovery Stops",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.23445",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "category": "Policy"
     },
     {
       "id": "article_12dac60e66966acbc4a3",
@@ -4504,6 +4560,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_3f182aab9364a4a34a99",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "LipSpell: A Language-Independent Phonetic Scoring Framework for Spelling Correction Combining Distinctive-Feature Edit Distance, Keyboard Geometry, and Corpus Frequency",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.24285",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
       "id": "article_3f8af9915ee943b0408e",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4595,6 +4670,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.25363",
+      "publishedAt": "2026-11-20T05:00:00.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_40a0e051179e477c58df",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "ReflectScene:MLLM-Guided Closed-Loop Diffusion for 3D Indoor Scene Generation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.23845",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Tools"
     },
@@ -5604,101 +5698,6 @@
       "url": "https://arxiv.org/abs/2602.08236",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_51eb5436925d0dee407a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AdaptReg: Skip-level FiLM Adapter for Task-Specific Adaptation of a Frozen Registration Foundation Model",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25761",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_5211a56ef61bb171caf7",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "CompAct-Bench: A Benchmark for Working-Context Compaction in Long-Horizon Agent Tasks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25673",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_52ad476eefc8b84915da",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "tempdisagg: A Python Framework for Temporal Disaggregation of Time Series Data",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2503.22054",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_531843b891d69afac6ab",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learn, Freeze, and Transfer an Activation Function Across Architectures",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.26201",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_532aa9b7e3224c417bb0",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Tensor-Algebraic No-Go Theorem for High-Dimensional Photonic Greenberger--Horne--Zeilinger States Discovered with AlphaProof Nexus",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.26300",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
