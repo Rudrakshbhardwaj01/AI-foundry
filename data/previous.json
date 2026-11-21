@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_052d856c635ba9656068",
-  "publishedAt": "2026-11-21T04:08:24.389Z",
-  "lastSuccessfulRefreshAt": "2026-11-21T04:08:24.389Z",
+  "snapshotId": "snapshot_001e358dfa87b5c6b24f",
+  "publishedAt": "2026-11-21T12:53:35.706Z",
+  "lastSuccessfulRefreshAt": "2026-11-21T12:53:35.706Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_2576dd659c909fba3b4a",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "http://ricapar.net/ClawDOS",
+      "publishedAt": "2026-11-21T05:38:01.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_c05ee7159efb66f7c0d8",
       "sourceId": "simon-willison",
@@ -98,6 +117,25 @@
       "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge",
       "publishedAt": "2026-11-20T16:30:48.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_94721b083c6d990bd355",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "publishedAt": "2026-11-20T13:29:59.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_7a7aca35564388abd502",
@@ -5658,44 +5696,6 @@
       "url": "https://arxiv.org/abs/2611.25476",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_4dfba85264c8e556e0d8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Arbitrary-Accuracy Neural Approximation with Optimal Neuron Count and Optimal Bit Complexity",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.35628",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4e00bddf916ac55a338f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Referring Multi-Object Tracking in Moving-Camera Videos via Global Motion Compensation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.04185",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Research"
     }
   ]
 }

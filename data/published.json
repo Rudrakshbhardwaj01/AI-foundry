@@ -1,10 +1,28 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_001e358dfa87b5c6b24f",
-  "publishedAt": "2026-11-21T12:53:35.706Z",
-  "lastSuccessfulRefreshAt": "2026-11-21T12:53:35.706Z",
+  "snapshotId": "snapshot_d8bff14e20d8212d19be",
+  "publishedAt": "2026-11-21T19:55:15.609Z",
+  "lastSuccessfulRefreshAt": "2026-11-21T19:55:15.609Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_435cb23812ffe4a5e47d",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12608",
+      "description": "The matmultiled implementation in tinyBLASQ0PPC requires nc to be a multiple of 8 to perform matrix multiplication correctly. The previous alignment logic contained a special case for n == 4, which allowed naligned to be 4. Consequently, the tiled path could be selected with nc = 4, violating the kernel's tile-width requirement.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12608",
+      "publishedAt": "2026-11-21T16:05:19.000Z",
+      "category": "Safety"
+    },
     {
       "id": "article_2576dd659c909fba3b4a",
       "sourceId": "hacker-news",
@@ -5677,25 +5695,6 @@
       "url": "https://arxiv.org/abs/2610.30293",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Safety"
-    },
-    {
-      "id": "article_4dfb6bc145308994161a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "WeightCode: Installing New Capabilities into Neural Networks via Weight-Space Programming",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25476",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
