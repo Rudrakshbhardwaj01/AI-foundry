@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_297819a48a8ea2d92d68",
-  "publishedAt": "2026-11-22T07:15:16.480Z",
-  "lastSuccessfulRefreshAt": "2026-11-22T07:15:16.480Z",
+  "snapshotId": "snapshot_cdf89b2231ea9d7235a9",
+  "publishedAt": "2026-11-22T15:31:27.612Z",
+  "lastSuccessfulRefreshAt": "2026-11-22T15:31:27.612Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_3ba4555ad109d994ca98",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/gulivan/worker755",
+      "publishedAt": "2026-11-22T13:56:58.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_bee25eaee8c9d0e1ed8e",
       "sourceId": "hacker-news",
@@ -5673,25 +5692,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.26235",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4be445f3ed37221a9efc",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SplatQ: Interaction-Aware Pruning of 3D Gaussian Splatting via Quadratic Selection",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.13503",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Research"
     }
