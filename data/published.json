@@ -1,10 +1,104 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_bd39f65fda6e236a70a9",
-  "publishedAt": "2026-11-22T00:04:54.078Z",
-  "lastSuccessfulRefreshAt": "2026-11-22T00:04:54.078Z",
+  "snapshotId": "snapshot_297819a48a8ea2d92d68",
+  "publishedAt": "2026-11-22T07:15:16.480Z",
+  "lastSuccessfulRefreshAt": "2026-11-22T07:15:16.480Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_bee25eaee8c9d0e1ed8e",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "publishedAt": "2026-11-22T05:11:43.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_a41e1255a2ecb40a8997",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Together.ai: Prompt Leakage for Requests",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "publishedAt": "2026-11-22T03:07:27.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_10a0bcb73bf80e39d78b",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Data Processing Incidents on Inference Providers",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
+      "publishedAt": "2026-11-22T02:14:14.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_2d2f7d3ae077c3b3f5f8",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "The Mythology of Conscious AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
+      "publishedAt": "2026-11-22T02:10:02.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_e4fb2854b1c72b3c9c57",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Muru",
+      "description": "Graham Dumpleton started modwsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. As he did with wrapture, he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/21/muru",
+      "publishedAt": "2026-11-21T23:56:28.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_a6dc160c06f5a65a7f42",
       "sourceId": "hacker-news",
@@ -5600,101 +5694,6 @@
       "url": "https://arxiv.org/abs/2610.13503",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_4c9100ee30d67dd1862f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Deviations from the NTK Regime in CNNs under Joint Depth-Width Scaling",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25624",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_4c932526bfa716fcec46",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "GPU-Accelerated Secure Inference for Drug--Target Interaction Prediction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25664",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_4d014271dcfd40667717",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "GenRF: Generative Registration-free Image Fusion",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.24157",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4d7b3bcaf3439aa675cb",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Mechanistic Interpretability Needs Philosophy",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2506.18852",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4dc9fea2053d9e0aef58",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "FlowMap-OPD: On-Policy Distillation for Few-Step Flow-Map Generators",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2609.37851",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }

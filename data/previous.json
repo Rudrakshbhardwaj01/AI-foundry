@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_d8bff14e20d8212d19be",
-  "publishedAt": "2026-11-21T19:55:15.609Z",
-  "lastSuccessfulRefreshAt": "2026-11-21T19:55:15.609Z",
+  "snapshotId": "snapshot_bd39f65fda6e236a70a9",
+  "publishedAt": "2026-11-22T00:04:54.078Z",
+  "lastSuccessfulRefreshAt": "2026-11-22T00:04:54.078Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_a6dc160c06f5a65a7f42",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.pandex.io/",
+      "publishedAt": "2026-11-21T20:47:41.000Z",
+      "category": "Policy"
+    },
     {
       "id": "article_435cb23812ffe4a5e47d",
       "sourceId": "github",
@@ -5676,25 +5695,6 @@
       "url": "https://arxiv.org/abs/2609.37851",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_4dec862ca8aa9184804f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.30293",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
