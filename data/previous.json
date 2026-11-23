@@ -1,10 +1,67 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_14ddfdfef7134935b562",
-  "publishedAt": "2026-11-22T21:30:44.308Z",
-  "lastSuccessfulRefreshAt": "2026-11-22T21:30:44.308Z",
+  "snapshotId": "snapshot_c1080fed2a269516ab14",
+  "publishedAt": "2026-11-23T02:12:58.295Z",
+  "lastSuccessfulRefreshAt": "2026-11-23T02:12:58.295Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_89ff3bdd531ee6dcf57d",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://0rwx.com/",
+      "publishedAt": "2026-11-22T23:53:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_0c8bb8438b29031f92ab",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "publishedAt": "2026-11-22T21:01:16.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_d408351982d6994642c9",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Harvard CS 2881R AI Safety",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://boazbk.github.io/mltheoryseminar",
+      "publishedAt": "2026-11-22T18:01:54.000Z",
+      "category": "Safety"
+    },
     {
       "id": "article_3ba4555ad109d994ca98",
       "sourceId": "hacker-news",
@@ -5635,63 +5692,6 @@
       "url": "https://arxiv.org/abs/2611.26531",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_4ac5ef4bca36c0a07b92",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Don't Lose the Future: Latent-Aware 4-Bit Quantization of World Action Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25614",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_4af9497303af3c328085",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learning the Missing Derivative: Neural Multiple-Scattering Operators for Inverse Volume Rendering",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.16650",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4b4e1b6cb064c9e7641a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.25980",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }
