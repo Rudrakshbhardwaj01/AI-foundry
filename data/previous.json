@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_cdf89b2231ea9d7235a9",
-  "publishedAt": "2026-11-22T15:31:27.612Z",
-  "lastSuccessfulRefreshAt": "2026-11-22T15:31:27.612Z",
+  "snapshotId": "snapshot_14ddfdfef7134935b562",
+  "publishedAt": "2026-11-22T21:30:44.308Z",
+  "lastSuccessfulRefreshAt": "2026-11-22T21:30:44.308Z",
   "articleCount": 300,
   "articles": [
     {
@@ -99,6 +99,23 @@
       "url": "https://www.noemamag.com/the-mythology-of-conscious-ai",
       "publishedAt": "2026-11-22T02:10:02.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_ecb48b044b33d6623734",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Perplexity and Intelligence",
+      "description": "The plot opening this blog post shows how this metric evolved for our models starting with GPT‑3.5. As AI advances very rapidly, the scope and way in which we measure downstream capabilities may change quickly. The primary held-out datasets we’ve been using since GPT-3.5 are sourced from our internal codebase, and those are the numbers reported here (for a fixed snapshot).",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "category": "Research"
     },
     {
       "id": "article_e4fb2854b1c72b3c9c57",
@@ -5675,25 +5692,6 @@
       "url": "https://arxiv.org/abs/2611.25980",
       "publishedAt": "2026-11-20T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_4b906bc5eb2312cad2f8",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Physics-Informed Feature Representations and Pretrained Tabular Foundation Models for Generalizable Melt Pool Geometry Prediction",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.26235",
-      "publishedAt": "2026-11-20T05:00:00.000Z",
-      "category": "Research"
     }
   ]
 }
