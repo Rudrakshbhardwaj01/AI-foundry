@@ -1,10 +1,153 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_a9740f8aa43a7f755041",
-  "publishedAt": "2026-11-23T11:00:19.041Z",
-  "lastSuccessfulRefreshAt": "2026-11-23T11:00:19.041Z",
+  "snapshotId": "snapshot_902c15c2eb639c74009d",
+  "publishedAt": "2026-11-23T22:32:30.962Z",
+  "lastSuccessfulRefreshAt": "2026-11-23T22:32:30.962Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_2990dee822a87d896207",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "description": "So many teams rely on the same software that it makes sense to build these tools in the open. Shirudo uses eBPF, a Linux technology that allows small programs to run at specific points inside the operating system. We’re building Shirudo in the open with the people who build, run, and secure Linux systems.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://openai.com/index/introducing-shirudo",
+      "publishedAt": "2026-11-23T21:20:00.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_fbb1fbfeefa0b6523cad",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "description": "Includes RoboTracker models, RoboTrack-15M training data generated with MolmoSpaces, and the RoboTrack-Bench benchmark.",
+      "summaryMethod": "source_excerpt",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "deduplicated-or-filtered",
+        "source-excerpt"
+      ],
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "publishedAt": "2026-11-23T17:20:37.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_07a6a5ff9cdeabf42dbe",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "How should an LLM see a computer?",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.greptile.com/blog/trex-computer-use",
+      "publishedAt": "2026-11-23T17:19:25.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_0926dcce86e82bf238ff",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceType": "Blog post",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "description": "How using agent teams and formal verification can improve quantum algorithms for modelling fusion energy, chemistry and enzymes.",
+      "summaryMethod": "official_metadata",
+      "summaryContentSource": "page:meta:description",
+      "summaryQuality": "limited",
+      "summaryFlags": [
+        "below-target",
+        "source-excerpt"
+      ],
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "publishedAt": "2026-11-23T16:59:40.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_3db27fd2075b9177bfb9",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Hermit CRM – Free open-source CRM for solopreneurs",
+      "description": "Created Hermit CRM, an open source CRM for 1 person. Building in public, even the website stats are public as well. Linux is less tested, and Windows isn’t supported. adding a LinkedIn convo to the CRM with 1 click.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://hermitcrm.io/",
+      "publishedAt": "2026-11-23T10:09:02.000Z",
+      "category": "Open Source"
+    },
+    {
+      "id": "article_34fd248e7b9125adec50",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://z.ai/blog/glm-5.4",
+      "publishedAt": "2026-11-23T10:06:43.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_013696eddc136f7df6af",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "description": "Richpanel uses GPT‑6 Astra and GPT‑6.1 Sol for Boss AI, prioritizing accuracy when building the tools and procedures its other agents will follow. Amit credits OpenAI with making models available that can handle long context and longer tasks while remaining cost efficient. Richpanel can use deeper reasoning to prepare its support agents and more economical models to run the conversations that follow.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
+      "id": "article_1bbcb2aafb2f780beafd",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Connected intelligence for in-house legal",
+      "description": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "category": "Industry"
+    },
     {
       "id": "article_004e7306d06c0929dd15",
       "sourceId": "arxiv",
@@ -363,6 +506,25 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.27718",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Policy"
+    },
+    {
+      "id": "article_05da5ab1e10dbd519898",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Variance-Optimal Counterfactual Policy Design for Sample-Efficient Online A/B Testing",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.24757",
       "publishedAt": "2026-11-23T05:00:00.000Z",
       "category": "Policy"
     },
@@ -765,6 +927,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_0bd4d15021f0b6dbc87b",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "DailyWildfireCAN: A Dataset and Benchmark for Next-Day Wildfire Spread Prediction in Canada",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.14207",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Open Source"
+    },
+    {
       "id": "article_0be2461561fe8b13ae81",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -896,6 +1077,25 @@
       "url": "https://arxiv.org/abs/2611.27425",
       "publishedAt": "2026-11-23T05:00:00.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_0f09cbdcac9f29f31b97",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Learning to Defer under Expert Drift",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.26440",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Safety"
     },
     {
       "id": "article_0f435e209d9e1e2e4262",
@@ -1734,6 +1934,25 @@
       "category": "Safety"
     },
     {
+      "id": "article_1eba3b2bcf4f437d8aa5",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "The Alignment Tax Is Graded: Task-Selective Capability Loss Under Length-Normalized DPO with SFT Retention",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.06476",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Safety"
+    },
+    {
       "id": "article_1ecc6f1fdafb487d2773",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -1865,6 +2084,25 @@
       "url": "https://arxiv.org/abs/2611.27794",
       "publishedAt": "2026-11-23T05:00:00.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_21bd47c3b9cb029601de",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "SRED: Sparse Regional Evidence Distillation Across Magnifications in Whole-Slide Imaging",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.22189",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Research"
     },
     {
       "id": "article_2222783b61f20d0b0ea6",
@@ -2359,6 +2597,25 @@
       "url": "https://arxiv.org/abs/2611.27714",
       "publishedAt": "2026-11-23T05:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_2958b18610a71836a673",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Decision Boundaries Matter: Graph-Regularized Residual Adaptation for Cross-Domain Fake Image Detection",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.25406",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Research"
     },
     {
       "id": "article_295dc8d09dc9054086f6",
@@ -3081,6 +3338,25 @@
       "url": "https://arxiv.org/abs/2611.27110",
       "publishedAt": "2026-11-23T05:00:00.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_33faaf261e0ca1929104",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Formalizing Formal Semantics: The Formal Atlas",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.19509",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_342c4f91602e9e8e2c1b",
@@ -3953,6 +4229,25 @@
       "url": "https://arxiv.org/abs/2409.01382",
       "publishedAt": "2026-11-23T05:00:00.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_40e055ff644a97078a5e",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "STARK: Moving towards Personalized Agents That Truly Learn and Remember",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.25705",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Infrastructure"
     },
     {
       "id": "article_411ee643e184c399f2b8",
@@ -5322,6 +5617,25 @@
       "category": "Open Source"
     },
     {
+      "id": "article_5d33a3816717f5eab7b3",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "PCRG: Training-Free Pruning and Caching of Reference Tokens for Video Generation",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.22717",
+      "publishedAt": "2026-11-23T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_5da48c42b86671f9bba6",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5377,328 +5691,6 @@
       "url": "https://arxiv.org/abs/2611.27696",
       "publishedAt": "2026-11-23T05:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_5eba552c55dbf158197b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "On the Global Convergence of Gradient Descent for multi-layer ResNets in the mean-field regime",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2110.02926",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_5edc46bd8056e7412350",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Semiparametric Efficiency for Entropic Optimal Transport under Structured Distribution Shift",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27261",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_5f4962a9f8903ffd9baf",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Moment-Video: Diagnosing Temporal Fidelity of Video MLLMs on Momentary Visual Events",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.02522",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_5f6b60e66b042304e64b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27490",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_5f6e1cdaf9032898d600",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Exercised, Rarely Recovered: What Public Reports Say About Recovery in 50 AI Agent Harnesses and Runtimes",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27090",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_602d64868a98f410e3d3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "When Do Rankings Beat Signs? Gradient Direction Recovery under Even Nuisance",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.26055",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_604f5a189334002ac10f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Constraint-Aware Anticlustering Decomposition for Certifying Pairwise-Constrained Clustering",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27496",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_6053235514a34b818496",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "AgentArk: Distilling Multi-Agent Intelligence into a Single LLM Agent",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2602.03955",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_6075c300201ba66b2b43",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "When Do LLM-Elicited Priors Help? A Controlled Audit of Language Models as Priors for Small-Sample Bayesian Regression",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27075",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_60793bb39c66199bc46a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Growing a Neural Network in Breadth, Depth, and Time",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.25174",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_60874c8ac22d0b8d9292",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Switching Mechanism for Selecting Environment-Adaptive Personalized Gains in Hearing Aids",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27726",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_60b79f89de6a406c9a63",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27196",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_61005e0bc7889e5b6c39",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Two-Parameter Weibull Framework for Diagnosing Transformer Weight Distributions",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.18898",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_61c85cecfbc749ef3759",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "GEG-SAM: Gaze Exploration-Guided Segment Anything Model for Weakly Supervised Polyp Segmentation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27183",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_61d3852e4fc2670eaff5",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MICRO: A Surgery-Phase Retinal Image Rigid Registration Benchmark and One-Step Frequency-Structure Similarity Registration Learning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.13045",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_623cf6f91a2ebe8f1f96",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Deep Learning-based Approaches for State Space Models: A Selective Review",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2412.11211",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_6391d4c8319c132d4f6e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers",
-      "description": "BudgetPV uses a cross-solver predictor to guide solver selection for each subgoal and revises the allocation as verification feedback becomes available. Early decisions mainly determine which solver should handle an untried subgoal, while later decisions determine which previously attempted subgoals should receive additional computation. CatalyzeX Code Finder for Papers (What is CatalyzeX? Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2611.26906",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Infrastructure"
     }
   ]
 }
