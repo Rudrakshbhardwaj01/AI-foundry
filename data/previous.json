@@ -1,10 +1,67 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_902c15c2eb639c74009d",
-  "publishedAt": "2026-11-23T22:32:30.962Z",
-  "lastSuccessfulRefreshAt": "2026-11-23T22:32:30.962Z",
+  "snapshotId": "snapshot_3210aff645a5cc487d21",
+  "publishedAt": "2026-11-24T06:43:33.094Z",
+  "lastSuccessfulRefreshAt": "2026-11-24T06:43:33.094Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_d75dafdcc95ed940740f",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Declare is a UI language for you and your AI",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://davidtemkin.github.io/declarelang",
+      "publishedAt": "2026-11-24T02:36:56.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_0d2586b3022eb3f4cb08",
+      "sourceId": "github",
+      "sourceName": "GitHub",
+      "sourceType": "Release notes",
+      "title": "llama.cpp: b12662",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12662",
+      "publishedAt": "2026-11-24T01:34:31.000Z",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "article_8504f1b13205135dedd5",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "description": "GLM 5.4 is now available from Chinese AI lab Z. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality. Here are pelicans for GLM-5.4 on low, high, and max. I made a comparison grid showing the four generations of GLM pelicans all in one place.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+      "publishedAt": "2026-11-23T23:40:49.000Z",
+      "category": "Policy"
+    },
     {
       "id": "article_2990dee822a87d896207",
       "sourceId": "openai-news",
@@ -5634,63 +5691,6 @@
       "url": "https://arxiv.org/abs/2611.22717",
       "publishedAt": "2026-11-23T05:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_5da48c42b86671f9bba6",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "EgoSurgHands: An Egocentric 3D Hand Pose Dataset & Benchmark for Open Surgery Training",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27101",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Open Source"
-    },
-    {
-      "id": "article_5dce7684349ea6d78b39",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Cecilia: Towards Layout-Inclusive Optical Music Recognition",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27465",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_5e194fca50f28fe1ba73",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Comparative Performance of Machine Learning Architectures for Fault Detection and Diagnosis in Chemical Processes",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.27696",
-      "publishedAt": "2026-11-23T05:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }
