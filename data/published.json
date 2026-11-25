@@ -1,10 +1,47 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_41fb174c128dc752f90c",
-  "publishedAt": "2026-11-24T18:37:33.056Z",
-  "lastSuccessfulRefreshAt": "2026-11-24T18:37:33.056Z",
+  "snapshotId": "snapshot_a707fb6f10c51aecc657",
+  "publishedAt": "2026-11-25T02:55:31.025Z",
+  "lastSuccessfulRefreshAt": "2026-11-25T02:55:31.025Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_ebf3bf3bd2f6d02d20d9",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://greydanus.github.io/2026/11/12/pengpt",
+      "publishedAt": "2026-11-25T00:54:49.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_34760f4379f56c758f6b",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Three LLM inflection points in twelve months",
+      "description": "Today, November 24th 2026, is the one year anniversary of the release of Claude Opus 4.5. Claude Code was 9 months old at that point, having been introduced alongside Claude 3.7 Sonnet on February 24th, 2025. Also in November, OpenAI released GPT-5.1 Instant, GPT-5.1 Thinking, GPT-5.1-Codex, and GPT-5.1-Codex-Max. Back in August I experimented with having Fable 5 build me a raccoon heist game.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+      "publishedAt": "2026-11-24T23:02:07.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_24c7ca8131d2657dc4d8",
       "sourceId": "hugging-face",
@@ -64,6 +101,23 @@
       "category": "Infrastructure"
     },
     {
+      "id": "article_bc50a089773f87cace2c",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "description": "In lab tests with Onava, proteins based on GPT‑6.2’s designs showed evidence of binding, or attachment, across five targets. Newer generations of models improved on many of the 14 protein tasks tested. First, Onava made small proteins based on three-dimensional structures designed by a pre-released version of GPT‑6.2. Of the 107 proteins made from GPT‑6.2’s new sequences, 14 (13.1%) showed binding.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "publishedAt": "2026-11-24T13:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_fd49e2f6e302011c4936",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -81,6 +135,23 @@
       "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
       "publishedAt": "2026-11-24T12:40:15.000Z",
       "category": "Tools"
+    },
+    {
+      "id": "article_fbbb56450eaba9528280",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "sourceType": "Official announcement",
+      "title": "Searching for distant planets with Astra",
+      "description": "Others use their own telescopes to watch for the next dip and share what they see with researchers. Astronomers have published methods for picking out faint, recurring dips in years of measurements. These four curves show the same Kepler observations aligned on a 13.77-day cycle. His searches drew on observations from TESS, which NASA launched in 2018, and from other public telescope archives.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:article",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_0039c6654d886b2c6863",
@@ -5628,82 +5699,6 @@
       "url": "https://arxiv.org/abs/2611.30320",
       "publishedAt": "2026-11-24T05:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_251fb626c80a04a5c211",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Blind to What They Can Fix: A Detection Gap in Self-Improving Agents",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.29807",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_253f3ea279541af08268",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Benchmarking EEG feature families for ADHD research in children and adolescents: performance and explainability across attention tasks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.28299",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_258acbdd2bbc23e9cdc2",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Common Principal Component Networks for Domain Generalization",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.05136",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_25a303e676d5db4c3579",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Serialization and the Character-System: Measuring Narrative Concentration in French Fiction (1800--1940)",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.31133",
-      "publishedAt": "2026-11-24T05:00:00.000Z",
-      "category": "Research"
     }
   ]
 }
