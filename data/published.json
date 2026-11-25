@@ -1,10 +1,27 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_51342dec4dd9c4696443",
-  "publishedAt": "2026-11-25T12:06:46.633Z",
-  "lastSuccessfulRefreshAt": "2026-11-25T12:06:46.633Z",
+  "snapshotId": "snapshot_e12247a67f6f1c64df10",
+  "publishedAt": "2026-11-25T21:54:57.507Z",
+  "lastSuccessfulRefreshAt": "2026-11-25T21:54:57.507Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_ff3013be62d5d655433a",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Where scientists draw the line on AI agents",
+      "description": "Researchers also need clear institutional guidelines for verifying and disclosing AI-assisted work. These systems can use tools and carry out research tasks with varying degrees of autonomy. the findings come from interviews with 17 US-based scientists, not a representative survey of scientific opinion or an empirical evaluation of specific AI agents.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "page:html:main",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "publishedAt": "2026-11-25T18:52:55.000Z",
+      "category": "Open Source"
+    },
     {
       "id": "article_4f8334aa174587e4ec26",
       "sourceId": "hugging-face",
@@ -2856,6 +2873,25 @@
       "category": "Tools"
     },
     {
+      "id": "article_24d14bad15ff4b59a761",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Modern Self-Supervised Vision Transformers Are Pareidolic",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.31238",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "category": "Research"
+    },
+    {
       "id": "article_25200fe2e202b9bc17e5",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -4736,6 +4772,25 @@
       "category": "Infrastructure"
     },
     {
+      "id": "article_407a77feae428bab28d4",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Social sycophancy differs across access modes of large language models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.28012",
+      "publishedAt": "2026-11-25T05:00:00.000Z",
+      "category": "Tools"
+    },
+    {
       "id": "article_408a9dc5f84037823cb1",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5646,62 +5701,6 @@
       "url": "https://arxiv.org/abs/2605.07807",
       "publishedAt": "2026-11-25T05:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_4d8721c7665d76c4205a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Policy-intrinsic Demonstration Curation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.30099",
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4d93bf0d8191cab0afc3",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Antares-Smaug: Adversarial Names, Tokens and Attack Rewrites: Sanitisers Miss Unseen Generalisations",
-      "description": "The same oracle takes the model fine-tuned on the four build families of injected sentences from 5% (mean string) to 58%. CatalyzeX Code Finder for Papers (What is CatalyzeX? arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Have an idea for a project that will add value for arXiv's community?",
-      "summaryMethod": "extractive",
-      "summaryContentSource": "page:html:main",
-      "summaryQuality": "high",
-      "summaryFlags": [
-        "deduplicated-or-filtered",
-        "url-cleaned"
-      ],
-      "url": "https://arxiv.org/abs/2611.31347",
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4e19d31b3c8ca0ed3b29",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Evolve to Learn: Gradient-aligned experience evolution for model self-improvement",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.32390",
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "category": "Safety"
     }
   ]
 }
