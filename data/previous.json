@@ -1,10 +1,46 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_e12247a67f6f1c64df10",
-  "publishedAt": "2026-11-25T21:54:57.507Z",
-  "lastSuccessfulRefreshAt": "2026-11-25T21:54:57.507Z",
+  "snapshotId": "snapshot_746e1e4de611f03cdb81",
+  "publishedAt": "2026-11-26T03:56:26.139Z",
+  "lastSuccessfulRefreshAt": "2026-11-26T03:56:26.139Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_0c38f75ddb5884086c03",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Scott Aaronson",
+      "description": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson",
+      "publishedAt": "2026-11-25T23:26:32.000Z",
+      "category": "Research"
+    },
+    {
+      "id": "article_ed4a6747b107e3f6c544",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback"
+      ],
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "publishedAt": "2026-11-25T21:18:02.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_ff3013be62d5d655433a",
       "sourceId": "hugging-face",
@@ -5663,44 +5699,6 @@
       "url": "https://arxiv.org/abs/2611.31967",
       "publishedAt": "2026-11-25T05:00:00.000Z",
       "category": "Research"
-    },
-    {
-      "id": "article_4d0529b11f433865012f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Supervising Recurrent Vision Transformers from Bottlenecked Context",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2606.21562",
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_4d609e6710ff44239a97",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Text-to-CAD Evaluation with CADTests",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2605.07807",
-      "publishedAt": "2026-11-25T05:00:00.000Z",
-      "category": "Model Releases"
     }
   ]
 }
