@@ -1,10 +1,65 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_b4e822f67a90baf7c15b",
-  "publishedAt": "2026-11-27T14:40:46.317Z",
-  "lastSuccessfulRefreshAt": "2026-11-27T14:40:46.317Z",
+  "snapshotId": "snapshot_6e0f10d887f09eab0d66",
+  "publishedAt": "2026-11-27T23:12:48.153Z",
+  "lastSuccessfulRefreshAt": "2026-11-27T23:12:48.153Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_98f8462b063aed158697",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://github.com/skeeto/prospero",
+      "publishedAt": "2026-11-27T20:23:14.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_ed207703729871c4e06d",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "publishedAt": "2026-11-27T19:31:01.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_9869082de84c1f60f876",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "description": "trade on where it lands. Some technical details: The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. There's some AI traders to keep the market moving, but they drop out in any round that has more than five people.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://bouncemarket.minhanhday.com/",
+      "publishedAt": "2026-11-27T15:01:50.000Z",
+      "category": "Industry"
+    },
     {
       "id": "article_c5376981eaa23c629ced",
       "sourceId": "hacker-news",
@@ -5641,63 +5696,6 @@
       "url": "https://arxiv.org/abs/2611.32297",
       "publishedAt": "2026-11-26T05:00:00.000Z",
       "category": "Model Releases"
-    },
-    {
-      "id": "article_46d55d5806548bdb1cc7",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Few-Shot Adaptation of Vision-Language Models via Agentic Model Editing",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.34036",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_47091aa4a32e1c79bb39",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.28010",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_47108cbce7257cb41ace",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MotionCore: A Latent Neural Simulator for Video Generation with Rigid-Body Dynamics",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.08904",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }
