@@ -1,10 +1,48 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_2019569e4713a5101dc8",
-  "publishedAt": "2026-11-27T04:45:46.503Z",
-  "lastSuccessfulRefreshAt": "2026-11-27T04:45:46.503Z",
+  "snapshotId": "snapshot_b4e822f67a90baf7c15b",
+  "publishedAt": "2026-11-27T14:40:46.317Z",
+  "lastSuccessfulRefreshAt": "2026-11-27T14:40:46.317Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_c5376981eaa23c629ced",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "publishedAt": "2026-11-27T11:41:11.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_7d09374cbb94206fc420",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "The group chat where your AI talks behind your back",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://construct22.com/",
+      "publishedAt": "2026-11-27T06:44:34.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_44edccb2b7012f9e0050",
       "sourceId": "hacker-news",
@@ -23,6 +61,25 @@
       "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
       "publishedAt": "2026-11-27T00:03:18.000Z",
       "category": "Infrastructure"
+    },
+    {
+      "id": "article_59c807561e81c2ecb571",
+      "sourceId": "hugging-face",
+      "sourceName": "Hugging Face",
+      "sourceType": "Blog post",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "category": "Open Source"
     },
     {
       "id": "article_2693f0175cb478ec6646",
@@ -5641,63 +5698,6 @@
       "url": "https://arxiv.org/abs/2611.08904",
       "publishedAt": "2026-11-26T05:00:00.000Z",
       "category": "Open Source"
-    },
-    {
-      "id": "article_473406f6b3df1c7bfd5b",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "When Every Rollout Fails: Splicing Learner-Conditioned Options into Long-Horizon Agent RL",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.34777",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_47d08320fbdc9753d421",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "PRAM: Activating Latent Multimodal Knowledge through Partwise Reasoning",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.34640",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_47e39b0128e2dffe21ea",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "M$^{2}$AdaptVLA: Multimodal Memory-Augmented Vision-Language-Action Model with Predictive Test-Time Adaptation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.34560",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Policy"
     }
   ]
 }

@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_cba4ff3894dd386db45b",
-  "publishedAt": "2026-11-26T22:47:54.173Z",
-  "lastSuccessfulRefreshAt": "2026-11-26T22:47:54.173Z",
+  "snapshotId": "snapshot_2019569e4713a5101dc8",
+  "publishedAt": "2026-11-27T04:45:46.503Z",
+  "lastSuccessfulRefreshAt": "2026-11-27T04:45:46.503Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_44edccb2b7012f9e0050",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+      "publishedAt": "2026-11-27T00:03:18.000Z",
+      "category": "Infrastructure"
+    },
     {
       "id": "article_2693f0175cb478ec6646",
       "sourceId": "hacker-news",
@@ -41,6 +60,25 @@
       ],
       "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies",
       "publishedAt": "2026-11-26T19:44:31.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_b83a316217f0f87d6bac",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "An introduction to uncertainty in machine learning",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty",
+      "publishedAt": "2026-11-26T19:04:50.000Z",
       "category": "Tools"
     },
     {
@@ -5660,44 +5698,6 @@
       "url": "https://arxiv.org/abs/2611.34560",
       "publishedAt": "2026-11-26T05:00:00.000Z",
       "category": "Policy"
-    },
-    {
-      "id": "article_4812fdc7d5a115afc52f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Data-free continuous-time physics-informed neural networks for vortex shedding: a consistent pressure across time windows",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.33489",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Research"
-    },
-    {
-      "id": "article_481b2ba435bc0655d32a",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "SEAM: A Self-Evolving and Adaptive Probing Framework for Automatic MLLM Hallucination Evaluation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.34598",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Tools"
     }
   ]
 }
