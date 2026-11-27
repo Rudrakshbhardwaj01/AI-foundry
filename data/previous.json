@@ -1,10 +1,66 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_95315802088db6489ee2",
-  "publishedAt": "2026-11-26T13:35:29.340Z",
-  "lastSuccessfulRefreshAt": "2026-11-26T13:35:29.340Z",
+  "snapshotId": "snapshot_cba4ff3894dd386db45b",
+  "publishedAt": "2026-11-26T22:47:54.173Z",
+  "lastSuccessfulRefreshAt": "2026-11-26T22:47:54.173Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_2693f0175cb478ec6646",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "AI made self-hosting fun again",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "publishedAt": "2026-11-26T21:47:45.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_e7e695f51182606eed90",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Top-cited AI scientists at four US companies compared",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies",
+      "publishedAt": "2026-11-26T19:44:31.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_a98c91c39c25be3e65f0",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "Quoting Jack Despain Zhou",
+      "description": "I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+      "publishedAt": "2026-11-26T15:09:31.000Z",
+      "category": "Model Releases"
+    },
     {
       "id": "article_b5f51f5c355dea38679e",
       "sourceId": "hugging-face",
@@ -21,6 +77,43 @@
       "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "publishedAt": "2026-11-26T11:37:17.000Z",
       "category": "Open Source"
+    },
+    {
+      "id": "article_2ad3516d0ded6c16a1b2",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+      "publishedAt": "2026-11-26T09:44:23.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_699b76c8c5d80a1ef041",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "sourceType": "Technical commentary",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "description": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. He did spend a bunch of time trying to find the best possible natural lighting for the shots he wanted. You can see how dirty my screen is, too! Photography for a newspaper is photo journalism, and they take it seriously.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered",
+        "url-cleaned"
+      ],
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685",
+      "publishedAt": "2026-11-26T05:08:46.000Z",
+      "category": "Tools"
     },
     {
       "id": "article_e843d0159a7ebb35ca4a",
@@ -193,6 +286,25 @@
       "url": "https://arxiv.org/abs/2611.33182",
       "publishedAt": "2026-11-26T05:00:00.000Z",
       "category": "Model Releases"
+    },
+    {
+      "id": "article_01c75bb99f157051491c",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2610.29866",
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "category": "Policy"
     },
     {
       "id": "article_02af283391db54b92cc3",
@@ -2699,6 +2811,25 @@
       "url": "https://arxiv.org/abs/2611.34016",
       "publishedAt": "2026-11-26T05:00:00.000Z",
       "category": "Policy"
+    },
+    {
+      "id": "article_23fc1faa0ffc6c438eb0",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.32993",
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "category": "Model Releases"
     },
     {
       "id": "article_24717b035c504f483937",
@@ -5398,6 +5529,25 @@
       "category": "Model Releases"
     },
     {
+      "id": "article_46cc1eb976dbbb625641",
+      "sourceId": "arxiv",
+      "sourceName": "arXiv",
+      "sourceType": "Research paper",
+      "title": "MaskedVGGT: Masked Multi-View Transformers Are Scalable 3D Learners",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://arxiv.org/abs/2611.32297",
+      "publishedAt": "2026-11-26T05:00:00.000Z",
+      "category": "Model Releases"
+    },
+    {
       "id": "article_46d55d5806548bdb1cc7",
       "sourceId": "arxiv",
       "sourceName": "arXiv",
@@ -5548,158 +5698,6 @@
       "url": "https://arxiv.org/abs/2611.34598",
       "publishedAt": "2026-11-26T05:00:00.000Z",
       "category": "Tools"
-    },
-    {
-      "id": "article_4833c614a2fdfe6eb03e",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RAHF-Net: Range-Aware Heterogeneous Fusion for LiDAR-Assisted RGB Semantic Segmentation",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2610.25400",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "article_48c9b0f6f80c4140c5c7",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "The AI Disclosure Paradox: Operational Disclosure and the Rise of Corporate AI Narratives",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.33201",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_48ee38b3325d5798b67c",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RHOPE: LLM-Augmented Adaptive Experimental Design with Complex Contextual Information",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.33767",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Tools"
-    },
-    {
-      "id": "article_49189c2ec6cc2a7ef05d",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "On the Learnability of Model Reprogramming: A Reachability and Relabeling Perspective",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.33889",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_4936b5f845f9bafce700",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Dynamics of Collective Diversity in Human-AI Co-Creation for Creative Tasks",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.33192",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Safety"
-    },
-    {
-      "id": "article_493dc8a545dbe073be16",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "RoboThink: Let the Agent Think, Let the Policy Act",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.30111",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_494f69a79e74cbec7489",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MeterRouter: Budget-Aware Dynamic Routing for Multi-Agent Systems",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.34327",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Policy"
-    },
-    {
-      "id": "article_4a5a83d025d1bffac29f",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "VTK-Bench: A Diagnostic Benchmark for Distinguishing Language Priors and Text Modal Bias in Visual Language Models",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.33725",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Open Source"
     }
   ]
 }
