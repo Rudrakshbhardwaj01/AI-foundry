@@ -1,10 +1,29 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_6e0f10d887f09eab0d66",
-  "publishedAt": "2026-11-27T23:12:48.153Z",
-  "lastSuccessfulRefreshAt": "2026-11-27T23:12:48.153Z",
+  "snapshotId": "snapshot_3fe0a57df5d3f960440e",
+  "publishedAt": "2026-11-28T04:51:38.369Z",
+  "lastSuccessfulRefreshAt": "2026-11-28T04:51:38.369Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_73715ebd55e067223928",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "publishedAt": "2026-11-28T01:32:56.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_98f8462b063aed158697",
       "sourceId": "hacker-news",
@@ -5675,25 +5694,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.33809",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_46cc1eb976dbbb625641",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "MaskedVGGT: Masked Multi-View Transformers Are Scalable 3D Learners",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.32297",
       "publishedAt": "2026-11-26T05:00:00.000Z",
       "category": "Model Releases"
     }
