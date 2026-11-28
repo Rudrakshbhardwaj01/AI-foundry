@@ -1,10 +1,46 @@
 {
   "schemaVersion": 1,
-  "snapshotId": "snapshot_3fe0a57df5d3f960440e",
-  "publishedAt": "2026-11-28T04:51:38.369Z",
-  "lastSuccessfulRefreshAt": "2026-11-28T04:51:38.369Z",
+  "snapshotId": "snapshot_a68664eb857e93c8c806",
+  "publishedAt": "2026-11-28T13:52:09.390Z",
+  "lastSuccessfulRefreshAt": "2026-11-28T13:52:09.390Z",
   "articleCount": 300,
   "articles": [
+    {
+      "id": "article_3b31128a14492571a44c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
+      "summaryMethod": "fallback",
+      "summaryContentSource": "fallback",
+      "summaryQuality": "insufficient",
+      "summaryFlags": [
+        "below-target",
+        "fallback",
+        "headline-only"
+      ],
+      "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face",
+      "publishedAt": "2026-11-28T11:57:04.000Z",
+      "category": "Tools"
+    },
+    {
+      "id": "article_08c953cb36a279b9c31c",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "sourceType": "Community discovery signal",
+      "title": "Show HN: Fleetlayer – Framework for running many AI agents on multiple machines",
+      "description": "I quickly ran out of usage, so I signed up for more Claude subs (which Anthropic terms allow. ) Running so many different accounts meant that I couldn't use claude. I set out to solve all of these problems and I ended up building Fleetlayer. I'd be interested to know if anyone else would find Fleetlayer useful.",
+      "summaryMethod": "extractive",
+      "summaryContentSource": "content",
+      "summaryQuality": "high",
+      "summaryFlags": [
+        "deduplicated-or-filtered"
+      ],
+      "url": "https://fleetlayer.ai/",
+      "publishedAt": "2026-11-28T08:37:09.000Z",
+      "category": "Tools"
+    },
     {
       "id": "article_73715ebd55e067223928",
       "sourceId": "hacker-news",
@@ -5656,44 +5692,6 @@
         "headline-only"
       ],
       "url": "https://arxiv.org/abs/2611.34166",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_45ffac1e428c7ab3d2a4",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "A Causal Energy Prior for Learning Directed Acyclic Graphs",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.33225",
-      "publishedAt": "2026-11-26T05:00:00.000Z",
-      "category": "Model Releases"
-    },
-    {
-      "id": "article_468022b6acf6d7785f18",
-      "sourceId": "arxiv",
-      "sourceName": "arXiv",
-      "sourceType": "Research paper",
-      "title": "Probabilistic Monocular Biomechanical Reconstruction via Guided Flow Matching",
-      "description": "The publisher has not provided enough accessible text for a reliable summary. Open the original source for details.",
-      "summaryMethod": "fallback",
-      "summaryContentSource": "fallback",
-      "summaryQuality": "insufficient",
-      "summaryFlags": [
-        "below-target",
-        "fallback",
-        "headline-only"
-      ],
-      "url": "https://arxiv.org/abs/2611.33809",
       "publishedAt": "2026-11-26T05:00:00.000Z",
       "category": "Model Releases"
     }

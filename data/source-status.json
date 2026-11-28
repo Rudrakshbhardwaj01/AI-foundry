@@ -6,8 +6,8 @@
     "accessMethod": "rss",
     "itemCount": 1430,
     "attempts": 13,
-    "lastAttemptAt": "2026-11-28T04:51:25.296Z",
-    "lastSuccessfulFetchAt": "2026-11-28T04:51:25.296Z",
+    "lastAttemptAt": "2026-11-28T13:51:57.090Z",
+    "lastSuccessfulFetchAt": "2026-11-28T13:51:57.090Z",
     "error": null
   },
   "google-deepmind": {
@@ -17,8 +17,8 @@
     "accessMethod": "rss",
     "itemCount": 100,
     "attempts": 13,
-    "lastAttemptAt": "2026-11-28T04:51:27.488Z",
-    "lastSuccessfulFetchAt": "2026-11-28T04:51:27.488Z",
+    "lastAttemptAt": "2026-11-28T13:51:59.400Z",
+    "lastSuccessfulFetchAt": "2026-11-28T13:51:59.400Z",
     "error": null
   },
   "anthropic": {
@@ -44,7 +44,7 @@
     "accessMethod": "rss",
     "itemCount": 0,
     "attempts": 3,
-    "lastAttemptAt": "2026-11-28T04:51:30.833Z",
+    "lastAttemptAt": "2026-11-28T13:52:05.373Z",
     "lastSuccessfulFetchAt": "2026-11-27T04:45:41.120Z",
     "error": "Feed contains no RSS items or Atom entries"
   },
@@ -55,8 +55,8 @@
     "accessMethod": "rss",
     "itemCount": 919,
     "attempts": 13,
-    "lastAttemptAt": "2026-11-28T04:51:31.026Z",
-    "lastSuccessfulFetchAt": "2026-11-28T04:51:31.026Z",
+    "lastAttemptAt": "2026-11-28T13:52:05.459Z",
+    "lastSuccessfulFetchAt": "2026-11-28T13:52:05.459Z",
     "error": null
   },
   "mit-technology-review": {
@@ -74,8 +74,8 @@
     "accessMethod": "atom",
     "itemCount": 15,
     "attempts": 3,
-    "lastAttemptAt": "2026-11-28T04:51:32.752Z",
-    "lastSuccessfulFetchAt": "2026-11-28T04:51:32.752Z",
+    "lastAttemptAt": "2026-11-28T13:52:06.859Z",
+    "lastSuccessfulFetchAt": "2026-11-28T13:52:06.859Z",
     "error": null
   },
   "import-ai": {
@@ -85,7 +85,7 @@
     "accessMethod": "rss",
     "itemCount": 0,
     "attempts": 3,
-    "lastAttemptAt": "2026-11-28T04:51:33.018Z",
+    "lastAttemptAt": "2026-11-28T13:52:07.202Z",
     "lastSuccessfulFetchAt": "2026-11-25T02:55:29.092Z",
     "error": "Feed request failed after 3 attempts: HTTP 403"
   },
@@ -112,8 +112,8 @@
     "accessMethod": "hacker-news-api",
     "itemCount": 4,
     "attempts": 31,
-    "lastAttemptAt": "2026-11-28T04:51:33.532Z",
-    "lastSuccessfulFetchAt": "2026-11-28T04:51:33.532Z",
+    "lastAttemptAt": "2026-11-28T13:52:07.608Z",
+    "lastSuccessfulFetchAt": "2026-11-28T13:52:07.608Z",
     "error": null
   },
   "the-batch": {
@@ -155,8 +155,8 @@
     "accessMethod": "github-releases",
     "itemCount": 3,
     "attempts": 2,
-    "lastAttemptAt": "2026-11-28T04:51:37.578Z",
-    "lastSuccessfulFetchAt": "2026-11-28T04:51:37.578Z",
+    "lastAttemptAt": "2026-11-28T13:52:08.809Z",
+    "lastSuccessfulFetchAt": "2026-11-28T13:52:08.809Z",
     "error": null
   },
   "semianalysis": {
